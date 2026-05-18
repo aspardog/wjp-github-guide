@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Instalación de Git y autenticación con GitHub CLI">
+<meta name="description" content="Git installation and GitHub CLI authentication">
 
-<title>Setup inicial – Guía de GitHub — WJP</title>
+<title>Initial Setup – GitHub Guide — WJP</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -283,7 +283,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Guía de GitHub — WJP</span>
+    <span class="navbar-title">GitHub Guide — WJP</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -294,11 +294,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Inicio</span></a>
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../guia/index.html" aria-current="page"> 
-<span class="menu-text">Guía</span></a>
+<span class="menu-text">Guide</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../blog/index.html"> 
@@ -306,12 +306,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../about.html"> 
-<span class="menu-text">Acerca</span></a>
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/aspardog/wjp-github-guide"> <i class="bi bi-github" role="img" aria-label="Repositorio en GitHub">
+    <a class="nav-link" href="https://github.com/aspardog/wjp-github-guide"> <i class="bi bi-github" role="img" aria-label="GitHub Repository">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -327,7 +327,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../guia/01-conceptos.html">Fundamentos</a></li><li class="breadcrumb-item"><a href="../guia/02-setup.html">Setup inicial</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../guia/01-conceptos.html">Fundamentals</a></li><li class="breadcrumb-item"><a href="../guia/02-setup.html">Initial Setup</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -342,13 +342,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../guia/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Guía: índice</span></a>
+ <span class="menu-text">Guide: Index</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Fundamentos</span></a>
+ <span class="menu-text">Fundamentals</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -363,13 +363,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../guia/02-setup.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Setup inicial</span></a>
+ <span class="menu-text">Initial Setup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../guia/03-clonar.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Clonar un repositorio</span></a>
+ <span class="menu-text">Cloning a Repository</span></a>
   </div>
 </li>
       </ul>
@@ -384,28 +384,28 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introducción-a-la-terminal-y-bash" id="toc-introducción-a-la-terminal-y-bash" class="nav-link active" data-scroll-target="#introducción-a-la-terminal-y-bash">Introducción a la terminal y Bash</a>
+  <li><a href="#introduction-to-the-terminal-and-bash" id="toc-introduction-to-the-terminal-and-bash" class="nav-link active" data-scroll-target="#introduction-to-the-terminal-and-bash">Introduction to the Terminal and Bash</a>
   <ul class="collapse">
-  <li><a href="#qué-es-bash" id="toc-qué-es-bash" class="nav-link" data-scroll-target="#qué-es-bash">¿Qué es Bash?</a></li>
-  <li><a href="#cómo-acceder-a-bash" id="toc-cómo-acceder-a-bash" class="nav-link" data-scroll-target="#cómo-acceder-a-bash">¿Cómo acceder a Bash?</a></li>
+  <li><a href="#what-is-bash" id="toc-what-is-bash" class="nav-link" data-scroll-target="#what-is-bash">What is Bash?</a></li>
+  <li><a href="#how-to-access-bash" id="toc-how-to-access-bash" class="nav-link" data-scroll-target="#how-to-access-bash">How to access Bash?</a></li>
   </ul></li>
-  <li><a href="#instalación-de-git" id="toc-instalación-de-git" class="nav-link" data-scroll-target="#instalación-de-git">Instalación de Git</a>
+  <li><a href="#installing-git" id="toc-installing-git" class="nav-link" data-scroll-target="#installing-git">Installing Git</a>
   <ul class="collapse">
   <li><a href="#windows" id="toc-windows" class="nav-link" data-scroll-target="#windows">Windows</a></li>
   <li><a href="#macos" id="toc-macos" class="nav-link" data-scroll-target="#macos">macOS</a></li>
   <li><a href="#linux" id="toc-linux" class="nav-link" data-scroll-target="#linux">Linux</a></li>
   </ul></li>
-  <li><a href="#autenticación-con-github-cli" id="toc-autenticación-con-github-cli" class="nav-link" data-scroll-target="#autenticación-con-github-cli">Autenticación con GitHub CLI</a>
+  <li><a href="#authentication-with-github-cli" id="toc-authentication-with-github-cli" class="nav-link" data-scroll-target="#authentication-with-github-cli">Authentication with GitHub CLI</a>
   <ul class="collapse">
-  <li><a href="#instalación-de-github-cli" id="toc-instalación-de-github-cli" class="nav-link" data-scroll-target="#instalación-de-github-cli">Instalación de GitHub CLI</a></li>
-  <li><a href="#autenticación" id="toc-autenticación" class="nav-link" data-scroll-target="#autenticación">Autenticación</a></li>
-  <li><a href="#verificación" id="toc-verificación" class="nav-link" data-scroll-target="#verificación">Verificación</a></li>
+  <li><a href="#installing-github-cli" id="toc-installing-github-cli" class="nav-link" data-scroll-target="#installing-github-cli">Installing GitHub CLI</a></li>
+  <li><a href="#authentication" id="toc-authentication" class="nav-link" data-scroll-target="#authentication">Authentication</a></li>
+  <li><a href="#verification" id="toc-verification" class="nav-link" data-scroll-target="#verification">Verification</a></li>
   </ul></li>
-  <li><a href="#herramientas-auxiliares-opcional" id="toc-herramientas-auxiliares-opcional" class="nav-link" data-scroll-target="#herramientas-auxiliares-opcional">Herramientas auxiliares (opcional)</a>
+  <li><a href="#auxiliary-tools-optional" id="toc-auxiliary-tools-optional" class="nav-link" data-scroll-target="#auxiliary-tools-optional">Auxiliary tools (optional)</a>
   <ul class="collapse">
-  <li><a href="#cliente-gráfico" id="toc-cliente-gráfico" class="nav-link" data-scroll-target="#cliente-gráfico">Cliente gráfico</a></li>
+  <li><a href="#graphical-client" id="toc-graphical-client" class="nav-link" data-scroll-target="#graphical-client">Graphical client</a></li>
   </ul></li>
-  <li><a href="#próximo-paso" id="toc-próximo-paso" class="nav-link" data-scroll-target="#próximo-paso">Próximo paso</a></li>
+  <li><a href="#next-step" id="toc-next-step" class="nav-link" data-scroll-target="#next-step">Next step</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/aspardog/wjp-github-guide/edit/main/guia/02-setup.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/aspardog/wjp-github-guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -413,14 +413,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../guia/01-conceptos.html">Fundamentos</a></li><li class="breadcrumb-item"><a href="../guia/02-setup.html">Setup inicial</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../guia/01-conceptos.html">Fundamentals</a></li><li class="breadcrumb-item"><a href="../guia/02-setup.html">Initial Setup</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Setup inicial</h1>
+<h1 class="title">Initial Setup</h1>
 </div>
 
 <div>
   <div class="description">
-    Instalación de Git y autenticación con GitHub CLI
+    Git installation and GitHub CLI authentication
   </div>
 </div>
 
@@ -437,20 +437,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Esta sección te lleva desde cero hasta tener Git instalado y autenticado contra GitHub.</p>
-<section id="introducción-a-la-terminal-y-bash" class="level2">
-<h2 class="anchored" data-anchor-id="introducción-a-la-terminal-y-bash">Introducción a la terminal y Bash</h2>
-<p>Git es una herramienta de línea de comandos que se opera desde la <strong>terminal</strong>. Los comandos que vas a usar están escritos en un lenguaje de shell llamado <strong>Bash</strong> (Bourne Again Shell).</p>
-<section id="qué-es-bash" class="level3">
-<h3 class="anchored" data-anchor-id="qué-es-bash">¿Qué es Bash?</h3>
-<p>Bash es un intérprete de comandos que te permite interactuar con tu computadora escribiendo instrucciones de texto. Es el shell estándar en sistemas Unix (macOS, Linux) y también está disponible en Windows.</p>
+<p>This section takes you from zero to having Git installed and authenticated with GitHub.</p>
+<section id="introduction-to-the-terminal-and-bash" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-to-the-terminal-and-bash">Introduction to the Terminal and Bash</h2>
+<p>Git is a command-line tool that operates from the <strong>terminal</strong>. The commands you’ll use are written in a shell language called <strong>Bash</strong> (Bourne Again Shell).</p>
+<section id="what-is-bash" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-bash">What is Bash?</h3>
+<p>Bash is a command interpreter that allows you to interact with your computer by typing text instructions. It’s the standard shell on Unix systems (macOS, Linux) and is also available on Windows.</p>
 </section>
-<section id="cómo-acceder-a-bash" class="level3">
-<h3 class="anchored" data-anchor-id="cómo-acceder-a-bash">¿Cómo acceder a Bash?</h3>
+<section id="how-to-access-bash" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-access-bash">How to access Bash?</h3>
 <ul>
-<li><strong>macOS</strong>: Abrí la aplicación <strong>Terminal</strong> (está en Aplicaciones → Utilidades). El shell por defecto en macOS moderno es <code>zsh</code>, que es compatible con Bash.</li>
-<li><strong>Linux</strong>: Abrí la terminal de tu distribución. Bash suele ser el shell por defecto.</li>
-<li><strong>Windows</strong>: Después de instalar Git for Windows, vas a tener acceso a <strong>Git Bash</strong>, un emulador que te da un entorno Bash completo.</li>
+<li><strong>macOS</strong>: Open the <strong>Terminal</strong> application (found in Applications → Utilities). The default shell in modern macOS is <code>zsh</code>, which is compatible with Bash.</li>
+<li><strong>Linux</strong>: Open your distribution’s terminal. Bash is usually the default shell.</li>
+<li><strong>Windows</strong>: After installing Git for Windows, you’ll have access to <strong>Git Bash</strong>, an emulator that gives you a complete Bash environment.</li>
 </ul>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -462,43 +462,43 @@ Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Si en algún momento necesitás cambiar explícitamente a Bash, simplemente escribí <code>bash</code> en la terminal y presioná Enter.</p>
+<p>If you ever need to explicitly switch to Bash, simply type <code>bash</code> in the terminal and press Enter.</p>
 </div>
 </div>
-<p>Todos los comandos de esta guía asumen que estás en una terminal con Bash o un shell compatible (como zsh).</p>
+<p>All commands in this guide assume you’re in a terminal with Bash or a compatible shell (like zsh).</p>
 </section>
 </section>
-<section id="instalación-de-git" class="level2">
-<h2 class="anchored" data-anchor-id="instalación-de-git">Instalación de Git</h2>
+<section id="installing-git" class="level2">
+<h2 class="anchored" data-anchor-id="installing-git">Installing Git</h2>
 <section id="windows" class="level3">
 <h3 class="anchored" data-anchor-id="windows">Windows</h3>
-<p>La forma recomendada es <strong>Git for Windows</strong>, que incluye Git Bash.</p>
+<p>The recommended way is <strong>Git for Windows</strong>, which includes Git Bash.</p>
 <ol type="1">
-<li>Descargá desde <a href="https://git-scm.com/download/win">git-scm.com/download/win</a>.</li>
-<li>Durante la instalación, aceptá los defaults salvo dos puntos:
+<li>Download from <a href="https://git-scm.com/download/win">git-scm.com/download/win</a>.</li>
+<li>During installation, accept the defaults except for two points:
 <ul>
-<li>En “Choosing the default editor”: elegí el editor que vayas a usar (VS Code, Notepad++, o el que prefieras). El default (Vim) es problemático si no lo conocés.</li>
-<li>En “Adjusting your PATH environment”: dejá la opción del medio, “Git from the command line and also from 3rd-party software”.</li>
+<li>In “Choosing the default editor”: choose the editor you’ll use (VS Code, Notepad++, or your preference). The default (Vim) is problematic if you don’t know it.</li>
+<li>In “Adjusting your PATH environment”: leave the middle option, “Git from the command line and also from 3rd-party software”.</li>
 </ul></li>
-<li>Verificá la instalación abriendo <strong>Git Bash</strong>:</li>
+<li>Verify the installation by opening <strong>Git Bash</strong>:</li>
 </ol>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> <span class="at">--version</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="macos" class="level3">
 <h3 class="anchored" data-anchor-id="macos">macOS</h3>
-<p>Tres opciones, en orden de preferencia:</p>
-<p><strong>Opción A — Homebrew</strong> (recomendada si ya usás Homebrew):</p>
+<p>Three options, in order of preference:</p>
+<p><strong>Option A — Homebrew</strong> (recommended if you already use Homebrew):</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install git</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p><strong>Opción B — Xcode Command Line Tools</strong> (suficiente para la mayoría):</p>
+<p><strong>Option B — Xcode Command Line Tools</strong> (sufficient for most):</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">xcode-select</span> <span class="at">--install</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Esto instala Git junto con compiladores y otras utilidades de desarrollo.</p>
-<p><strong>Opción C — Instalador oficial</strong> desde <a href="https://git-scm.com/download/mac">git-scm.com/download/mac</a>.</p>
-<p>Verificá la instalación:</p>
+<p>This installs Git along with compilers and other development utilities.</p>
+<p><strong>Option C — Official installer</strong> from <a href="https://git-scm.com/download/mac">git-scm.com/download/mac</a>.</p>
+<p>Verify the installation:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> <span class="at">--version</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="linux" class="level3">
 <h3 class="anchored" data-anchor-id="linux">Linux</h3>
-<p>Usá el gestor de paquetes de tu distribución:</p>
+<p>Use your distribution’s package manager:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Debian / Ubuntu</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt update <span class="kw">&amp;&amp;</span> <span class="fu">sudo</span> apt install git</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -509,22 +509,22 @@ Tip
 <span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> pacman <span class="at">-S</span> git</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 </section>
-<section id="autenticación-con-github-cli" class="level2">
-<h2 class="anchored" data-anchor-id="autenticación-con-github-cli">Autenticación con GitHub CLI</h2>
-<p>La forma más sencilla de autenticarte con GitHub es usando <strong>GitHub CLI</strong> (<code>gh</code>), el cliente oficial de GitHub para la terminal.</p>
-<section id="instalación-de-github-cli" class="level3">
-<h3 class="anchored" data-anchor-id="instalación-de-github-cli">Instalación de GitHub CLI</h3>
+<section id="authentication-with-github-cli" class="level2">
+<h2 class="anchored" data-anchor-id="authentication-with-github-cli">Authentication with GitHub CLI</h2>
+<p>The easiest way to authenticate with GitHub is using <strong>GitHub CLI</strong> (<code>gh</code>), GitHub’s official terminal client.</p>
+<section id="installing-github-cli" class="level3">
+<h3 class="anchored" data-anchor-id="installing-github-cli">Installing GitHub CLI</h3>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">macOS</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Windows</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Linux</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install gh</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Si no tenés Homebrew instalado, primero instalalo desde <a href="https://brew.sh">brew.sh</a>:</p>
+<p>If you don’t have Homebrew installed, first install it from <a href="https://brew.sh">brew.sh</a>:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">/bin/bash</span> <span class="at">-c</span> <span class="st">"</span><span class="va">$(</span><span class="ex">curl</span> <span class="at">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="va">)</span><span class="st">"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">winget</span> install GitHub.cli</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>O descargá el instalador desde <a href="https://cli.github.com/">cli.github.com</a>.</p>
+<p>Or download the installer from <a href="https://cli.github.com/">cli.github.com</a>.</p>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Debian / Ubuntu</span></span>
@@ -539,19 +539,19 @@ Tip
 </div>
 </div>
 </section>
-<section id="autenticación" class="level3">
-<h3 class="anchored" data-anchor-id="autenticación">Autenticación</h3>
-<p>Una vez instalado, autenticate con tu cuenta de GitHub:</p>
+<section id="authentication" class="level3">
+<h3 class="anchored" data-anchor-id="authentication">Authentication</h3>
+<p>Once installed, authenticate with your GitHub account:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gh</span> auth login</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>El comando te va a guiar por un proceso interactivo:</p>
+<p>The command will guide you through an interactive process:</p>
 <ol type="1">
-<li>Elegí <strong>GitHub.com</strong> (no Enterprise).</li>
-<li>Elegí <strong>HTTPS</strong> como protocolo preferido.</li>
-<li>Cuando pregunte si querés autenticar Git con tus credenciales de GitHub, decí <strong>Yes</strong>.</li>
-<li>Elegí <strong>Login with a web browser</strong>.</li>
-<li>Copiá el código de un solo uso que aparece.</li>
-<li>Presioná Enter para abrir el navegador.</li>
-<li>Pegá el código en la página de GitHub y autorizá.</li>
+<li>Choose <strong>GitHub.com</strong> (not Enterprise).</li>
+<li>Choose <strong>HTTPS</strong> as the preferred protocol.</li>
+<li>When asked if you want to authenticate Git with your GitHub credentials, say <strong>Yes</strong>.</li>
+<li>Choose <strong>Login with a web browser</strong>.</li>
+<li>Copy the one-time code that appears.</li>
+<li>Press Enter to open the browser.</li>
+<li>Paste the code on the GitHub page and authorize.</li>
 </ol>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -563,30 +563,30 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Este proceso configura automáticamente Git para que pueda hacer push y pull a repositorios de GitHub sin pedirte contraseña cada vez.</p>
+<p>This process automatically configures Git to push and pull to GitHub repositories without asking for your password each time.</p>
 </div>
 </div>
 </section>
-<section id="verificación" class="level3">
-<h3 class="anchored" data-anchor-id="verificación">Verificación</h3>
-<p>Para confirmar que todo está bien:</p>
+<section id="verification" class="level3">
+<h3 class="anchored" data-anchor-id="verification">Verification</h3>
+<p>To confirm everything is working:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gh</span> auth status</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Deberías ver algo como:</p>
+<p>You should see something like:</p>
 <pre><code>github.com
-  ✓ Logged in to github.com as TU-USUARIO
+  ✓ Logged in to github.com as YOUR-USERNAME
   ✓ Git operations for github.com configured to use https protocol.
   ✓ Token: gho_************************************</code></pre>
 </section>
 </section>
-<section id="herramientas-auxiliares-opcional" class="level2">
-<h2 class="anchored" data-anchor-id="herramientas-auxiliares-opcional">Herramientas auxiliares (opcional)</h2>
-<section id="cliente-gráfico" class="level3">
-<h3 class="anchored" data-anchor-id="cliente-gráfico">Cliente gráfico</h3>
-<p>Si preferís interfaz gráfica para tareas complejas (revisar diffs grandes, resolver conflictos):</p>
+<section id="auxiliary-tools-optional" class="level2">
+<h2 class="anchored" data-anchor-id="auxiliary-tools-optional">Auxiliary tools (optional)</h2>
+<section id="graphical-client" class="level3">
+<h3 class="anchored" data-anchor-id="graphical-client">Graphical client</h3>
+<p>If you prefer a graphical interface for complex tasks (reviewing large diffs, resolving conflicts):</p>
 <ul>
-<li><strong>GitHub Desktop</strong> (<a href="https://desktop.github.com/">desktop.github.com</a>) — simple, mantenido por GitHub, suficiente para la mayoría.</li>
-<li><strong>GitKraken</strong> — más completo, freemium.</li>
-<li><strong>VS Code</strong> — tiene integración Git excelente incorporada.</li>
+<li><strong>GitHub Desktop</strong> (<a href="https://desktop.github.com/">desktop.github.com</a>) — simple, maintained by GitHub, sufficient for most.</li>
+<li><strong>GitKraken</strong> — more complete, freemium.</li>
+<li><strong>VS Code</strong> — has excellent built-in Git integration.</li>
 </ul>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -598,14 +598,14 @@ Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Aunque uses cliente gráfico para el día a día, aprendé los comandos de línea. Cuando algo se rompe, la GUI casi siempre te oculta lo que está pasando, y la solución vive en la terminal.</p>
+<p>Even if you use a graphical client for day-to-day work, learn the command line. When something breaks, the GUI almost always hides what’s happening, and the solution lives in the terminal.</p>
 </div>
 </div>
 </section>
 </section>
-<section id="próximo-paso" class="level2">
-<h2 class="anchored" data-anchor-id="próximo-paso">Próximo paso</h2>
-<p>Ahora que tenés Git instalado y autenticado, aprendé a <a href="../guia/03-clonar.html">clonar tu primer repositorio</a>.</p>
+<section id="next-step" class="level2">
+<h2 class="anchored" data-anchor-id="next-step">Next step</h2>
+<p>Now that you have Git installed and authenticated, learn to <a href="../guia/03-clonar.html">clone your first repository</a>.</p>
 
 
 </section>
@@ -1031,10 +1031,10 @@ Tip
 <p>© 2026 World Justice Project</p>
 </div>   
     <div class="nav-footer-center">
-<p>Guía mantenida por el equipo de WJP</p>
+<p>Guide maintained by the WJP team</p>
 <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/aspardog/wjp-github-guide/edit/main/guia/02-setup.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/aspardog/wjp-github-guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
-<p>Hecho con <a href="https://quarto.org">Quarto</a></p>
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
 </div>
   </div>
 </footer>

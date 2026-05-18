@@ -2,444 +2,444 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Acerca de esta guía",
+    "title": "About this guide",
     "section": "",
-    "text": "Esta guía documenta las prácticas de Git y GitHub que el equipo de WJP adopta como estándar. Su objetivo es triple:\n\nReducir la curva de entrada para personas nuevas en el equipo.\nUnificar criterios sobre cómo nombramos branches, escribimos commits, hacemos code review y estructuramos repositorios.\nServir de referencia rápida cuando alguien necesita recordar un comando o una convención."
+    "text": "This guide documents the Git and GitHub practices that the WJP team adopts as standard. Its objective is threefold:\n\nReduce the learning curve for new team members.\nUnify criteria on how we name branches, write commits, do code review, and structure repositories.\nServe as a quick reference when someone needs to remember a command or convention."
   },
   {
-    "objectID": "about.html#propósito",
-    "href": "about.html#propósito",
-    "title": "Acerca de esta guía",
+    "objectID": "about.html#purpose",
+    "href": "about.html#purpose",
+    "title": "About this guide",
     "section": "",
-    "text": "Esta guía documenta las prácticas de Git y GitHub que el equipo de WJP adopta como estándar. Su objetivo es triple:\n\nReducir la curva de entrada para personas nuevas en el equipo.\nUnificar criterios sobre cómo nombramos branches, escribimos commits, hacemos code review y estructuramos repositorios.\nServir de referencia rápida cuando alguien necesita recordar un comando o una convención."
+    "text": "This guide documents the Git and GitHub practices that the WJP team adopts as standard. Its objective is threefold:\n\nReduce the learning curve for new team members.\nUnify criteria on how we name branches, write commits, do code review, and structure repositories.\nServe as a quick reference when someone needs to remember a command or convention."
   },
   {
-    "objectID": "about.html#mantenimiento",
-    "href": "about.html#mantenimiento",
-    "title": "Acerca de esta guía",
-    "section": "Mantenimiento",
-    "text": "Mantenimiento\nLa guía es un documento vivo. Cualquier miembro del equipo puede proponer cambios:\n\nPara correcciones menores (errata, typos, links rotos): editá directo y abrí un PR.\nPara cambios de contenido (agregar una sección, modificar una práctica): abrí primero un issue para discutirlo, después el PR.\nPara cambios de política (modificar una convención de equipo): el cambio requiere consenso, no solo revisión de código. Discutilo en el canal correspondiente antes de abrir el PR."
+    "objectID": "about.html#maintenance",
+    "href": "about.html#maintenance",
+    "title": "About this guide",
+    "section": "Maintenance",
+    "text": "Maintenance\nThe guide is a living document. Any team member can propose changes:\n\nFor minor corrections (errata, typos, broken links): edit directly and open a PR.\nFor content changes (adding a section, modifying a practice): open an issue first to discuss it, then the PR.\nFor policy changes (modifying a team convention): the change requires consensus, not just code review. Discuss it in the appropriate channel before opening the PR."
   },
   {
-    "objectID": "about.html#stack-técnico",
-    "href": "about.html#stack-técnico",
-    "title": "Acerca de esta guía",
-    "section": "Stack técnico",
-    "text": "Stack técnico\nEste sitio está construido con Quarto, un sistema de publicación abierto que soporta Markdown enriquecido y código ejecutable en R, Python, Julia y JavaScript. Se publica automáticamente en GitHub Pages mediante GitHub Actions cada vez que se hace merge a main."
+    "objectID": "about.html#tech-stack",
+    "href": "about.html#tech-stack",
+    "title": "About this guide",
+    "section": "Tech stack",
+    "text": "Tech stack\nThis site is built with Quarto, an open publishing system that supports enriched Markdown and executable code in R, Python, Julia, and JavaScript. It’s automatically published to GitHub Pages via GitHub Actions every time a merge to main happens."
   },
   {
-    "objectID": "about.html#licencia-del-contenido",
-    "href": "about.html#licencia-del-contenido",
-    "title": "Acerca de esta guía",
-    "section": "Licencia del contenido",
-    "text": "Licencia del contenido\nEl contenido de esta guía está disponible bajo Creative Commons BY 4.0 salvo indicación contraria. El código embebido está bajo MIT."
+    "objectID": "about.html#content-license",
+    "href": "about.html#content-license",
+    "title": "About this guide",
+    "section": "Content license",
+    "text": "Content license\nThe content of this guide is available under Creative Commons BY 4.0 unless otherwise indicated. Embedded code is under MIT."
   },
   {
     "objectID": "blog/posts/bienvenida/index.html",
     "href": "blog/posts/bienvenida/index.html",
-    "title": "Bienvenida: por qué existe esta guía",
+    "title": "Welcome: why this guide exists",
     "section": "",
-    "text": "Esta es la primera entrada del blog que acompaña la guía de GitHub de WJP. En lugar de empezar con contenido técnico, vale la pena explicar por qué decidimos invertir tiempo en escribir esto."
+    "text": "This is the first blog post accompanying the WJP GitHub guide. Instead of starting with technical content, it’s worth explaining why we decided to invest time in writing this."
   },
   {
-    "objectID": "blog/posts/bienvenida/index.html#el-problema-que-estamos-resolviendo",
-    "href": "blog/posts/bienvenida/index.html#el-problema-que-estamos-resolviendo",
-    "title": "Bienvenida: por qué existe esta guía",
-    "section": "El problema que estamos resolviendo",
-    "text": "El problema que estamos resolviendo\nEn los últimos meses notamos un patrón: cada vez que alguien nuevo se sumaba al equipo, repetíamos las mismas explicaciones sobre cómo trabajamos con Git. Cada vez ligeramente distintas, dependiendo de quién explicaba. La consecuencia era predecible — convenciones inconsistentes, dudas recurrentes que nadie sabía a quién preguntar, y conocimiento concentrado en pocas personas.\nLa solución no es novedosa: documentación escrita, mantenida como código, accesible desde cualquier lugar."
+    "objectID": "blog/posts/bienvenida/index.html#the-problem-were-solving",
+    "href": "blog/posts/bienvenida/index.html#the-problem-were-solving",
+    "title": "Welcome: why this guide exists",
+    "section": "The problem we’re solving",
+    "text": "The problem we’re solving\nIn recent months we noticed a pattern: every time someone new joined the team, we repeated the same explanations about how we work with Git. Each time slightly different, depending on who was explaining. The consequence was predictable — inconsistent conventions, recurring doubts that no one knew who to ask, and knowledge concentrated in a few people.\nThe solution isn’t novel: written documentation, maintained as code, accessible from anywhere."
   },
   {
-    "objectID": "blog/posts/bienvenida/index.html#qué-va-a-vivir-en-el-blog",
-    "href": "blog/posts/bienvenida/index.html#qué-va-a-vivir-en-el-blog",
-    "title": "Bienvenida: por qué existe esta guía",
-    "section": "Qué va a vivir en el blog",
-    "text": "Qué va a vivir en el blog\nLa guía es la referencia estable. Cubre las prácticas que adoptamos como estándar.\nEl blog complementa con:\n\nAnuncios de cambios en políticas o convenciones, con su justificación.\nADRs (Architecture Decision Records) — decisiones técnicas importantes y por qué se tomaron.\nCasos de estudio — cuándo algo salió bien o mal, qué aprendimos.\nNotas técnicas más cortas que no ameritan una sección completa en la guía."
+    "objectID": "blog/posts/bienvenida/index.html#what-will-live-on-the-blog",
+    "href": "blog/posts/bienvenida/index.html#what-will-live-on-the-blog",
+    "title": "Welcome: why this guide exists",
+    "section": "What will live on the blog",
+    "text": "What will live on the blog\nThe guide is the stable reference. It covers the practices we adopt as standard.\nThe blog complements with:\n\nChange announcements in policies or conventions, with their justification.\nADRs (Architecture Decision Records) — important technical decisions and why they were made.\nCase studies — when something went well or badly, what we learned.\nTechnical notes shorter than a full section in the guide."
   },
   {
-    "objectID": "blog/posts/bienvenida/index.html#cómo-contribuir",
-    "href": "blog/posts/bienvenida/index.html#cómo-contribuir",
-    "title": "Bienvenida: por qué existe esta guía",
-    "section": "Cómo contribuir",
-    "text": "Cómo contribuir\nEsta es una iniciativa abierta del equipo. Si encontrás errores, faltas información, o querés agregar un post: el repositorio está acá. Las reglas de contribución están en Acerca de.\n\nBienvenido. Empezá por Conceptos previos si estás arrancando."
+    "objectID": "blog/posts/bienvenida/index.html#how-to-contribute",
+    "href": "blog/posts/bienvenida/index.html#how-to-contribute",
+    "title": "Welcome: why this guide exists",
+    "section": "How to contribute",
+    "text": "How to contribute\nThis is an open initiative from the team. If you find errors, missing information, or want to add a post: the repository is here. The contribution rules are in About.\n\nWelcome. Start with Basic Concepts if you’re just getting started."
   },
   {
     "objectID": "guia/01-conceptos.html",
     "href": "guia/01-conceptos.html",
-    "title": "Conceptos previos",
+    "title": "Basic Concepts",
     "section": "",
-    "text": "NoteAntes de empezar\n\n\n\nEsta sección es conceptual. No necesitás instalar nada todavía — solo entender las piezas que vamos a usar.",
+    "text": "NoteBefore you start\n\n\n\nThis section is conceptual. You don’t need to install anything yet — just understand the pieces we’re going to use.",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
+      "Guide",
+      "Fundamentals",
       "Conceptos previos"
     ]
   },
   {
-    "objectID": "guia/01-conceptos.html#git-y-github-no-son-la-misma-cosa",
-    "href": "guia/01-conceptos.html#git-y-github-no-son-la-misma-cosa",
-    "title": "Conceptos previos",
-    "section": "Git y GitHub no son la misma cosa",
-    "text": "Git y GitHub no son la misma cosa\nMucha gente confunde estos términos. Entender la diferencia evita errores conceptuales más adelante.\n\n\nGit\nSistema de control de versiones distribuido\n\nPrograma que corre en tu computadora\nRegistra la historia de cambios sobre archivos\nCreado por Linus Torvalds en 2005\nFunciona completamente offline\nNo necesita servidores ni internet\n\n\n\nGitHub\nPlataforma de alojamiento de repositorios\n\nServicio web propiedad de Microsoft\nInterfaz visual para repositorios Git\nPull requests, issues, permisos\nAutomatización con GitHub Actions\nColaboración en equipo\n\n\n\n\n\n\n\n\n\nTipAnalogía útil\n\n\n\nGit es como Microsoft Word — te permite escribir y guardar versiones sin internet.\nGitHub es como Google Drive — te permite compartir, comentar y colaborar con otros.\nPodés usar Word sin Drive. Podés usar Git sin GitHub.",
+    "objectID": "guia/01-conceptos.html#git-and-github-are-not-the-same-thing",
+    "href": "guia/01-conceptos.html#git-and-github-are-not-the-same-thing",
+    "title": "Basic Concepts",
+    "section": "Git and GitHub are not the same thing",
+    "text": "Git and GitHub are not the same thing\nMany people confuse these terms. Understanding the difference prevents conceptual errors later on.\n\n\nGit\nDistributed version control system\n\nProgram that runs on your computer\nRecords the history of changes to files\nCreated by Linus Torvalds in 2005\nWorks completely offline\nDoesn’t need servers or internet\n\n\n\nGitHub\nRepository hosting platform\n\nWeb service owned by Microsoft\nVisual interface for Git repositories\nPull requests, issues, permissions\nAutomation with GitHub Actions\nTeam collaboration\n\n\n\n\n\n\n\n\n\nTipUseful analogy\n\n\n\nGit is like Microsoft Word — it lets you write and save versions without internet.\nGitHub is like Google Drive — it lets you share, comment, and collaborate with others.\nYou can use Word without Drive. You can use Git without GitHub.",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
+      "Guide",
+      "Fundamentals",
       "Conceptos previos"
     ]
   },
   {
-    "objectID": "guia/01-conceptos.html#qué-problema-resuelve-git",
-    "href": "guia/01-conceptos.html#qué-problema-resuelve-git",
-    "title": "Conceptos previos",
-    "section": "¿Qué problema resuelve Git?",
-    "text": "¿Qué problema resuelve Git?\nAntes de Git, colaborar en archivos significaba algo así:\nproyecto_final.docx\nproyecto_final_v2.docx\nproyecto_final_v2_corregido.docx\nproyecto_final_v2_corregido_juan.docx\nproyecto_final_DEFINITIVO.docx\nproyecto_final_DEFINITIVO_ESTE_SI.docx\nGit resuelve esto registrando cada cambio como un commit — una “foto” del estado del proyecto en un momento dado, con autor, fecha y mensaje.\n\nBeneficios concretos\n\n\nTrazabilidad\nPodés ver quién cambió qué, cuándo, y por qué (si el mensaje del commit es bueno).\n\n\nReversibilidad\nSi algo se rompió, podés volver a cualquier estado anterior sin perder lo que vino después.\n\n\nColaboración paralela\nDos personas pueden trabajar sobre el mismo archivo. Git combina los cambios automáticamente.\n\n\nExperimentación segura\nCreá una rama para probar ideas sin afectar la versión principal.",
+    "objectID": "guia/01-conceptos.html#what-problem-does-git-solve",
+    "href": "guia/01-conceptos.html#what-problem-does-git-solve",
+    "title": "Basic Concepts",
+    "section": "What problem does Git solve?",
+    "text": "What problem does Git solve?\nBefore Git, collaborating on files looked something like this:\nfinal_project.docx\nfinal_project_v2.docx\nfinal_project_v2_corrected.docx\nfinal_project_v2_corrected_john.docx\nfinal_project_FINAL.docx\nfinal_project_FINAL_THIS_ONE.docx\nGit solves this by recording each change as a commit — a “snapshot” of the project’s state at a given moment, with author, date, and message.\n\nConcrete benefits\n\n\nTraceability\nYou can see who changed what, when, and why (if the commit message is good).\n\n\nReversibility\nIf something broke, you can go back to any previous state without losing what came after.\n\n\nParallel collaboration\nTwo people can work on the same file. Git combines the changes automatically.\n\n\nSafe experimentation\nCreate a branch to try ideas without affecting the main version.",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
+      "Guide",
+      "Fundamentals",
       "Conceptos previos"
     ]
   },
   {
-    "objectID": "guia/01-conceptos.html#qué-agrega-github",
-    "href": "guia/01-conceptos.html#qué-agrega-github",
-    "title": "Conceptos previos",
-    "section": "¿Qué agrega GitHub?",
-    "text": "¿Qué agrega GitHub?\nGit por sí solo es una herramienta de línea de comandos. GitHub agrega una capa completa de colaboración:\n\n\n\n\n\n\n\nCaracterística\nDescripción\n\n\n\n\nHosting centralizado\nUn lugar de referencia donde el repositorio “oficial” vive\n\n\nInterfaz web\nRevisá código sin clonarlo, navegá archivos e historiales\n\n\nPull Requests\nProponé cambios y discutilos antes de integrarlos\n\n\nIssues\nTickets para bugs, features y tareas\n\n\nPermisos\nControl de quién puede leer, escribir, administrar\n\n\nActions\nAutomatización de tests, despliegues y más\n\n\nGitHub Pages\nHosting estático gratuito (como este sitio)",
+    "objectID": "guia/01-conceptos.html#what-does-github-add",
+    "href": "guia/01-conceptos.html#what-does-github-add",
+    "title": "Basic Concepts",
+    "section": "What does GitHub add?",
+    "text": "What does GitHub add?\nGit by itself is a command-line tool. GitHub adds a complete collaboration layer:\n\n\n\n\n\n\n\nFeature\nDescription\n\n\n\n\nCentralized hosting\nA reference place where the “official” repository lives\n\n\nWeb interface\nReview code without cloning, browse files and histories\n\n\nPull Requests\nPropose changes and discuss them before merging\n\n\nIssues\nTickets for bugs, features, and tasks\n\n\nPermissions\nControl over who can read, write, administer\n\n\nActions\nAutomation for tests, deployments, and more\n\n\nGitHub Pages\nFree static hosting (like this site)",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
+      "Guide",
+      "Fundamentals",
       "Conceptos previos"
     ]
   },
   {
-    "objectID": "guia/01-conceptos.html#por-qué-wjp-usa-github",
-    "href": "guia/01-conceptos.html#por-qué-wjp-usa-github",
-    "title": "Conceptos previos",
-    "section": "¿Por qué WJP usa GitHub?",
-    "text": "¿Por qué WJP usa GitHub?\n\n\nReproducibilidad\nBuena parte del trabajo de WJP es análisis cuantitativo. Versionar el código (R, Python) junto con la documentación garantiza que cualquier resultado se pueda reproducir años después.\n\n\nColaboración\nEl equipo es distribuido. Los Pull Requests permiten revisar trabajo de colegas sin necesidad de estar en la misma reunión.\n\n\nTransparencia\nRepositorios públicos permiten que terceros — academia, prensa, sociedad civil — verifiquen metodologías.",
+    "objectID": "guia/01-conceptos.html#why-does-wjp-use-github",
+    "href": "guia/01-conceptos.html#why-does-wjp-use-github",
+    "title": "Basic Concepts",
+    "section": "Why does WJP use GitHub?",
+    "text": "Why does WJP use GitHub?\n\n\nReproducibility\nMuch of WJP’s work is quantitative analysis. Versioning code (R, Python) alongside documentation ensures that any result can be reproduced years later.\n\n\nCollaboration\nThe team is distributed. Pull Requests allow reviewing colleagues’ work without needing to be in the same meeting.\n\n\nTransparency\nPublic repositories allow third parties — academia, press, civil society — to verify methodologies.",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
+      "Guide",
+      "Fundamentals",
       "Conceptos previos"
     ]
   },
   {
-    "objectID": "guia/01-conceptos.html#alternativas-a-github",
-    "href": "guia/01-conceptos.html#alternativas-a-github",
-    "title": "Conceptos previos",
-    "section": "Alternativas a GitHub",
-    "text": "Alternativas a GitHub\nGitHub no es la única opción. Otras plataformas que también almacenan repositorios Git:\n\nGitLab — popular en empresas, tiene más funciones de DevOps integradas\nBitbucket — de Atlassian, se integra bien con Jira\nCodeberg — alternativa open source y sin fines de lucro\n\nLas habilidades que aprendas con Git te sirven en cualquier plataforma.",
+    "objectID": "guia/01-conceptos.html#alternatives-to-github",
+    "href": "guia/01-conceptos.html#alternatives-to-github",
+    "title": "Basic Concepts",
+    "section": "Alternatives to GitHub",
+    "text": "Alternatives to GitHub\nGitHub is not the only option. Other platforms that also host Git repositories:\n\nGitLab — popular in companies, has more integrated DevOps features\nBitbucket — by Atlassian, integrates well with Jira\nCodeberg — open source and non-profit alternative\n\nThe skills you learn with Git will serve you on any platform.",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
+      "Guide",
+      "Fundamentals",
       "Conceptos previos"
     ]
   },
   {
-    "objectID": "guia/01-conceptos.html#para-profundizar",
-    "href": "guia/01-conceptos.html#para-profundizar",
-    "title": "Conceptos previos",
-    "section": "Para profundizar",
-    "text": "Para profundizar\n\n\n\n\n\n\nNoteRecursos recomendados\n\n\n\n\nPro Git book — El libro oficial de Git, gratuito, en español. Los capítulos 1 y 2 son lectura obligada.\nGitHub Skills — Cursos interactivos gratuitos de GitHub.",
+    "objectID": "guia/01-conceptos.html#further-reading",
+    "href": "guia/01-conceptos.html#further-reading",
+    "title": "Basic Concepts",
+    "section": "Further reading",
+    "text": "Further reading\n\n\n\n\n\n\nNoteRecommended resources\n\n\n\n\nPro Git book — The official Git book, free. Chapters 1 and 2 are required reading.\nGitHub Skills — Free interactive courses from GitHub.",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
+      "Guide",
+      "Fundamentals",
       "Conceptos previos"
     ]
   },
   {
-    "objectID": "guia/01-conceptos.html#próximo-paso",
-    "href": "guia/01-conceptos.html#próximo-paso",
-    "title": "Conceptos previos",
-    "section": "Próximo paso",
-    "text": "Próximo paso\nAhora que entendés las piezas, es hora de instalar las herramientas.\nIr a Setup inicial →",
+    "objectID": "guia/01-conceptos.html#next-step",
+    "href": "guia/01-conceptos.html#next-step",
+    "title": "Basic Concepts",
+    "section": "Next step",
+    "text": "Next step\nNow that you understand the pieces, it’s time to install the tools.\nGo to Initial Setup →",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
+      "Guide",
+      "Fundamentals",
       "Conceptos previos"
     ]
   },
   {
     "objectID": "guia/02-setup.html",
     "href": "guia/02-setup.html",
-    "title": "Setup inicial",
+    "title": "Initial Setup",
     "section": "",
-    "text": "Esta sección te lleva desde cero hasta tener Git instalado y autenticado contra GitHub.",
+    "text": "This section takes you from zero to having Git installed and authenticated with GitHub.",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
-      "Setup inicial"
+      "Guide",
+      "Fundamentals",
+      "Initial Setup"
     ]
   },
   {
-    "objectID": "guia/02-setup.html#introducción-a-la-terminal-y-bash",
-    "href": "guia/02-setup.html#introducción-a-la-terminal-y-bash",
-    "title": "Setup inicial",
-    "section": "Introducción a la terminal y Bash",
-    "text": "Introducción a la terminal y Bash\nGit es una herramienta de línea de comandos que se opera desde la terminal. Los comandos que vas a usar están escritos en un lenguaje de shell llamado Bash (Bourne Again Shell).\n\n¿Qué es Bash?\nBash es un intérprete de comandos que te permite interactuar con tu computadora escribiendo instrucciones de texto. Es el shell estándar en sistemas Unix (macOS, Linux) y también está disponible en Windows.\n\n\n¿Cómo acceder a Bash?\n\nmacOS: Abrí la aplicación Terminal (está en Aplicaciones → Utilidades). El shell por defecto en macOS moderno es zsh, que es compatible con Bash.\nLinux: Abrí la terminal de tu distribución. Bash suele ser el shell por defecto.\nWindows: Después de instalar Git for Windows, vas a tener acceso a Git Bash, un emulador que te da un entorno Bash completo.\n\n\n\n\n\n\n\nTip\n\n\n\nSi en algún momento necesitás cambiar explícitamente a Bash, simplemente escribí bash en la terminal y presioná Enter.\n\n\nTodos los comandos de esta guía asumen que estás en una terminal con Bash o un shell compatible (como zsh).",
+    "objectID": "guia/02-setup.html#introduction-to-the-terminal-and-bash",
+    "href": "guia/02-setup.html#introduction-to-the-terminal-and-bash",
+    "title": "Initial Setup",
+    "section": "Introduction to the Terminal and Bash",
+    "text": "Introduction to the Terminal and Bash\nGit is a command-line tool that operates from the terminal. The commands you’ll use are written in a shell language called Bash (Bourne Again Shell).\n\nWhat is Bash?\nBash is a command interpreter that allows you to interact with your computer by typing text instructions. It’s the standard shell on Unix systems (macOS, Linux) and is also available on Windows.\n\n\nHow to access Bash?\n\nmacOS: Open the Terminal application (found in Applications → Utilities). The default shell in modern macOS is zsh, which is compatible with Bash.\nLinux: Open your distribution’s terminal. Bash is usually the default shell.\nWindows: After installing Git for Windows, you’ll have access to Git Bash, an emulator that gives you a complete Bash environment.\n\n\n\n\n\n\n\nTip\n\n\n\nIf you ever need to explicitly switch to Bash, simply type bash in the terminal and press Enter.\n\n\nAll commands in this guide assume you’re in a terminal with Bash or a compatible shell (like zsh).",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
-      "Setup inicial"
+      "Guide",
+      "Fundamentals",
+      "Initial Setup"
     ]
   },
   {
-    "objectID": "guia/02-setup.html#instalación-de-git",
-    "href": "guia/02-setup.html#instalación-de-git",
-    "title": "Setup inicial",
-    "section": "Instalación de Git",
-    "text": "Instalación de Git\n\nWindows\nLa forma recomendada es Git for Windows, que incluye Git Bash.\n\nDescargá desde git-scm.com/download/win.\nDurante la instalación, aceptá los defaults salvo dos puntos:\n\nEn “Choosing the default editor”: elegí el editor que vayas a usar (VS Code, Notepad++, o el que prefieras). El default (Vim) es problemático si no lo conocés.\nEn “Adjusting your PATH environment”: dejá la opción del medio, “Git from the command line and also from 3rd-party software”.\n\nVerificá la instalación abriendo Git Bash:\n\ngit --version\n\n\nmacOS\nTres opciones, en orden de preferencia:\nOpción A — Homebrew (recomendada si ya usás Homebrew):\nbrew install git\nOpción B — Xcode Command Line Tools (suficiente para la mayoría):\nxcode-select --install\nEsto instala Git junto con compiladores y otras utilidades de desarrollo.\nOpción C — Instalador oficial desde git-scm.com/download/mac.\nVerificá la instalación:\ngit --version\n\n\nLinux\nUsá el gestor de paquetes de tu distribución:\n# Debian / Ubuntu\nsudo apt update && sudo apt install git\n\n# Fedora / RHEL\nsudo dnf install git\n\n# Arch\nsudo pacman -S git",
+    "objectID": "guia/02-setup.html#installing-git",
+    "href": "guia/02-setup.html#installing-git",
+    "title": "Initial Setup",
+    "section": "Installing Git",
+    "text": "Installing Git\n\nWindows\nThe recommended way is Git for Windows, which includes Git Bash.\n\nDownload from git-scm.com/download/win.\nDuring installation, accept the defaults except for two points:\n\nIn “Choosing the default editor”: choose the editor you’ll use (VS Code, Notepad++, or your preference). The default (Vim) is problematic if you don’t know it.\nIn “Adjusting your PATH environment”: leave the middle option, “Git from the command line and also from 3rd-party software”.\n\nVerify the installation by opening Git Bash:\n\ngit --version\n\n\nmacOS\nThree options, in order of preference:\nOption A — Homebrew (recommended if you already use Homebrew):\nbrew install git\nOption B — Xcode Command Line Tools (sufficient for most):\nxcode-select --install\nThis installs Git along with compilers and other development utilities.\nOption C — Official installer from git-scm.com/download/mac.\nVerify the installation:\ngit --version\n\n\nLinux\nUse your distribution’s package manager:\n# Debian / Ubuntu\nsudo apt update && sudo apt install git\n\n# Fedora / RHEL\nsudo dnf install git\n\n# Arch\nsudo pacman -S git",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
-      "Setup inicial"
+      "Guide",
+      "Fundamentals",
+      "Initial Setup"
     ]
   },
   {
-    "objectID": "guia/02-setup.html#autenticación-con-github-cli",
-    "href": "guia/02-setup.html#autenticación-con-github-cli",
-    "title": "Setup inicial",
-    "section": "Autenticación con GitHub CLI",
-    "text": "Autenticación con GitHub CLI\nLa forma más sencilla de autenticarte con GitHub es usando GitHub CLI (gh), el cliente oficial de GitHub para la terminal.\n\nInstalación de GitHub CLI\n\nmacOSWindowsLinux\n\n\nbrew install gh\nSi no tenés Homebrew instalado, primero instalalo desde brew.sh:\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n\nwinget install GitHub.cli\nO descargá el instalador desde cli.github.com.\n\n\n# Debian / Ubuntu\nsudo apt install gh\n\n# Fedora\nsudo dnf install gh\n\n# Arch\nsudo pacman -S github-cli\n\n\n\n\n\nAutenticación\nUna vez instalado, autenticate con tu cuenta de GitHub:\ngh auth login\nEl comando te va a guiar por un proceso interactivo:\n\nElegí GitHub.com (no Enterprise).\nElegí HTTPS como protocolo preferido.\nCuando pregunte si querés autenticar Git con tus credenciales de GitHub, decí Yes.\nElegí Login with a web browser.\nCopiá el código de un solo uso que aparece.\nPresioná Enter para abrir el navegador.\nPegá el código en la página de GitHub y autorizá.\n\n\n\n\n\n\n\nNote\n\n\n\nEste proceso configura automáticamente Git para que pueda hacer push y pull a repositorios de GitHub sin pedirte contraseña cada vez.\n\n\n\n\nVerificación\nPara confirmar que todo está bien:\ngh auth status\nDeberías ver algo como:\ngithub.com\n  ✓ Logged in to github.com as TU-USUARIO\n  ✓ Git operations for github.com configured to use https protocol.\n  ✓ Token: gho_************************************",
+    "objectID": "guia/02-setup.html#authentication-with-github-cli",
+    "href": "guia/02-setup.html#authentication-with-github-cli",
+    "title": "Initial Setup",
+    "section": "Authentication with GitHub CLI",
+    "text": "Authentication with GitHub CLI\nThe easiest way to authenticate with GitHub is using GitHub CLI (gh), GitHub’s official terminal client.\n\nInstalling GitHub CLI\n\nmacOSWindowsLinux\n\n\nbrew install gh\nIf you don’t have Homebrew installed, first install it from brew.sh:\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n\nwinget install GitHub.cli\nOr download the installer from cli.github.com.\n\n\n# Debian / Ubuntu\nsudo apt install gh\n\n# Fedora\nsudo dnf install gh\n\n# Arch\nsudo pacman -S github-cli\n\n\n\n\n\nAuthentication\nOnce installed, authenticate with your GitHub account:\ngh auth login\nThe command will guide you through an interactive process:\n\nChoose GitHub.com (not Enterprise).\nChoose HTTPS as the preferred protocol.\nWhen asked if you want to authenticate Git with your GitHub credentials, say Yes.\nChoose Login with a web browser.\nCopy the one-time code that appears.\nPress Enter to open the browser.\nPaste the code on the GitHub page and authorize.\n\n\n\n\n\n\n\nNote\n\n\n\nThis process automatically configures Git to push and pull to GitHub repositories without asking for your password each time.\n\n\n\n\nVerification\nTo confirm everything is working:\ngh auth status\nYou should see something like:\ngithub.com\n  ✓ Logged in to github.com as YOUR-USERNAME\n  ✓ Git operations for github.com configured to use https protocol.\n  ✓ Token: gho_************************************",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
-      "Setup inicial"
+      "Guide",
+      "Fundamentals",
+      "Initial Setup"
     ]
   },
   {
-    "objectID": "guia/02-setup.html#herramientas-auxiliares-opcional",
-    "href": "guia/02-setup.html#herramientas-auxiliares-opcional",
-    "title": "Setup inicial",
-    "section": "Herramientas auxiliares (opcional)",
-    "text": "Herramientas auxiliares (opcional)\n\nCliente gráfico\nSi preferís interfaz gráfica para tareas complejas (revisar diffs grandes, resolver conflictos):\n\nGitHub Desktop (desktop.github.com) — simple, mantenido por GitHub, suficiente para la mayoría.\nGitKraken — más completo, freemium.\nVS Code — tiene integración Git excelente incorporada.\n\n\n\n\n\n\n\nTip\n\n\n\nAunque uses cliente gráfico para el día a día, aprendé los comandos de línea. Cuando algo se rompe, la GUI casi siempre te oculta lo que está pasando, y la solución vive en la terminal.",
+    "objectID": "guia/02-setup.html#auxiliary-tools-optional",
+    "href": "guia/02-setup.html#auxiliary-tools-optional",
+    "title": "Initial Setup",
+    "section": "Auxiliary tools (optional)",
+    "text": "Auxiliary tools (optional)\n\nGraphical client\nIf you prefer a graphical interface for complex tasks (reviewing large diffs, resolving conflicts):\n\nGitHub Desktop (desktop.github.com) — simple, maintained by GitHub, sufficient for most.\nGitKraken — more complete, freemium.\nVS Code — has excellent built-in Git integration.\n\n\n\n\n\n\n\nTip\n\n\n\nEven if you use a graphical client for day-to-day work, learn the command line. When something breaks, the GUI almost always hides what’s happening, and the solution lives in the terminal.",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
-      "Setup inicial"
+      "Guide",
+      "Fundamentals",
+      "Initial Setup"
     ]
   },
   {
-    "objectID": "guia/02-setup.html#próximo-paso",
-    "href": "guia/02-setup.html#próximo-paso",
-    "title": "Setup inicial",
-    "section": "Próximo paso",
-    "text": "Próximo paso\nAhora que tenés Git instalado y autenticado, aprendé a clonar tu primer repositorio.",
+    "objectID": "guia/02-setup.html#next-step",
+    "href": "guia/02-setup.html#next-step",
+    "title": "Initial Setup",
+    "section": "Next step",
+    "text": "Next step\nNow that you have Git installed and authenticated, learn to clone your first repository.",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
-      "Setup inicial"
+      "Guide",
+      "Fundamentals",
+      "Initial Setup"
     ]
   },
   {
     "objectID": "guia/03-clonar.html",
     "href": "guia/03-clonar.html",
-    "title": "Clonar un repositorio",
+    "title": "Cloning a Repository",
     "section": "",
-    "text": "Una vez que tenés Git instalado y autenticado, el siguiente paso es clonar un repositorio. Clonar significa crear una copia local completa de un repositorio remoto (el que está en GitHub).",
+    "text": "Once you have Git installed and authenticated, the next step is to clone a repository. Cloning means creating a complete local copy of a remote repository (the one on GitHub).",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
-      "Clonar un repositorio"
+      "Guide",
+      "Fundamentals",
+      "Cloning a Repository"
     ]
   },
   {
-    "objectID": "guia/03-clonar.html#obtener-la-url-del-repositorio",
-    "href": "guia/03-clonar.html#obtener-la-url-del-repositorio",
-    "title": "Clonar un repositorio",
-    "section": "Obtener la URL del repositorio",
-    "text": "Obtener la URL del repositorio\nAntes de clonar, necesitás la URL del repositorio. En GitHub:\n\nAndá al repositorio que querés clonar.\nHacé clic en el botón verde Code.\nVas a ver dos opciones de URL: HTTPS y SSH.\n\n\n\n\nBotón Code en GitHub",
+    "objectID": "guia/03-clonar.html#getting-the-repository-url",
+    "href": "guia/03-clonar.html#getting-the-repository-url",
+    "title": "Cloning a Repository",
+    "section": "Getting the Repository URL",
+    "text": "Getting the Repository URL\nBefore cloning, you need the repository URL. On GitHub:\n\nGo to the repository you want to clone.\nClick the green Code button.\nYou’ll see two URL options: HTTPS and SSH.\n\n\n\n\nCode button on GitHub",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
-      "Clonar un repositorio"
+      "Guide",
+      "Fundamentals",
+      "Cloning a Repository"
     ]
   },
   {
-    "objectID": "guia/03-clonar.html#método-1-clonar-con-https-recomendado",
-    "href": "guia/03-clonar.html#método-1-clonar-con-https-recomendado",
-    "title": "Clonar un repositorio",
-    "section": "Método 1: Clonar con HTTPS (recomendado)",
-    "text": "Método 1: Clonar con HTTPS (recomendado)\nSi seguiste la guía de setup y te autenticaste con gh auth login, este es el método más simple.\n\nPaso a paso\n\nCopiá la URL HTTPS del repositorio. Tiene este formato:\nhttps://github.com/USUARIO/NOMBRE-REPO.git\nAbrí la terminal y navegá a la carpeta donde querés guardar el proyecto:\ncd ~/Documents/proyectos\nEjecutá el comando git clone seguido de la URL:\ngit clone https://github.com/USUARIO/NOMBRE-REPO.git\nGit va a crear una carpeta con el nombre del repositorio y descargar todo el contenido:\nCloning into 'NOMBRE-REPO'...\nremote: Enumerating objects: 156, done.\nremote: Counting objects: 100% (156/156), done.\nremote: Compressing objects: 100% (89/89), done.\nremote: Total 156 (delta 67), reused 134 (delta 52), pack-reused 0\nReceiving objects: 100% (156/156), 45.23 KiB | 1.13 MiB/s, done.\nResolving deltas: 100% (67/67), done.\nEntrá a la carpeta del proyecto:\ncd NOMBRE-REPO\n\n\n\nEjemplo práctico\n# Navegá a tu carpeta de proyectos\ncd ~/Documents/GitHub\n\n# Cloná el repositorio\ngit clone https://github.com/worldjusticeproject/mi-proyecto.git\n\n# Entrá al proyecto\ncd mi-proyecto\n\n# Verificá que todo está bien\ngit status\n\n\n\n\n\n\nNote\n\n\n\nSi te autenticaste correctamente con gh auth login, Git no te va a pedir usuario ni contraseña. Todo debería funcionar automáticamente.",
+    "objectID": "guia/03-clonar.html#method-1-clone-with-https-recommended",
+    "href": "guia/03-clonar.html#method-1-clone-with-https-recommended",
+    "title": "Cloning a Repository",
+    "section": "Method 1: Clone with HTTPS (recommended)",
+    "text": "Method 1: Clone with HTTPS (recommended)\nIf you followed the setup guide and authenticated with gh auth login, this is the simplest method.\n\nStep by step\n\nCopy the HTTPS URL of the repository. It has this format:\nhttps://github.com/USERNAME/REPO-NAME.git\nOpen the terminal and navigate to the folder where you want to save the project:\ncd ~/Documents/projects\nRun the git clone command followed by the URL:\ngit clone https://github.com/USERNAME/REPO-NAME.git\nGit will create a folder with the repository name and download all the content:\nCloning into 'REPO-NAME'...\nremote: Enumerating objects: 156, done.\nremote: Counting objects: 100% (156/156), done.\nremote: Compressing objects: 100% (89/89), done.\nremote: Total 156 (delta 67), reused 134 (delta 52), pack-reused 0\nReceiving objects: 100% (156/156), 45.23 KiB | 1.13 MiB/s, done.\nResolving deltas: 100% (67/67), done.\nEnter the project folder:\ncd REPO-NAME\n\n\n\nPractical example\n# Navigate to your projects folder\ncd ~/Documents/GitHub\n\n# Clone the repository\ngit clone https://github.com/worldjusticeproject/my-project.git\n\n# Enter the project\ncd my-project\n\n# Verify everything is okay\ngit status\n\n\n\n\n\n\nNote\n\n\n\nIf you authenticated correctly with gh auth login, Git won’t ask for username or password. Everything should work automatically.",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
-      "Clonar un repositorio"
+      "Guide",
+      "Fundamentals",
+      "Cloning a Repository"
     ]
   },
   {
-    "objectID": "guia/03-clonar.html#método-2-clonar-con-ssh",
-    "href": "guia/03-clonar.html#método-2-clonar-con-ssh",
-    "title": "Clonar un repositorio",
-    "section": "Método 2: Clonar con SSH",
-    "text": "Método 2: Clonar con SSH\nSSH es una alternativa a HTTPS que usa llaves criptográficas en lugar de tokens. Es útil si preferís no depender de GitHub CLI o si trabajás en un entorno donde SSH es el estándar.\n\nConfiguración de llaves SSH\nAntes de poder clonar con SSH, necesitás generar un par de llaves y agregar la pública a GitHub.\n\nPaso 1: Generar el par de llaves\nssh-keygen -t ed25519 -C \"tu.email@worldjusticeproject.org\"\nCuando pregunte dónde guardar el archivo, aceptá el default (Enter). Cuando pida passphrase, podés dejarla vacía o poner una (más seguro).\nEsto crea dos archivos:\n\n~/.ssh/id_ed25519 — la llave privada. Nunca la compartas.\n~/.ssh/id_ed25519.pub — la llave pública. Esta la subís a GitHub.\n\n\n\nPaso 2: Agregar la llave pública a GitHub\nCopiá el contenido de la llave pública:\n\nmacOSWindows (Git Bash)Linux\n\n\npbcopy &lt; ~/.ssh/id_ed25519.pub\n\n\ncat ~/.ssh/id_ed25519.pub | clip\n\n\n# Con xclip\nxclip -sel clip &lt; ~/.ssh/id_ed25519.pub\n\n# O mostrá y copiá manualmente\ncat ~/.ssh/id_ed25519.pub\n\n\n\nLuego en GitHub:\n\nAndá a Settings → SSH and GPG keys.\nHacé clic en New SSH key.\nDale un título descriptivo (ej. “Laptop WJP - MacBook 2025”).\nPegá la llave pública.\nHacé clic en Add SSH key.\n\n\n\nPaso 3: Verificar la conexión\nssh -T git@github.com\nSi todo está bien, vas a ver:\nHi TU-USUARIO! You've successfully authenticated, but GitHub does not provide shell access.\nEl mensaje “does not provide shell access” no es un error — es el comportamiento esperado.\n\n\n\nClonar con SSH\nUna vez configuradas las llaves, clonar es igual que con HTTPS pero usando la URL SSH:\ngit clone git@github.com:USUARIO/NOMBRE-REPO.git\nLa URL SSH tiene el formato git@github.com:USUARIO/REPO.git (notá los dos puntos en lugar de barra después de github.com).\n\n\nEjemplo práctico\n# Cloná usando SSH\ngit clone git@github.com:worldjusticeproject/mi-proyecto.git\n\n# Entrá al proyecto\ncd mi-proyecto\n\n# Verificá\ngit status",
+    "objectID": "guia/03-clonar.html#method-2-clone-with-ssh",
+    "href": "guia/03-clonar.html#method-2-clone-with-ssh",
+    "title": "Cloning a Repository",
+    "section": "Method 2: Clone with SSH",
+    "text": "Method 2: Clone with SSH\nSSH is an alternative to HTTPS that uses cryptographic keys instead of tokens. It’s useful if you prefer not to depend on GitHub CLI or if you work in an environment where SSH is the standard.\n\nSSH Key Configuration\nBefore you can clone with SSH, you need to generate a key pair and add the public key to GitHub.\n\nStep 1: Generate the key pair\nssh-keygen -t ed25519 -C \"your.email@worldjusticeproject.org\"\nWhen asked where to save the file, accept the default (Enter). When asked for a passphrase, you can leave it empty or set one (more secure).\nThis creates two files:\n\n~/.ssh/id_ed25519 — the private key. Never share it.\n~/.ssh/id_ed25519.pub — the public key. This one goes to GitHub.\n\n\n\nStep 2: Add the public key to GitHub\nCopy the content of the public key:\n\nmacOSWindows (Git Bash)Linux\n\n\npbcopy &lt; ~/.ssh/id_ed25519.pub\n\n\ncat ~/.ssh/id_ed25519.pub | clip\n\n\n# With xclip\nxclip -sel clip &lt; ~/.ssh/id_ed25519.pub\n\n# Or display and copy manually\ncat ~/.ssh/id_ed25519.pub\n\n\n\nThen on GitHub:\n\nGo to Settings → SSH and GPG keys.\nClick New SSH key.\nGive it a descriptive title (e.g., “WJP Laptop - MacBook 2025”).\nPaste the public key.\nClick Add SSH key.\n\n\n\nStep 3: Verify the connection\nssh -T git@github.com\nIf everything is working, you’ll see:\nHi YOUR-USERNAME! You've successfully authenticated, but GitHub does not provide shell access.\nThe message “does not provide shell access” is not an error — it’s the expected behavior.\n\n\n\nClone with SSH\nOnce the keys are configured, cloning is the same as with HTTPS but using the SSH URL:\ngit clone git@github.com:USERNAME/REPO-NAME.git\nThe SSH URL has the format git@github.com:USERNAME/REPO.git (note the colon instead of slash after github.com).\n\n\nPractical example\n# Clone using SSH\ngit clone git@github.com:worldjusticeproject/my-project.git\n\n# Enter the project\ncd my-project\n\n# Verify\ngit status",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
-      "Clonar un repositorio"
+      "Guide",
+      "Fundamentals",
+      "Cloning a Repository"
     ]
   },
   {
-    "objectID": "guia/03-clonar.html#https-o-ssh",
-    "href": "guia/03-clonar.html#https-o-ssh",
-    "title": "Clonar un repositorio",
-    "section": "¿HTTPS o SSH?",
-    "text": "¿HTTPS o SSH?\n\n\n\n\n\n\n\n\nAspecto\nHTTPS\nSSH\n\n\n\n\nConfiguración\nMás simple con gh auth login\nRequiere generar y configurar llaves\n\n\nSeguridad\nToken guardado por gh CLI\nLlave privada en tu máquina\n\n\nFirewalls\nFunciona en casi todos lados\nAlgunos firewalls bloquean puerto 22\n\n\nRecomendación\nPara la mayoría de usuarios\nSi preferís no usar gh CLI\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nSi ya te autenticaste con gh auth login, usá HTTPS. Es más simple y funciona igual de bien.",
+    "objectID": "guia/03-clonar.html#https-or-ssh",
+    "href": "guia/03-clonar.html#https-or-ssh",
+    "title": "Cloning a Repository",
+    "section": "HTTPS or SSH?",
+    "text": "HTTPS or SSH?\n\n\n\n\n\n\n\n\nAspect\nHTTPS\nSSH\n\n\n\n\nSetup\nSimpler with gh auth login\nRequires generating and configuring keys\n\n\nSecurity\nToken stored by gh CLI\nPrivate key on your machine\n\n\nFirewalls\nWorks almost everywhere\nSome firewalls block port 22\n\n\nRecommendation\nFor most users\nIf you prefer not to use gh CLI\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nIf you already authenticated with gh auth login, use HTTPS. It’s simpler and works just as well.",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
-      "Clonar un repositorio"
+      "Guide",
+      "Fundamentals",
+      "Cloning a Repository"
     ]
   },
   {
-    "objectID": "guia/03-clonar.html#clonar-en-una-carpeta-específica",
-    "href": "guia/03-clonar.html#clonar-en-una-carpeta-específica",
-    "title": "Clonar un repositorio",
-    "section": "Clonar en una carpeta específica",
-    "text": "Clonar en una carpeta específica\nPor defecto, git clone crea una carpeta con el nombre del repositorio. Podés especificar otro nombre:\n# Clonar en una carpeta llamada \"mi-copia\"\ngit clone https://github.com/USUARIO/NOMBRE-REPO.git mi-copia",
+    "objectID": "guia/03-clonar.html#clone-to-a-specific-folder",
+    "href": "guia/03-clonar.html#clone-to-a-specific-folder",
+    "title": "Cloning a Repository",
+    "section": "Clone to a specific folder",
+    "text": "Clone to a specific folder\nBy default, git clone creates a folder with the repository name. You can specify a different name:\n# Clone to a folder called \"my-copy\"\ngit clone https://github.com/USERNAME/REPO-NAME.git my-copy",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
-      "Clonar un repositorio"
+      "Guide",
+      "Fundamentals",
+      "Cloning a Repository"
     ]
   },
   {
-    "objectID": "guia/03-clonar.html#verificación-final",
-    "href": "guia/03-clonar.html#verificación-final",
-    "title": "Clonar un repositorio",
-    "section": "Verificación final",
-    "text": "Verificación final\nDespués de clonar, verificá que todo está bien:\n# Ver el estado del repositorio\ngit status\n\n# Ver el historial de commits\ngit log --oneline -5\n\n# Ver los remotos configurados\ngit remote -v\nEl comando git remote -v debería mostrar:\norigin  https://github.com/USUARIO/NOMBRE-REPO.git (fetch)\norigin  https://github.com/USUARIO/NOMBRE-REPO.git (push)\nEsto significa que tu copia local está conectada al repositorio en GitHub (llamado “origin”).",
+    "objectID": "guia/03-clonar.html#final-verification",
+    "href": "guia/03-clonar.html#final-verification",
+    "title": "Cloning a Repository",
+    "section": "Final verification",
+    "text": "Final verification\nAfter cloning, verify everything is okay:\n# See the repository status\ngit status\n\n# See the commit history\ngit log --oneline -5\n\n# See the configured remotes\ngit remote -v\nThe git remote -v command should show:\norigin  https://github.com/USERNAME/REPO-NAME.git (fetch)\norigin  https://github.com/USERNAME/REPO-NAME.git (push)\nThis means your local copy is connected to the repository on GitHub (called “origin”).",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
-      "Clonar un repositorio"
+      "Guide",
+      "Fundamentals",
+      "Cloning a Repository"
     ]
   },
   {
-    "objectID": "guia/03-clonar.html#próximo-paso",
-    "href": "guia/03-clonar.html#próximo-paso",
-    "title": "Clonar un repositorio",
-    "section": "Próximo paso",
-    "text": "Próximo paso\nAhora que tenés el repositorio clonado, estás listo para empezar a trabajar con Git.",
+    "objectID": "guia/03-clonar.html#next-step",
+    "href": "guia/03-clonar.html#next-step",
+    "title": "Cloning a Repository",
+    "section": "Next step",
+    "text": "Next step\nNow that you have the repository cloned, you’re ready to start working with Git.",
     "crumbs": [
-      "Guía",
-      "Fundamentos",
-      "Clonar un repositorio"
+      "Guide",
+      "Fundamentals",
+      "Cloning a Repository"
     ]
   },
   {
     "objectID": "guia/index.html",
     "href": "guia/index.html",
-    "title": "Guía: índice",
+    "title": "Guide: Index",
     "section": "",
-    "text": "Esta guía está pensada para leerse en orden la primera vez. Cada sección asume lo cubierto en las anteriores.",
+    "text": "This guide is designed to be read in order the first time. Each section assumes knowledge from the previous ones.",
     "crumbs": [
-      "Guía",
-      "Guía: índice"
+      "Guide",
+      "Guide: Index"
     ]
   },
   {
-    "objectID": "guia/index.html#fundamentos",
-    "href": "guia/index.html#fundamentos",
-    "title": "Guía: índice",
-    "section": "Fundamentos",
-    "text": "Fundamentos\nLo mínimo que toda persona del equipo necesita entender, sin importar su rol.\n\nConceptos previos — Qué es Git, qué es GitHub y por qué no son lo mismo.\nSetup inicial — Instalación de Git, terminal y autenticación con GitHub CLI.\nClonar repositorios — Cómo descargar repositorios usando HTTPS o SSH.",
+    "objectID": "guia/index.html#fundamentals",
+    "href": "guia/index.html#fundamentals",
+    "title": "Guide: Index",
+    "section": "Fundamentals",
+    "text": "Fundamentals\nThe minimum that every team member needs to understand, regardless of their role.\n\nBasic Concepts — What is Git, what is GitHub, and why they’re not the same thing.\nInitial Setup — Installing Git, terminal setup, and authentication with GitHub CLI.\nCloning Repositories — How to download repositories using HTTPS or SSH.",
     "crumbs": [
-      "Guía",
-      "Guía: índice"
+      "Guide",
+      "Guide: Index"
     ]
   },
   {
-    "objectID": "guia/index.html#workflow-wjp",
-    "href": "guia/index.html#workflow-wjp",
-    "title": "Guía: índice",
-    "section": "Workflow WJP",
-    "text": "Workflow WJP\n(En construcción) — Decisiones organizacionales: estrategia de branches, convención de commits, code review, plantillas de PR e issues.",
+    "objectID": "guia/index.html#wjp-workflow",
+    "href": "guia/index.html#wjp-workflow",
+    "title": "Guide: Index",
+    "section": "WJP Workflow",
+    "text": "WJP Workflow\n(Coming soon) — Organizational decisions: branching strategy, commit conventions, code review, PR and issue templates.",
     "crumbs": [
-      "Guía",
-      "Guía: índice"
+      "Guide",
+      "Guide: Index"
     ]
   },
   {
-    "objectID": "guia/index.html#buenas-prácticas",
-    "href": "guia/index.html#buenas-prácticas",
-    "title": "Guía: índice",
-    "section": "Buenas prácticas",
-    "text": "Buenas prácticas\n(En construcción) — .gitignore para R y Python, manejo de archivos grandes, resolución de conflictos, qué nunca subir.",
+    "objectID": "guia/index.html#best-practices",
+    "href": "guia/index.html#best-practices",
+    "title": "Guide: Index",
+    "section": "Best Practices",
+    "text": "Best Practices\n(Coming soon) — .gitignore for R and Python, handling large files, resolving conflicts, what never to upload.",
     "crumbs": [
-      "Guía",
-      "Guía: índice"
+      "Guide",
+      "Guide: Index"
     ]
   },
   {
-    "objectID": "guia/index.html#específicos-por-lenguaje",
-    "href": "guia/index.html#específicos-por-lenguaje",
-    "title": "Guía: índice",
-    "section": "Específicos por lenguaje",
-    "text": "Específicos por lenguaje\n(En construcción) — Estructura recomendada para proyectos R (renv, here), Python, y datos reproducibles.",
+    "objectID": "guia/index.html#language-specific",
+    "href": "guia/index.html#language-specific",
+    "title": "Guide: Index",
+    "section": "Language-Specific",
+    "text": "Language-Specific\n(Coming soon) — Recommended structure for R projects (renv, here), Python, and reproducible data.",
     "crumbs": [
-      "Guía",
-      "Guía: índice"
+      "Guide",
+      "Guide: Index"
     ]
   },
   {
-    "objectID": "guia/index.html#seguridad",
-    "href": "guia/index.html#seguridad",
-    "title": "Guía: índice",
-    "section": "Seguridad",
-    "text": "Seguridad\n(En construcción) — Gestión de secretos, auditoría de leaks, qué hacer cuando algo sensible se subió por error.",
+    "objectID": "guia/index.html#security",
+    "href": "guia/index.html#security",
+    "title": "Guide: Index",
+    "section": "Security",
+    "text": "Security\n(Coming soon) — Secrets management, leak auditing, what to do when something sensitive was uploaded by mistake.",
     "crumbs": [
-      "Guía",
-      "Guía: índice"
+      "Guide",
+      "Guide: Index"
     ]
   },
   {
-    "objectID": "guia/index.html#avanzado",
-    "href": "guia/index.html#avanzado",
-    "title": "Guía: índice",
-    "section": "Avanzado",
-    "text": "Avanzado\n(En construcción) — GitHub Actions para CI, branch protection rules, releases y versionado semántico.",
+    "objectID": "guia/index.html#advanced",
+    "href": "guia/index.html#advanced",
+    "title": "Guide: Index",
+    "section": "Advanced",
+    "text": "Advanced\n(Coming soon) — GitHub Actions for CI, branch protection rules, releases and semantic versioning.",
     "crumbs": [
-      "Guía",
-      "Guía: índice"
+      "Guide",
+      "Guide: Index"
     ]
   },
   {
-    "objectID": "guia/index.html#anexos",
-    "href": "guia/index.html#anexos",
-    "title": "Guía: índice",
-    "section": "Anexos",
-    "text": "Anexos\n(En construcción) — FAQ, errores comunes y cómo recuperarse de ellos.",
+    "objectID": "guia/index.html#appendix",
+    "href": "guia/index.html#appendix",
+    "title": "Guide: Index",
+    "section": "Appendix",
+    "text": "Appendix\n(Coming soon) — FAQ, common errors and how to recover from them.",
     "crumbs": [
-      "Guía",
-      "Guía: índice"
+      "Guide",
+      "Guide: Index"
     ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Guía de GitHub para WJP",
+    "title": "GitHub Guide for WJP",
     "section": "",
-    "text": "Aprendé a usar Git y GitHub de forma efectiva, segura y consistente con el equipo de WJP.\nEmpezar la guía Ver en GitHub"
+    "text": "Learn to use Git and GitHub effectively, securely, and consistently with the WJP team.\nStart the guide View on GitHub"
   },
   {
-    "objectID": "index.html#qué-vas-a-aprender",
-    "href": "index.html#qué-vas-a-aprender",
-    "title": "Guía de GitHub para WJP",
-    "section": "¿Qué vas a aprender?",
-    "text": "¿Qué vas a aprender?\n\n\nConceptos básicos\nEntendé qué es Git, qué es GitHub, y por qué son herramientas esenciales para el trabajo colaborativo.\nLeer más →\n\n\nConfiguración inicial\nInstalá Git en tu computadora, configurá la terminal y autenticate con GitHub usando gh CLI.\nLeer más →\n\n\nClonar repositorios\nAprendé a descargar proyectos de GitHub a tu máquina usando HTTPS o llaves SSH.\nLeer más →"
+    "objectID": "index.html#what-will-you-learn",
+    "href": "index.html#what-will-you-learn",
+    "title": "GitHub Guide for WJP",
+    "section": "What will you learn?",
+    "text": "What will you learn?\n\n\nBasic Concepts\nUnderstand what Git is, what GitHub is, and why they’re essential tools for collaborative work.\nRead more →\n\n\nInitial Setup\nInstall Git on your computer, configure your terminal, and authenticate with GitHub using gh CLI.\nRead more →\n\n\nClone Repositories\nLearn how to download projects from GitHub to your machine using HTTPS or SSH keys.\nRead more →"
   },
   {
-    "objectID": "index.html#sobre-esta-guía",
-    "href": "index.html#sobre-esta-guía",
-    "title": "Guía de GitHub para WJP",
-    "section": "Sobre esta guía",
-    "text": "Sobre esta guía\nEsta guía existe para que cualquier persona del equipo WJP — sin importar su experiencia previa — pueda trabajar de forma efectiva con control de versiones.\n¿Encontraste un error o querés sugerir algo? Abrí un issue en GitHub."
+    "objectID": "index.html#about-this-guide",
+    "href": "index.html#about-this-guide",
+    "title": "GitHub Guide for WJP",
+    "section": "About this guide",
+    "text": "About this guide\nThis guide exists so that anyone on the WJP team — regardless of their prior experience — can work effectively with version control.\nFound an error or want to suggest something? Open an issue on GitHub."
   },
   {
     "objectID": "blog/index.html",
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Bienvenida: por qué existe esta guía\n\n\n\nmeta\n\nanuncios\n\n\n\nContexto y propósito detrás de la decisión de documentar nuestras prácticas de Git en WJP\n\n\n\n\n\nMay 18, 2026\n\n\nEquipo WJP\n\n2 min\n\n\n\n\nNo matching items"
+    "text": "Welcome: why this guide exists\n\n\n\nmeta\n\nannouncements\n\n\n\nContext and purpose behind the decision to document our Git practices at WJP\n\n\n\n\n\nMay 18, 2026\n\n\nWJP Team\n\n2 min\n\n\n\n\nNo matching items"
   }
 ]

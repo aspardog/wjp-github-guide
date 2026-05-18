@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Cómo descargar repositorios de GitHub a tu computadora usando HTTPS o SSH">
+<meta name="description" content="How to download repositories from GitHub to your computer using HTTPS or SSH">
 
-<title>Clonar un repositorio – Guía de GitHub — WJP</title>
+<title>Cloning a Repository – GitHub Guide — WJP</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -283,7 +283,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Guía de GitHub — WJP</span>
+    <span class="navbar-title">GitHub Guide — WJP</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -294,11 +294,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Inicio</span></a>
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../guia/index.html" aria-current="page"> 
-<span class="menu-text">Guía</span></a>
+<span class="menu-text">Guide</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../blog/index.html"> 
@@ -306,12 +306,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../about.html"> 
-<span class="menu-text">Acerca</span></a>
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/aspardog/wjp-github-guide"> <i class="bi bi-github" role="img" aria-label="Repositorio en GitHub">
+    <a class="nav-link" href="https://github.com/aspardog/wjp-github-guide"> <i class="bi bi-github" role="img" aria-label="GitHub Repository">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -327,7 +327,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../guia/01-conceptos.html">Fundamentos</a></li><li class="breadcrumb-item"><a href="../guia/03-clonar.html">Clonar un repositorio</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../guia/01-conceptos.html">Fundamentals</a></li><li class="breadcrumb-item"><a href="../guia/03-clonar.html">Cloning a Repository</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -342,13 +342,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../guia/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Guía: índice</span></a>
+ <span class="menu-text">Guide: Index</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Fundamentos</span></a>
+ <span class="menu-text">Fundamentals</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -363,13 +363,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../guia/02-setup.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Setup inicial</span></a>
+ <span class="menu-text">Initial Setup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../guia/03-clonar.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Clonar un repositorio</span></a>
+ <span class="menu-text">Cloning a Repository</span></a>
   </div>
 </li>
       </ul>
@@ -384,22 +384,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#obtener-la-url-del-repositorio" id="toc-obtener-la-url-del-repositorio" class="nav-link active" data-scroll-target="#obtener-la-url-del-repositorio">Obtener la URL del repositorio</a></li>
-  <li><a href="#método-1-clonar-con-https-recomendado" id="toc-método-1-clonar-con-https-recomendado" class="nav-link" data-scroll-target="#método-1-clonar-con-https-recomendado">Método 1: Clonar con HTTPS (recomendado)</a>
+  <li><a href="#getting-the-repository-url" id="toc-getting-the-repository-url" class="nav-link active" data-scroll-target="#getting-the-repository-url">Getting the Repository URL</a></li>
+  <li><a href="#method-1-clone-with-https-recommended" id="toc-method-1-clone-with-https-recommended" class="nav-link" data-scroll-target="#method-1-clone-with-https-recommended">Method 1: Clone with HTTPS (recommended)</a>
   <ul class="collapse">
-  <li><a href="#paso-a-paso" id="toc-paso-a-paso" class="nav-link" data-scroll-target="#paso-a-paso">Paso a paso</a></li>
-  <li><a href="#ejemplo-práctico" id="toc-ejemplo-práctico" class="nav-link" data-scroll-target="#ejemplo-práctico">Ejemplo práctico</a></li>
+  <li><a href="#step-by-step" id="toc-step-by-step" class="nav-link" data-scroll-target="#step-by-step">Step by step</a></li>
+  <li><a href="#practical-example" id="toc-practical-example" class="nav-link" data-scroll-target="#practical-example">Practical example</a></li>
   </ul></li>
-  <li><a href="#método-2-clonar-con-ssh" id="toc-método-2-clonar-con-ssh" class="nav-link" data-scroll-target="#método-2-clonar-con-ssh">Método 2: Clonar con SSH</a>
+  <li><a href="#method-2-clone-with-ssh" id="toc-method-2-clone-with-ssh" class="nav-link" data-scroll-target="#method-2-clone-with-ssh">Method 2: Clone with SSH</a>
   <ul class="collapse">
-  <li><a href="#configuración-de-llaves-ssh" id="toc-configuración-de-llaves-ssh" class="nav-link" data-scroll-target="#configuración-de-llaves-ssh">Configuración de llaves SSH</a></li>
-  <li><a href="#clonar-con-ssh" id="toc-clonar-con-ssh" class="nav-link" data-scroll-target="#clonar-con-ssh">Clonar con SSH</a></li>
-  <li><a href="#ejemplo-práctico-1" id="toc-ejemplo-práctico-1" class="nav-link" data-scroll-target="#ejemplo-práctico-1">Ejemplo práctico</a></li>
+  <li><a href="#ssh-key-configuration" id="toc-ssh-key-configuration" class="nav-link" data-scroll-target="#ssh-key-configuration">SSH Key Configuration</a></li>
+  <li><a href="#clone-with-ssh" id="toc-clone-with-ssh" class="nav-link" data-scroll-target="#clone-with-ssh">Clone with SSH</a></li>
+  <li><a href="#practical-example-1" id="toc-practical-example-1" class="nav-link" data-scroll-target="#practical-example-1">Practical example</a></li>
   </ul></li>
-  <li><a href="#https-o-ssh" id="toc-https-o-ssh" class="nav-link" data-scroll-target="#https-o-ssh">¿HTTPS o SSH?</a></li>
-  <li><a href="#clonar-en-una-carpeta-específica" id="toc-clonar-en-una-carpeta-específica" class="nav-link" data-scroll-target="#clonar-en-una-carpeta-específica">Clonar en una carpeta específica</a></li>
-  <li><a href="#verificación-final" id="toc-verificación-final" class="nav-link" data-scroll-target="#verificación-final">Verificación final</a></li>
-  <li><a href="#próximo-paso" id="toc-próximo-paso" class="nav-link" data-scroll-target="#próximo-paso">Próximo paso</a></li>
+  <li><a href="#https-or-ssh" id="toc-https-or-ssh" class="nav-link" data-scroll-target="#https-or-ssh">HTTPS or SSH?</a></li>
+  <li><a href="#clone-to-a-specific-folder" id="toc-clone-to-a-specific-folder" class="nav-link" data-scroll-target="#clone-to-a-specific-folder">Clone to a specific folder</a></li>
+  <li><a href="#final-verification" id="toc-final-verification" class="nav-link" data-scroll-target="#final-verification">Final verification</a></li>
+  <li><a href="#next-step" id="toc-next-step" class="nav-link" data-scroll-target="#next-step">Next step</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/aspardog/wjp-github-guide/edit/main/guia/03-clonar.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/aspardog/wjp-github-guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -407,14 +407,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../guia/01-conceptos.html">Fundamentos</a></li><li class="breadcrumb-item"><a href="../guia/03-clonar.html">Clonar un repositorio</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../guia/01-conceptos.html">Fundamentals</a></li><li class="breadcrumb-item"><a href="../guia/03-clonar.html">Cloning a Repository</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Clonar un repositorio</h1>
+<h1 class="title">Cloning a Repository</h1>
 </div>
 
 <div>
   <div class="description">
-    Cómo descargar repositorios de GitHub a tu computadora usando HTTPS o SSH
+    How to download repositories from GitHub to your computer using HTTPS or SSH
   </div>
 </div>
 
@@ -431,58 +431,58 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Una vez que tenés Git instalado y autenticado, el siguiente paso es <strong>clonar</strong> un repositorio. Clonar significa crear una copia local completa de un repositorio remoto (el que está en GitHub).</p>
-<section id="obtener-la-url-del-repositorio" class="level2">
-<h2 class="anchored" data-anchor-id="obtener-la-url-del-repositorio">Obtener la URL del repositorio</h2>
-<p>Antes de clonar, necesitás la URL del repositorio. En GitHub:</p>
+<p>Once you have Git installed and authenticated, the next step is to <strong>clone</strong> a repository. Cloning means creating a complete local copy of a remote repository (the one on GitHub).</p>
+<section id="getting-the-repository-url" class="level2">
+<h2 class="anchored" data-anchor-id="getting-the-repository-url">Getting the Repository URL</h2>
+<p>Before cloning, you need the repository URL. On GitHub:</p>
 <ol type="1">
-<li>Andá al repositorio que querés clonar.</li>
-<li>Hacé clic en el botón verde <strong>Code</strong>.</li>
-<li>Vas a ver dos opciones de URL: <strong>HTTPS</strong> y <strong>SSH</strong>.</li>
+<li>Go to the repository you want to clone.</li>
+<li>Click the green <strong>Code</strong> button.</li>
+<li>You’ll see two URL options: <strong>HTTPS</strong> and <strong>SSH</strong>.</li>
 </ol>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://docs.github.com/assets/cb-32892/images/help/repository/code-button.png" class="img-fluid figure-img" alt="Botón Code en GitHub mostrando opciones HTTPS y SSH"></p>
-<figcaption>Botón Code en GitHub</figcaption>
+<p><img src="https://docs.github.com/assets/cb-32892/images/help/repository/code-button.png" class="img-fluid figure-img" alt="Code button on GitHub showing HTTPS and SSH options"></p>
+<figcaption>Code button on GitHub</figcaption>
 </figure>
 </div>
 </section>
-<section id="método-1-clonar-con-https-recomendado" class="level2">
-<h2 class="anchored" data-anchor-id="método-1-clonar-con-https-recomendado">Método 1: Clonar con HTTPS (recomendado)</h2>
-<p>Si seguiste la guía de setup y te autenticaste con <code>gh auth login</code>, este es el método más simple.</p>
-<section id="paso-a-paso" class="level3">
-<h3 class="anchored" data-anchor-id="paso-a-paso">Paso a paso</h3>
+<section id="method-1-clone-with-https-recommended" class="level2">
+<h2 class="anchored" data-anchor-id="method-1-clone-with-https-recommended">Method 1: Clone with HTTPS (recommended)</h2>
+<p>If you followed the setup guide and authenticated with <code>gh auth login</code>, this is the simplest method.</p>
+<section id="step-by-step" class="level3">
+<h3 class="anchored" data-anchor-id="step-by-step">Step by step</h3>
 <ol type="1">
-<li><p>Copiá la URL HTTPS del repositorio. Tiene este formato:</p>
-<pre><code>https://github.com/USUARIO/NOMBRE-REPO.git</code></pre></li>
-<li><p>Abrí la terminal y navegá a la carpeta donde querés guardar el proyecto:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/Documents/proyectos</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
-<li><p>Ejecutá el comando <code>git clone</code> seguido de la URL:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/USUARIO/NOMBRE-REPO.git</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
-<li><p>Git va a crear una carpeta con el nombre del repositorio y descargar todo el contenido:</p>
-<pre><code>Cloning into 'NOMBRE-REPO'...
+<li><p>Copy the HTTPS URL of the repository. It has this format:</p>
+<pre><code>https://github.com/USERNAME/REPO-NAME.git</code></pre></li>
+<li><p>Open the terminal and navigate to the folder where you want to save the project:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/Documents/projects</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p>Run the <code>git clone</code> command followed by the URL:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/USERNAME/REPO-NAME.git</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p>Git will create a folder with the repository name and download all the content:</p>
+<pre><code>Cloning into 'REPO-NAME'...
 remote: Enumerating objects: 156, done.
 remote: Counting objects: 100% (156/156), done.
 remote: Compressing objects: 100% (89/89), done.
 remote: Total 156 (delta 67), reused 134 (delta 52), pack-reused 0
 Receiving objects: 100% (156/156), 45.23 KiB | 1.13 MiB/s, done.
 Resolving deltas: 100% (67/67), done.</code></pre></li>
-<li><p>Entrá a la carpeta del proyecto:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> NOMBRE-REPO</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p>Enter the project folder:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> REPO-NAME</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
 </ol>
 </section>
-<section id="ejemplo-práctico" class="level3">
-<h3 class="anchored" data-anchor-id="ejemplo-práctico">Ejemplo práctico</h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Navegá a tu carpeta de proyectos</span></span>
+<section id="practical-example" class="level3">
+<h3 class="anchored" data-anchor-id="practical-example">Practical example</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Navigate to your projects folder</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/Documents/GitHub</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Cloná el repositorio</span></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/worldjusticeproject/mi-proyecto.git</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Clone the repository</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/worldjusticeproject/my-project.git</span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Entrá al proyecto</span></span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> mi-proyecto</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Enter the project</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> my-project</span>
 <span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Verificá que todo está bien</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Verify everything is okay</span></span>
 <span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -494,30 +494,30 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Si te autenticaste correctamente con <code>gh auth login</code>, Git no te va a pedir usuario ni contraseña. Todo debería funcionar automáticamente.</p>
+<p>If you authenticated correctly with <code>gh auth login</code>, Git won’t ask for username or password. Everything should work automatically.</p>
 </div>
 </div>
 </section>
 </section>
-<section id="método-2-clonar-con-ssh" class="level2">
-<h2 class="anchored" data-anchor-id="método-2-clonar-con-ssh">Método 2: Clonar con SSH</h2>
-<p>SSH es una alternativa a HTTPS que usa llaves criptográficas en lugar de tokens. Es útil si preferís no depender de GitHub CLI o si trabajás en un entorno donde SSH es el estándar.</p>
-<section id="configuración-de-llaves-ssh" class="level3">
-<h3 class="anchored" data-anchor-id="configuración-de-llaves-ssh">Configuración de llaves SSH</h3>
-<p>Antes de poder clonar con SSH, necesitás generar un par de llaves y agregar la pública a GitHub.</p>
-<section id="paso-1-generar-el-par-de-llaves" class="level4">
-<h4 class="anchored" data-anchor-id="paso-1-generar-el-par-de-llaves">Paso 1: Generar el par de llaves</h4>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh-keygen</span> <span class="at">-t</span> ed25519 <span class="at">-C</span> <span class="st">"tu.email@worldjusticeproject.org"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Cuando pregunte dónde guardar el archivo, aceptá el default (Enter). Cuando pida passphrase, podés dejarla vacía o poner una (más seguro).</p>
-<p>Esto crea dos archivos:</p>
+<section id="method-2-clone-with-ssh" class="level2">
+<h2 class="anchored" data-anchor-id="method-2-clone-with-ssh">Method 2: Clone with SSH</h2>
+<p>SSH is an alternative to HTTPS that uses cryptographic keys instead of tokens. It’s useful if you prefer not to depend on GitHub CLI or if you work in an environment where SSH is the standard.</p>
+<section id="ssh-key-configuration" class="level3">
+<h3 class="anchored" data-anchor-id="ssh-key-configuration">SSH Key Configuration</h3>
+<p>Before you can clone with SSH, you need to generate a key pair and add the public key to GitHub.</p>
+<section id="step-1-generate-the-key-pair" class="level4">
+<h4 class="anchored" data-anchor-id="step-1-generate-the-key-pair">Step 1: Generate the key pair</h4>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh-keygen</span> <span class="at">-t</span> ed25519 <span class="at">-C</span> <span class="st">"your.email@worldjusticeproject.org"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>When asked where to save the file, accept the default (Enter). When asked for a passphrase, you can leave it empty or set one (more secure).</p>
+<p>This creates two files:</p>
 <ul>
-<li><code>~/.ssh/id_ed25519</code> — la llave <strong>privada</strong>. <strong>Nunca</strong> la compartas.</li>
-<li><code>~/.ssh/id_ed25519.pub</code> — la llave <strong>pública</strong>. Esta la subís a GitHub.</li>
+<li><code>~/.ssh/id_ed25519</code> — the <strong>private</strong> key. <strong>Never</strong> share it.</li>
+<li><code>~/.ssh/id_ed25519.pub</code> — the <strong>public</strong> key. This one goes to GitHub.</li>
 </ul>
 </section>
-<section id="paso-2-agregar-la-llave-pública-a-github" class="level4">
-<h4 class="anchored" data-anchor-id="paso-2-agregar-la-llave-pública-a-github">Paso 2: Agregar la llave pública a GitHub</h4>
-<p>Copiá el contenido de la llave pública:</p>
+<section id="step-2-add-the-public-key-to-github" class="level4">
+<h4 class="anchored" data-anchor-id="step-2-add-the-public-key-to-github">Step 2: Add the public key to GitHub</h4>
+<p>Copy the content of the public key:</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">macOS</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Windows (Git Bash)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Linux</a></li></ul>
 <div class="tab-content">
@@ -528,84 +528,84 @@ Note
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> ~/.ssh/id_ed25519.pub <span class="kw">|</span> <span class="ex">clip</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Con xclip</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># With xclip</span></span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="ex">xclip</span> <span class="at">-sel</span> clip <span class="op">&lt;</span> ~/.ssh/id_ed25519.pub</span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co"># O mostrá y copiá manualmente</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Or display and copy manually</span></span>
 <span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> ~/.ssh/id_ed25519.pub</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 </div>
-<p>Luego en GitHub:</p>
+<p>Then on GitHub:</p>
 <ol type="1">
-<li>Andá a <a href="https://github.com/settings/keys">Settings → SSH and GPG keys</a>.</li>
-<li>Hacé clic en <strong>New SSH key</strong>.</li>
-<li>Dale un título descriptivo (ej. “Laptop WJP - MacBook 2025”).</li>
-<li>Pegá la llave pública.</li>
-<li>Hacé clic en <strong>Add SSH key</strong>.</li>
+<li>Go to <a href="https://github.com/settings/keys">Settings → SSH and GPG keys</a>.</li>
+<li>Click <strong>New SSH key</strong>.</li>
+<li>Give it a descriptive title (e.g., “WJP Laptop - MacBook 2025”).</li>
+<li>Paste the public key.</li>
+<li>Click <strong>Add SSH key</strong>.</li>
 </ol>
 </section>
-<section id="paso-3-verificar-la-conexión" class="level4">
-<h4 class="anchored" data-anchor-id="paso-3-verificar-la-conexión">Paso 3: Verificar la conexión</h4>
+<section id="step-3-verify-the-connection" class="level4">
+<h4 class="anchored" data-anchor-id="step-3-verify-the-connection">Step 3: Verify the connection</h4>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh</span> <span class="at">-T</span> git@github.com</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Si todo está bien, vas a ver:</p>
-<pre><code>Hi TU-USUARIO! You've successfully authenticated, but GitHub does not provide shell access.</code></pre>
-<p>El mensaje “does not provide shell access” no es un error — es el comportamiento esperado.</p>
+<p>If everything is working, you’ll see:</p>
+<pre><code>Hi YOUR-USERNAME! You've successfully authenticated, but GitHub does not provide shell access.</code></pre>
+<p>The message “does not provide shell access” is not an error — it’s the expected behavior.</p>
 </section>
 </section>
-<section id="clonar-con-ssh" class="level3">
-<h3 class="anchored" data-anchor-id="clonar-con-ssh">Clonar con SSH</h3>
-<p>Una vez configuradas las llaves, clonar es igual que con HTTPS pero usando la URL SSH:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone git@github.com:USUARIO/NOMBRE-REPO.git</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>La URL SSH tiene el formato <code>git@github.com:USUARIO/REPO.git</code> (notá los dos puntos en lugar de barra después de github.com).</p>
+<section id="clone-with-ssh" class="level3">
+<h3 class="anchored" data-anchor-id="clone-with-ssh">Clone with SSH</h3>
+<p>Once the keys are configured, cloning is the same as with HTTPS but using the SSH URL:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone git@github.com:USERNAME/REPO-NAME.git</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The SSH URL has the format <code>git@github.com:USERNAME/REPO.git</code> (note the colon instead of slash after github.com).</p>
 </section>
-<section id="ejemplo-práctico-1" class="level3">
-<h3 class="anchored" data-anchor-id="ejemplo-práctico-1">Ejemplo práctico</h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Cloná usando SSH</span></span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone git@github.com:worldjusticeproject/mi-proyecto.git</span>
+<section id="practical-example-1" class="level3">
+<h3 class="anchored" data-anchor-id="practical-example-1">Practical example</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clone using SSH</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone git@github.com:worldjusticeproject/my-project.git</span>
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Entrá al proyecto</span></span>
-<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> mi-proyecto</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Enter the project</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> my-project</span>
 <span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Verificá</span></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Verify</span></span>
 <span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 </section>
-<section id="https-o-ssh" class="level2">
-<h2 class="anchored" data-anchor-id="https-o-ssh">¿HTTPS o SSH?</h2>
+<section id="https-or-ssh" class="level2">
+<h2 class="anchored" data-anchor-id="https-or-ssh">HTTPS or SSH?</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 42%">
-<col style="width: 33%">
-<col style="width: 23%">
+<col style="width: 40%">
+<col style="width: 35%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Aspecto</th>
+<th>Aspect</th>
 <th>HTTPS</th>
 <th>SSH</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Configuración</strong></td>
-<td>Más simple con <code>gh auth login</code></td>
-<td>Requiere generar y configurar llaves</td>
+<td><strong>Setup</strong></td>
+<td>Simpler with <code>gh auth login</code></td>
+<td>Requires generating and configuring keys</td>
 </tr>
 <tr class="even">
-<td><strong>Seguridad</strong></td>
-<td>Token guardado por gh CLI</td>
-<td>Llave privada en tu máquina</td>
+<td><strong>Security</strong></td>
+<td>Token stored by gh CLI</td>
+<td>Private key on your machine</td>
 </tr>
 <tr class="odd">
 <td><strong>Firewalls</strong></td>
-<td>Funciona en casi todos lados</td>
-<td>Algunos firewalls bloquean puerto 22</td>
+<td>Works almost everywhere</td>
+<td>Some firewalls block port 22</td>
 </tr>
 <tr class="even">
-<td><strong>Recomendación</strong></td>
-<td>Para la mayoría de usuarios</td>
-<td>Si preferís no usar gh CLI</td>
+<td><strong>Recommendation</strong></td>
+<td>For most users</td>
+<td>If you prefer not to use gh CLI</td>
 </tr>
 </tbody>
 </table>
@@ -619,35 +619,35 @@ Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Si ya te autenticaste con <code>gh auth login</code>, usá HTTPS. Es más simple y funciona igual de bien.</p>
+<p>If you already authenticated with <code>gh auth login</code>, use HTTPS. It’s simpler and works just as well.</p>
 </div>
 </div>
 </section>
-<section id="clonar-en-una-carpeta-específica" class="level2">
-<h2 class="anchored" data-anchor-id="clonar-en-una-carpeta-específica">Clonar en una carpeta específica</h2>
-<p>Por defecto, <code>git clone</code> crea una carpeta con el nombre del repositorio. Podés especificar otro nombre:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clonar en una carpeta llamada "mi-copia"</span></span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/USUARIO/NOMBRE-REPO.git mi-copia</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="clone-to-a-specific-folder" class="level2">
+<h2 class="anchored" data-anchor-id="clone-to-a-specific-folder">Clone to a specific folder</h2>
+<p>By default, <code>git clone</code> creates a folder with the repository name. You can specify a different name:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clone to a folder called "my-copy"</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/USERNAME/REPO-NAME.git my-copy</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="verificación-final" class="level2">
-<h2 class="anchored" data-anchor-id="verificación-final">Verificación final</h2>
-<p>Después de clonar, verificá que todo está bien:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Ver el estado del repositorio</span></span>
+<section id="final-verification" class="level2">
+<h2 class="anchored" data-anchor-id="final-verification">Final verification</h2>
+<p>After cloning, verify everything is okay:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># See the repository status</span></span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status</span>
 <span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Ver el historial de commits</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="co"># See the commit history</span></span>
 <span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> log <span class="at">--oneline</span> <span class="at">-5</span></span>
 <span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Ver los remotos configurados</span></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a><span class="co"># See the configured remotes</span></span>
 <span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote <span class="at">-v</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>El comando <code>git remote -v</code> debería mostrar:</p>
-<pre><code>origin  https://github.com/USUARIO/NOMBRE-REPO.git (fetch)
-origin  https://github.com/USUARIO/NOMBRE-REPO.git (push)</code></pre>
-<p>Esto significa que tu copia local está conectada al repositorio en GitHub (llamado “origin”).</p>
+<p>The <code>git remote -v</code> command should show:</p>
+<pre><code>origin  https://github.com/USERNAME/REPO-NAME.git (fetch)
+origin  https://github.com/USERNAME/REPO-NAME.git (push)</code></pre>
+<p>This means your local copy is connected to the repository on GitHub (called “origin”).</p>
 </section>
-<section id="próximo-paso" class="level2">
-<h2 class="anchored" data-anchor-id="próximo-paso">Próximo paso</h2>
-<p>Ahora que tenés el repositorio clonado, estás listo para empezar a trabajar con Git.</p>
+<section id="next-step" class="level2">
+<h2 class="anchored" data-anchor-id="next-step">Next step</h2>
+<p>Now that you have the repository cloned, you’re ready to start working with Git.</p>
 
 
 </section>
@@ -1073,10 +1073,10 @@ origin  https://github.com/USUARIO/NOMBRE-REPO.git (push)</code></pre>
 <p>© 2026 World Justice Project</p>
 </div>   
     <div class="nav-footer-center">
-<p>Guía mantenida por el equipo de WJP</p>
+<p>Guide maintained by the WJP team</p>
 <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/aspardog/wjp-github-guide/edit/main/guia/03-clonar.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/aspardog/wjp-github-guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
-<p>Hecho con <a href="https://quarto.org">Quarto</a></p>
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
 </div>
   </div>
 </footer>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Acerca de esta guía – Guía de GitHub — WJP</title>
+<title>About this guide – GitHub Guide — WJP</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -247,7 +247,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Guía de GitHub — WJP</span>
+    <span class="navbar-title">GitHub Guide — WJP</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -258,11 +258,11 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Inicio</span></a>
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./guia/index.html"> 
-<span class="menu-text">Guía</span></a>
+<span class="menu-text">Guide</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./blog/index.html"> 
@@ -270,12 +270,12 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./about.html" aria-current="page"> 
-<span class="menu-text">Acerca</span></a>
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/aspardog/wjp-github-guide"> <i class="bi bi-github" role="img" aria-label="Repositorio en GitHub">
+    <a class="nav-link" href="https://github.com/aspardog/wjp-github-guide"> <i class="bi bi-github" role="img" aria-label="GitHub Repository">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -296,10 +296,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#propósito" id="toc-propósito" class="nav-link active" data-scroll-target="#propósito">Propósito</a></li>
-  <li><a href="#mantenimiento" id="toc-mantenimiento" class="nav-link" data-scroll-target="#mantenimiento">Mantenimiento</a></li>
-  <li><a href="#stack-técnico" id="toc-stack-técnico" class="nav-link" data-scroll-target="#stack-técnico">Stack técnico</a></li>
-  <li><a href="#licencia-del-contenido" id="toc-licencia-del-contenido" class="nav-link" data-scroll-target="#licencia-del-contenido">Licencia del contenido</a></li>
+  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
+  <li><a href="#maintenance" id="toc-maintenance" class="nav-link" data-scroll-target="#maintenance">Maintenance</a></li>
+  <li><a href="#tech-stack" id="toc-tech-stack" class="nav-link" data-scroll-target="#tech-stack">Tech stack</a></li>
+  <li><a href="#content-license" id="toc-content-license" class="nav-link" data-scroll-target="#content-license">Content license</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/aspardog/wjp-github-guide/edit/main/about.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/aspardog/wjp-github-guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -309,7 +309,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Acerca de esta guía</h1>
+<h1 class="title">About this guide</h1>
 </div>
 
 
@@ -326,31 +326,31 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="propósito" class="level2">
-<h2 class="anchored" data-anchor-id="propósito">Propósito</h2>
-<p>Esta guía documenta las prácticas de Git y GitHub que el equipo de WJP adopta como estándar. Su objetivo es triple:</p>
+<section id="purpose" class="level2">
+<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
+<p>This guide documents the Git and GitHub practices that the WJP team adopts as standard. Its objective is threefold:</p>
 <ol type="1">
-<li><strong>Reducir la curva de entrada</strong> para personas nuevas en el equipo.</li>
-<li><strong>Unificar criterios</strong> sobre cómo nombramos branches, escribimos commits, hacemos code review y estructuramos repositorios.</li>
-<li><strong>Servir de referencia rápida</strong> cuando alguien necesita recordar un comando o una convención.</li>
+<li><strong>Reduce the learning curve</strong> for new team members.</li>
+<li><strong>Unify criteria</strong> on how we name branches, write commits, do code review, and structure repositories.</li>
+<li><strong>Serve as a quick reference</strong> when someone needs to remember a command or convention.</li>
 </ol>
 </section>
-<section id="mantenimiento" class="level2">
-<h2 class="anchored" data-anchor-id="mantenimiento">Mantenimiento</h2>
-<p>La guía es un documento vivo. Cualquier miembro del equipo puede proponer cambios:</p>
+<section id="maintenance" class="level2">
+<h2 class="anchored" data-anchor-id="maintenance">Maintenance</h2>
+<p>The guide is a living document. Any team member can propose changes:</p>
 <ul>
-<li>Para <strong>correcciones menores</strong> (errata, typos, links rotos): editá directo y abrí un PR.</li>
-<li>Para <strong>cambios de contenido</strong> (agregar una sección, modificar una práctica): abrí primero un issue para discutirlo, después el PR.</li>
-<li>Para <strong>cambios de política</strong> (modificar una convención de equipo): el cambio requiere consenso, no solo revisión de código. Discutilo en el canal correspondiente antes de abrir el PR.</li>
+<li>For <strong>minor corrections</strong> (errata, typos, broken links): edit directly and open a PR.</li>
+<li>For <strong>content changes</strong> (adding a section, modifying a practice): open an issue first to discuss it, then the PR.</li>
+<li>For <strong>policy changes</strong> (modifying a team convention): the change requires consensus, not just code review. Discuss it in the appropriate channel before opening the PR.</li>
 </ul>
 </section>
-<section id="stack-técnico" class="level2">
-<h2 class="anchored" data-anchor-id="stack-técnico">Stack técnico</h2>
-<p>Este sitio está construido con <a href="https://quarto.org">Quarto</a>, un sistema de publicación abierto que soporta Markdown enriquecido y código ejecutable en R, Python, Julia y JavaScript. Se publica automáticamente en GitHub Pages mediante GitHub Actions cada vez que se hace merge a <code>main</code>.</p>
+<section id="tech-stack" class="level2">
+<h2 class="anchored" data-anchor-id="tech-stack">Tech stack</h2>
+<p>This site is built with <a href="https://quarto.org">Quarto</a>, an open publishing system that supports enriched Markdown and executable code in R, Python, Julia, and JavaScript. It’s automatically published to GitHub Pages via GitHub Actions every time a merge to <code>main</code> happens.</p>
 </section>
-<section id="licencia-del-contenido" class="level2">
-<h2 class="anchored" data-anchor-id="licencia-del-contenido">Licencia del contenido</h2>
-<p>El contenido de esta guía está disponible bajo <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0</a> salvo indicación contraria. El código embebido está bajo MIT.</p>
+<section id="content-license" class="level2">
+<h2 class="anchored" data-anchor-id="content-license">Content license</h2>
+<p>The content of this guide is available under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0</a> unless otherwise indicated. Embedded code is under MIT.</p>
 
 
 </section>
@@ -776,10 +776,10 @@ ul.task-list li input[type="checkbox"] {
 <p>© 2026 World Justice Project</p>
 </div>   
     <div class="nav-footer-center">
-<p>Guía mantenida por el equipo de WJP</p>
+<p>Guide maintained by the WJP team</p>
 <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/aspardog/wjp-github-guide/edit/main/about.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/aspardog/wjp-github-guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
-<p>Hecho con <a href="https://quarto.org">Quarto</a></p>
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
 </div>
   </div>
 </footer>
