@@ -35,91 +35,199 @@
     "text": "Content license\nThe content of this guide is available under Creative Commons BY 4.0 unless otherwise indicated. Embedded code is under MIT."
   },
   {
-    "objectID": "guia/index.html",
-    "href": "guia/index.html",
-    "title": "Guide: Index",
+    "objectID": "blog/posts/bienvenida/index.html",
+    "href": "blog/posts/bienvenida/index.html",
+    "title": "Welcome: why this guide exists",
     "section": "",
-    "text": "This guide is designed to be read in order the first time. Each section assumes knowledge from the previous ones.",
+    "text": "This is the first blog post accompanying the WJP GitHub guide. Instead of starting with technical content, it’s worth explaining why we decided to invest time in writing this."
+  },
+  {
+    "objectID": "blog/posts/bienvenida/index.html#the-problem-were-solving",
+    "href": "blog/posts/bienvenida/index.html#the-problem-were-solving",
+    "title": "Welcome: why this guide exists",
+    "section": "The problem we’re solving",
+    "text": "The problem we’re solving\nIn recent months we noticed a pattern: every time someone new joined the team, we repeated the same explanations about how we work with Git. Each time slightly different, depending on who was explaining. The consequence was predictable — inconsistent conventions, recurring doubts that no one knew who to ask, and knowledge concentrated in a few people.\nThe solution isn’t novel: written documentation, maintained as code, accessible from anywhere."
+  },
+  {
+    "objectID": "blog/posts/bienvenida/index.html#what-will-live-on-the-blog",
+    "href": "blog/posts/bienvenida/index.html#what-will-live-on-the-blog",
+    "title": "Welcome: why this guide exists",
+    "section": "What will live on the blog",
+    "text": "What will live on the blog\nThe guide is the stable reference. It covers the practices we adopt as standard.\nThe blog complements with:\n\nChange announcements in policies or conventions, with their justification.\nADRs (Architecture Decision Records) — important technical decisions and why they were made.\nCase studies — when something went well or badly, what we learned.\nTechnical notes shorter than a full section in the guide."
+  },
+  {
+    "objectID": "blog/posts/bienvenida/index.html#how-to-contribute",
+    "href": "blog/posts/bienvenida/index.html#how-to-contribute",
+    "title": "Welcome: why this guide exists",
+    "section": "How to contribute",
+    "text": "How to contribute\nThis is an open initiative from the team. If you find errors, missing information, or want to add a post: the repository is here. The contribution rules are in About.\n\nWelcome. Start with Basic Concepts if you’re just getting started."
+  },
+  {
+    "objectID": "guia/01-conceptos.html",
+    "href": "guia/01-conceptos.html",
+    "title": "Basic Concepts",
+    "section": "",
+    "text": "NoteBefore you start\n\n\n\nThis section is conceptual. You don’t need to install anything yet — just understand the pieces we’re going to use.",
     "crumbs": [
       "Guide",
-      "Guide: Index"
+      "Fundamentals",
+      "Conceptos previos"
     ]
   },
   {
-    "objectID": "guia/index.html#fundamentals",
-    "href": "guia/index.html#fundamentals",
-    "title": "Guide: Index",
-    "section": "Fundamentals",
-    "text": "Fundamentals\nThe minimum that every team member needs to understand, regardless of their role.\n\nBasic Concepts — What is Git, what is GitHub, and why they’re not the same thing.\nInitial Setup — Installing Git, terminal setup, and authentication with GitHub CLI.\nCloning Repositories — How to download repositories using HTTPS or SSH.",
+    "objectID": "guia/01-conceptos.html#git-and-github-are-not-the-same-thing",
+    "href": "guia/01-conceptos.html#git-and-github-are-not-the-same-thing",
+    "title": "Basic Concepts",
+    "section": "Git and GitHub are not the same thing",
+    "text": "Git and GitHub are not the same thing\nMany people confuse these terms. Understanding the difference prevents conceptual errors later on.\n\n\nGit\nDistributed version control system\n\nProgram that runs on your computer\nRecords the history of changes to files\nCreated by Linus Torvalds in 2005\nWorks completely offline\nDoesn’t need servers or internet\n\n\n\nGitHub\nRepository hosting platform\n\nWeb service owned by Microsoft\nVisual interface for Git repositories\nPull requests, issues, permissions\nAutomation with GitHub Actions\nTeam collaboration\n\n\n\n\n\n\n\n\n\nTipUseful analogy\n\n\n\nGit is like Microsoft Word — it lets you write and save versions without internet.\nGitHub is like Google Drive — it lets you share, comment, and collaborate with others.\nYou can use Word without Drive. You can use Git without GitHub.",
     "crumbs": [
       "Guide",
-      "Guide: Index"
+      "Fundamentals",
+      "Conceptos previos"
     ]
   },
   {
-    "objectID": "guia/index.html#wjp-workflow",
-    "href": "guia/index.html#wjp-workflow",
-    "title": "Guide: Index",
-    "section": "WJP Workflow",
-    "text": "WJP Workflow\n(Coming soon) — Organizational decisions: branching strategy, commit conventions, code review, PR and issue templates.",
+    "objectID": "guia/01-conceptos.html#what-problem-does-git-solve",
+    "href": "guia/01-conceptos.html#what-problem-does-git-solve",
+    "title": "Basic Concepts",
+    "section": "What problem does Git solve?",
+    "text": "What problem does Git solve?\nBefore Git, collaborating on files looked something like this:\nfinal_project.docx\nfinal_project_v2.docx\nfinal_project_v2_corrected.docx\nfinal_project_v2_corrected_john.docx\nfinal_project_FINAL.docx\nfinal_project_FINAL_THIS_ONE.docx\nGit solves this by recording each change as a commit — a “snapshot” of the project’s state at a given moment, with author, date, and message.\n\nConcrete benefits\n\n\nTraceability\nYou can see who changed what, when, and why (if the commit message is good).\n\n\nReversibility\nIf something broke, you can go back to any previous state without losing what came after.\n\n\nParallel collaboration\nTwo people can work on the same file. Git combines the changes automatically.\n\n\nSafe experimentation\nCreate a branch to try ideas without affecting the main version.",
     "crumbs": [
       "Guide",
-      "Guide: Index"
+      "Fundamentals",
+      "Conceptos previos"
     ]
   },
   {
-    "objectID": "guia/index.html#best-practices",
-    "href": "guia/index.html#best-practices",
-    "title": "Guide: Index",
-    "section": "Best Practices",
-    "text": "Best Practices\n(Coming soon) — .gitignore for R and Python, handling large files, resolving conflicts, what never to upload.",
+    "objectID": "guia/01-conceptos.html#what-does-github-add",
+    "href": "guia/01-conceptos.html#what-does-github-add",
+    "title": "Basic Concepts",
+    "section": "What does GitHub add?",
+    "text": "What does GitHub add?\nGit by itself is a command-line tool. GitHub adds a complete collaboration layer:\n\n\n\n\n\n\n\nFeature\nDescription\n\n\n\n\nCentralized hosting\nA reference place where the “official” repository lives\n\n\nWeb interface\nReview code without cloning, browse files and histories\n\n\nPull Requests\nPropose changes and discuss them before merging\n\n\nIssues\nTickets for bugs, features, and tasks\n\n\nPermissions\nControl over who can read, write, administer\n\n\nActions\nAutomation for tests, deployments, and more\n\n\nGitHub Pages\nFree static hosting (like this site)",
     "crumbs": [
       "Guide",
-      "Guide: Index"
+      "Fundamentals",
+      "Conceptos previos"
     ]
   },
   {
-    "objectID": "guia/index.html#language-specific",
-    "href": "guia/index.html#language-specific",
-    "title": "Guide: Index",
-    "section": "Language-Specific",
-    "text": "Language-Specific\n(Coming soon) — Recommended structure for R projects (renv, here), Python, and reproducible data.",
+    "objectID": "guia/01-conceptos.html#why-does-wjp-use-github",
+    "href": "guia/01-conceptos.html#why-does-wjp-use-github",
+    "title": "Basic Concepts",
+    "section": "Why does WJP use GitHub?",
+    "text": "Why does WJP use GitHub?\n\n\nReproducibility\nMuch of WJP’s work is quantitative analysis. Versioning code (R, Python) alongside documentation ensures that any result can be reproduced years later.\n\n\nCollaboration\nThe team is distributed. Pull Requests allow reviewing colleagues’ work without needing to be in the same meeting.\n\n\nTransparency\nPublic repositories allow third parties — academia, press, civil society — to verify methodologies.",
     "crumbs": [
       "Guide",
-      "Guide: Index"
+      "Fundamentals",
+      "Conceptos previos"
     ]
   },
   {
-    "objectID": "guia/index.html#security",
-    "href": "guia/index.html#security",
-    "title": "Guide: Index",
-    "section": "Security",
-    "text": "Security\n(Coming soon) — Secrets management, leak auditing, what to do when something sensitive was uploaded by mistake.",
+    "objectID": "guia/01-conceptos.html#alternatives-to-github",
+    "href": "guia/01-conceptos.html#alternatives-to-github",
+    "title": "Basic Concepts",
+    "section": "Alternatives to GitHub",
+    "text": "Alternatives to GitHub\nGitHub is not the only option. Other platforms that also host Git repositories:\n\nGitLab — popular in companies, has more integrated DevOps features\nBitbucket — by Atlassian, integrates well with Jira\nCodeberg — open source and non-profit alternative\n\nThe skills you learn with Git will serve you on any platform.",
     "crumbs": [
       "Guide",
-      "Guide: Index"
+      "Fundamentals",
+      "Conceptos previos"
     ]
   },
   {
-    "objectID": "guia/index.html#advanced",
-    "href": "guia/index.html#advanced",
-    "title": "Guide: Index",
-    "section": "Advanced",
-    "text": "Advanced\n(Coming soon) — GitHub Actions for CI, branch protection rules, releases and semantic versioning.",
+    "objectID": "guia/01-conceptos.html#further-reading",
+    "href": "guia/01-conceptos.html#further-reading",
+    "title": "Basic Concepts",
+    "section": "Further reading",
+    "text": "Further reading\n\n\n\n\n\n\nNoteRecommended resources\n\n\n\n\nPro Git book — The official Git book, free. Chapters 1 and 2 are required reading.\nGitHub Skills — Free interactive courses from GitHub.",
     "crumbs": [
       "Guide",
-      "Guide: Index"
+      "Fundamentals",
+      "Conceptos previos"
     ]
   },
   {
-    "objectID": "guia/index.html#appendix",
-    "href": "guia/index.html#appendix",
-    "title": "Guide: Index",
-    "section": "Appendix",
-    "text": "Appendix\n(Coming soon) — FAQ, common errors and how to recover from them.",
+    "objectID": "guia/01-conceptos.html#next-step",
+    "href": "guia/01-conceptos.html#next-step",
+    "title": "Basic Concepts",
+    "section": "Next step",
+    "text": "Next step\nNow that you understand the pieces, it’s time to install the tools.\nGo to Initial Setup →",
     "crumbs": [
       "Guide",
-      "Guide: Index"
+      "Fundamentals",
+      "Conceptos previos"
+    ]
+  },
+  {
+    "objectID": "guia/02-setup.html",
+    "href": "guia/02-setup.html",
+    "title": "Initial Setup",
+    "section": "",
+    "text": "This section takes you from zero to having Git installed and authenticated with GitHub.",
+    "crumbs": [
+      "Guide",
+      "Fundamentals",
+      "Initial Setup"
+    ]
+  },
+  {
+    "objectID": "guia/02-setup.html#introduction-to-the-terminal-and-bash",
+    "href": "guia/02-setup.html#introduction-to-the-terminal-and-bash",
+    "title": "Initial Setup",
+    "section": "Introduction to the Terminal and Bash",
+    "text": "Introduction to the Terminal and Bash\nGit is a command-line tool that operates from the terminal. The commands you’ll use are written in a shell language called Bash (Bourne Again Shell).\n\nWhat is Bash?\nBash is a command interpreter that allows you to interact with your computer by typing text instructions. It’s the standard shell on Unix systems (macOS, Linux) and is also available on Windows.\n\n\nHow to access Bash?\n\nmacOS: Open the Terminal application (found in Applications → Utilities). The default shell in modern macOS is zsh, which is compatible with Bash.\nLinux: Open your distribution’s terminal. Bash is usually the default shell.\nWindows: After installing Git for Windows, you’ll have access to Git Bash, an emulator that gives you a complete Bash environment.\n\n\n\n\n\n\n\nTip\n\n\n\nIf you ever need to explicitly switch to Bash, simply type bash in the terminal and press Enter.\n\n\nAll commands in this guide assume you’re in a terminal with Bash or a compatible shell (like zsh).",
+    "crumbs": [
+      "Guide",
+      "Fundamentals",
+      "Initial Setup"
+    ]
+  },
+  {
+    "objectID": "guia/02-setup.html#installing-git",
+    "href": "guia/02-setup.html#installing-git",
+    "title": "Initial Setup",
+    "section": "Installing Git",
+    "text": "Installing Git\n\nWindows\nThe recommended way is Git for Windows, which includes Git Bash.\n\nDownload from git-scm.com/download/win.\nDuring installation, accept the defaults except for two points:\n\nIn “Choosing the default editor”: choose the editor you’ll use (VS Code, Notepad++, or your preference). The default (Vim) is problematic if you don’t know it.\nIn “Adjusting your PATH environment”: leave the middle option, “Git from the command line and also from 3rd-party software”.\n\nVerify the installation by opening Git Bash:\n\ngit --version\n\n\nmacOS\nThree options, in order of preference:\nOption A — Homebrew (recommended if you already use Homebrew):\nbrew install git\nOption B — Xcode Command Line Tools (sufficient for most):\nxcode-select --install\nThis installs Git along with compilers and other development utilities.\nOption C — Official installer from git-scm.com/download/mac.\nVerify the installation:\ngit --version\n\n\nLinux\nUse your distribution’s package manager:\n# Debian / Ubuntu\nsudo apt update && sudo apt install git\n\n# Fedora / RHEL\nsudo dnf install git\n\n# Arch\nsudo pacman -S git",
+    "crumbs": [
+      "Guide",
+      "Fundamentals",
+      "Initial Setup"
+    ]
+  },
+  {
+    "objectID": "guia/02-setup.html#authentication-with-github-cli",
+    "href": "guia/02-setup.html#authentication-with-github-cli",
+    "title": "Initial Setup",
+    "section": "Authentication with GitHub CLI",
+    "text": "Authentication with GitHub CLI\nThe easiest way to authenticate with GitHub is using GitHub CLI (gh), GitHub’s official terminal client.\n\nInstalling GitHub CLI\n\nmacOSWindowsLinux\n\n\nbrew install gh\nIf you don’t have Homebrew installed, first install it from brew.sh:\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n\nwinget install GitHub.cli\nOr download the installer from cli.github.com.\n\n\n# Debian / Ubuntu\nsudo apt install gh\n\n# Fedora\nsudo dnf install gh\n\n# Arch\nsudo pacman -S github-cli\n\n\n\n\n\nAuthentication\nOnce installed, authenticate with your GitHub account:\ngh auth login\nThe command will guide you through an interactive process:\n\nChoose GitHub.com (not Enterprise).\nChoose HTTPS as the preferred protocol.\nWhen asked if you want to authenticate Git with your GitHub credentials, say Yes.\nChoose Login with a web browser.\nCopy the one-time code that appears.\nPress Enter to open the browser.\nPaste the code on the GitHub page and authorize.\n\n\n\n\n\n\n\nNote\n\n\n\nThis process automatically configures Git to push and pull to GitHub repositories without asking for your password each time.\n\n\n\n\nVerification\nTo confirm everything is working:\ngh auth status\nYou should see something like:\ngithub.com\n  ✓ Logged in to github.com as YOUR-USERNAME\n  ✓ Git operations for github.com configured to use https protocol.\n  ✓ Token: gho_************************************",
+    "crumbs": [
+      "Guide",
+      "Fundamentals",
+      "Initial Setup"
+    ]
+  },
+  {
+    "objectID": "guia/02-setup.html#auxiliary-tools-optional",
+    "href": "guia/02-setup.html#auxiliary-tools-optional",
+    "title": "Initial Setup",
+    "section": "Auxiliary tools (optional)",
+    "text": "Auxiliary tools (optional)\n\nGraphical client\nIf you prefer a graphical interface for complex tasks (reviewing large diffs, resolving conflicts):\n\nGitHub Desktop (desktop.github.com) — simple, maintained by GitHub, sufficient for most.\nGitKraken — more complete, freemium.\nVS Code — has excellent built-in Git integration.\n\n\n\n\n\n\n\nTip\n\n\n\nEven if you use a graphical client for day-to-day work, learn the command line. When something breaks, the GUI almost always hides what’s happening, and the solution lives in the terminal.",
+    "crumbs": [
+      "Guide",
+      "Fundamentals",
+      "Initial Setup"
+    ]
+  },
+  {
+    "objectID": "guia/02-setup.html#next-step",
+    "href": "guia/02-setup.html#next-step",
+    "title": "Initial Setup",
+    "section": "Next step",
+    "text": "Next step\nNow that you have Git installed and authenticated, learn to clone your first repository.",
+    "crumbs": [
+      "Guide",
+      "Fundamentals",
+      "Initial Setup"
     ]
   },
   {
@@ -219,32 +327,92 @@
     ]
   },
   {
-    "objectID": "blog/posts/bienvenida/index.html",
-    "href": "blog/posts/bienvenida/index.html",
-    "title": "Welcome: why this guide exists",
+    "objectID": "guia/index.html",
+    "href": "guia/index.html",
+    "title": "Guide: Index",
     "section": "",
-    "text": "This is the first blog post accompanying the WJP GitHub guide. Instead of starting with technical content, it’s worth explaining why we decided to invest time in writing this."
+    "text": "This guide is designed to be read in order the first time. Each section assumes knowledge from the previous ones.",
+    "crumbs": [
+      "Guide",
+      "Guide: Index"
+    ]
   },
   {
-    "objectID": "blog/posts/bienvenida/index.html#the-problem-were-solving",
-    "href": "blog/posts/bienvenida/index.html#the-problem-were-solving",
-    "title": "Welcome: why this guide exists",
-    "section": "The problem we’re solving",
-    "text": "The problem we’re solving\nIn recent months we noticed a pattern: every time someone new joined the team, we repeated the same explanations about how we work with Git. Each time slightly different, depending on who was explaining. The consequence was predictable — inconsistent conventions, recurring doubts that no one knew who to ask, and knowledge concentrated in a few people.\nThe solution isn’t novel: written documentation, maintained as code, accessible from anywhere."
+    "objectID": "guia/index.html#fundamentals",
+    "href": "guia/index.html#fundamentals",
+    "title": "Guide: Index",
+    "section": "Fundamentals",
+    "text": "Fundamentals\nThe minimum that every team member needs to understand, regardless of their role.\n\nBasic Concepts — What is Git, what is GitHub, and why they’re not the same thing.\nInitial Setup — Installing Git, terminal setup, and authentication with GitHub CLI.\nCloning Repositories — How to download repositories using HTTPS or SSH.",
+    "crumbs": [
+      "Guide",
+      "Guide: Index"
+    ]
   },
   {
-    "objectID": "blog/posts/bienvenida/index.html#what-will-live-on-the-blog",
-    "href": "blog/posts/bienvenida/index.html#what-will-live-on-the-blog",
-    "title": "Welcome: why this guide exists",
-    "section": "What will live on the blog",
-    "text": "What will live on the blog\nThe guide is the stable reference. It covers the practices we adopt as standard.\nThe blog complements with:\n\nChange announcements in policies or conventions, with their justification.\nADRs (Architecture Decision Records) — important technical decisions and why they were made.\nCase studies — when something went well or badly, what we learned.\nTechnical notes shorter than a full section in the guide."
+    "objectID": "guia/index.html#wjp-workflow",
+    "href": "guia/index.html#wjp-workflow",
+    "title": "Guide: Index",
+    "section": "WJP Workflow",
+    "text": "WJP Workflow\n(Coming soon) — Organizational decisions: branching strategy, commit conventions, code review, PR and issue templates.",
+    "crumbs": [
+      "Guide",
+      "Guide: Index"
+    ]
   },
   {
-    "objectID": "blog/posts/bienvenida/index.html#how-to-contribute",
-    "href": "blog/posts/bienvenida/index.html#how-to-contribute",
-    "title": "Welcome: why this guide exists",
-    "section": "How to contribute",
-    "text": "How to contribute\nThis is an open initiative from the team. If you find errors, missing information, or want to add a post: the repository is here. The contribution rules are in About.\n\nWelcome. Start with Basic Concepts if you’re just getting started."
+    "objectID": "guia/index.html#best-practices",
+    "href": "guia/index.html#best-practices",
+    "title": "Guide: Index",
+    "section": "Best Practices",
+    "text": "Best Practices\n(Coming soon) — .gitignore for R and Python, handling large files, resolving conflicts, what never to upload.",
+    "crumbs": [
+      "Guide",
+      "Guide: Index"
+    ]
+  },
+  {
+    "objectID": "guia/index.html#language-specific",
+    "href": "guia/index.html#language-specific",
+    "title": "Guide: Index",
+    "section": "Language-Specific",
+    "text": "Language-Specific\n(Coming soon) — Recommended structure for R projects (renv, here), Python, and reproducible data.",
+    "crumbs": [
+      "Guide",
+      "Guide: Index"
+    ]
+  },
+  {
+    "objectID": "guia/index.html#security",
+    "href": "guia/index.html#security",
+    "title": "Guide: Index",
+    "section": "Security",
+    "text": "Security\n(Coming soon) — Secrets management, leak auditing, what to do when something sensitive was uploaded by mistake.",
+    "crumbs": [
+      "Guide",
+      "Guide: Index"
+    ]
+  },
+  {
+    "objectID": "guia/index.html#advanced",
+    "href": "guia/index.html#advanced",
+    "title": "Guide: Index",
+    "section": "Advanced",
+    "text": "Advanced\n(Coming soon) — GitHub Actions for CI, branch protection rules, releases and semantic versioning.",
+    "crumbs": [
+      "Guide",
+      "Guide: Index"
+    ]
+  },
+  {
+    "objectID": "guia/index.html#appendix",
+    "href": "guia/index.html#appendix",
+    "title": "Guide: Index",
+    "section": "Appendix",
+    "text": "Appendix\n(Coming soon) — FAQ, common errors and how to recover from them.",
+    "crumbs": [
+      "Guide",
+      "Guide: Index"
+    ]
   },
   {
     "objectID": "index.html",
@@ -273,173 +441,5 @@
     "title": "Blog",
     "section": "",
     "text": "Welcome: why this guide exists\n\n\n\nmeta\n\nannouncements\n\n\n\nContext and purpose behind the decision to document our Git practices at WJP\n\n\n\n\n\nMay 18, 2026\n\n\nWJP Team\n\n2 min\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "guia/02-setup.html",
-    "href": "guia/02-setup.html",
-    "title": "Initial Setup",
-    "section": "",
-    "text": "This section takes you from zero to having Git installed and authenticated with GitHub.",
-    "crumbs": [
-      "Guide",
-      "Fundamentals",
-      "Initial Setup"
-    ]
-  },
-  {
-    "objectID": "guia/02-setup.html#introduction-to-the-terminal-and-bash",
-    "href": "guia/02-setup.html#introduction-to-the-terminal-and-bash",
-    "title": "Initial Setup",
-    "section": "Introduction to the Terminal and Bash",
-    "text": "Introduction to the Terminal and Bash\nGit is a command-line tool that operates from the terminal. The commands you’ll use are written in a shell language called Bash (Bourne Again Shell).\n\nWhat is Bash?\nBash is a command interpreter that allows you to interact with your computer by typing text instructions. It’s the standard shell on Unix systems (macOS, Linux) and is also available on Windows.\n\n\nHow to access Bash?\n\nmacOS: Open the Terminal application (found in Applications → Utilities). The default shell in modern macOS is zsh, which is compatible with Bash.\nLinux: Open your distribution’s terminal. Bash is usually the default shell.\nWindows: After installing Git for Windows, you’ll have access to Git Bash, an emulator that gives you a complete Bash environment.\n\n\n\n\n\n\n\nTip\n\n\n\nIf you ever need to explicitly switch to Bash, simply type bash in the terminal and press Enter.\n\n\nAll commands in this guide assume you’re in a terminal with Bash or a compatible shell (like zsh).",
-    "crumbs": [
-      "Guide",
-      "Fundamentals",
-      "Initial Setup"
-    ]
-  },
-  {
-    "objectID": "guia/02-setup.html#installing-git",
-    "href": "guia/02-setup.html#installing-git",
-    "title": "Initial Setup",
-    "section": "Installing Git",
-    "text": "Installing Git\n\nWindows\nThe recommended way is Git for Windows, which includes Git Bash.\n\nDownload from git-scm.com/download/win.\nDuring installation, accept the defaults except for two points:\n\nIn “Choosing the default editor”: choose the editor you’ll use (VS Code, Notepad++, or your preference). The default (Vim) is problematic if you don’t know it.\nIn “Adjusting your PATH environment”: leave the middle option, “Git from the command line and also from 3rd-party software”.\n\nVerify the installation by opening Git Bash:\n\ngit --version\n\n\nmacOS\nThree options, in order of preference:\nOption A — Homebrew (recommended if you already use Homebrew):\nbrew install git\nOption B — Xcode Command Line Tools (sufficient for most):\nxcode-select --install\nThis installs Git along with compilers and other development utilities.\nOption C — Official installer from git-scm.com/download/mac.\nVerify the installation:\ngit --version\n\n\nLinux\nUse your distribution’s package manager:\n# Debian / Ubuntu\nsudo apt update && sudo apt install git\n\n# Fedora / RHEL\nsudo dnf install git\n\n# Arch\nsudo pacman -S git",
-    "crumbs": [
-      "Guide",
-      "Fundamentals",
-      "Initial Setup"
-    ]
-  },
-  {
-    "objectID": "guia/02-setup.html#authentication-with-github-cli",
-    "href": "guia/02-setup.html#authentication-with-github-cli",
-    "title": "Initial Setup",
-    "section": "Authentication with GitHub CLI",
-    "text": "Authentication with GitHub CLI\nThe easiest way to authenticate with GitHub is using GitHub CLI (gh), GitHub’s official terminal client.\n\nInstalling GitHub CLI\n\nmacOSWindowsLinux\n\n\nbrew install gh\nIf you don’t have Homebrew installed, first install it from brew.sh:\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n\nwinget install GitHub.cli\nOr download the installer from cli.github.com.\n\n\n# Debian / Ubuntu\nsudo apt install gh\n\n# Fedora\nsudo dnf install gh\n\n# Arch\nsudo pacman -S github-cli\n\n\n\n\n\nAuthentication\nOnce installed, authenticate with your GitHub account:\ngh auth login\nThe command will guide you through an interactive process:\n\nChoose GitHub.com (not Enterprise).\nChoose HTTPS as the preferred protocol.\nWhen asked if you want to authenticate Git with your GitHub credentials, say Yes.\nChoose Login with a web browser.\nCopy the one-time code that appears.\nPress Enter to open the browser.\nPaste the code on the GitHub page and authorize.\n\n\n\n\n\n\n\nNote\n\n\n\nThis process automatically configures Git to push and pull to GitHub repositories without asking for your password each time.\n\n\n\n\nVerification\nTo confirm everything is working:\ngh auth status\nYou should see something like:\ngithub.com\n  ✓ Logged in to github.com as YOUR-USERNAME\n  ✓ Git operations for github.com configured to use https protocol.\n  ✓ Token: gho_************************************",
-    "crumbs": [
-      "Guide",
-      "Fundamentals",
-      "Initial Setup"
-    ]
-  },
-  {
-    "objectID": "guia/02-setup.html#auxiliary-tools-optional",
-    "href": "guia/02-setup.html#auxiliary-tools-optional",
-    "title": "Initial Setup",
-    "section": "Auxiliary tools (optional)",
-    "text": "Auxiliary tools (optional)\n\nGraphical client\nIf you prefer a graphical interface for complex tasks (reviewing large diffs, resolving conflicts):\n\nGitHub Desktop (desktop.github.com) — simple, maintained by GitHub, sufficient for most.\nGitKraken — more complete, freemium.\nVS Code — has excellent built-in Git integration.\n\n\n\n\n\n\n\nTip\n\n\n\nEven if you use a graphical client for day-to-day work, learn the command line. When something breaks, the GUI almost always hides what’s happening, and the solution lives in the terminal.",
-    "crumbs": [
-      "Guide",
-      "Fundamentals",
-      "Initial Setup"
-    ]
-  },
-  {
-    "objectID": "guia/02-setup.html#next-step",
-    "href": "guia/02-setup.html#next-step",
-    "title": "Initial Setup",
-    "section": "Next step",
-    "text": "Next step\nNow that you have Git installed and authenticated, learn to clone your first repository.",
-    "crumbs": [
-      "Guide",
-      "Fundamentals",
-      "Initial Setup"
-    ]
-  },
-  {
-    "objectID": "guia/01-conceptos.html",
-    "href": "guia/01-conceptos.html",
-    "title": "Basic Concepts",
-    "section": "",
-    "text": "NoteBefore you start\n\n\n\nThis section is conceptual. You don’t need to install anything yet — just understand the pieces we’re going to use.",
-    "crumbs": [
-      "Guide",
-      "Fundamentals",
-      "Basic Concepts"
-    ]
-  },
-  {
-    "objectID": "guia/01-conceptos.html#git-and-github-are-not-the-same-thing",
-    "href": "guia/01-conceptos.html#git-and-github-are-not-the-same-thing",
-    "title": "Basic Concepts",
-    "section": "Git and GitHub are not the same thing",
-    "text": "Git and GitHub are not the same thing\nMany people confuse these terms. Understanding the difference prevents conceptual errors later on.\n\n\nGit\nDistributed version control system\n\nProgram that runs on your computer\nRecords the history of changes to files\nCreated by Linus Torvalds in 2005\nWorks completely offline\nDoesn’t need servers or internet\n\n\n\nGitHub\nRepository hosting platform\n\nWeb service owned by Microsoft\nVisual interface for Git repositories\nPull requests, issues, permissions\nAutomation with GitHub Actions\nTeam collaboration\n\n\n\n\n\n\n\n\n\nTipUseful analogy\n\n\n\nGit is like Microsoft Word — it lets you write and save versions without internet.\nGitHub is like Google Drive — it lets you share, comment, and collaborate with others.\nYou can use Word without Drive. You can use Git without GitHub.",
-    "crumbs": [
-      "Guide",
-      "Fundamentals",
-      "Basic Concepts"
-    ]
-  },
-  {
-    "objectID": "guia/01-conceptos.html#what-problem-does-git-solve",
-    "href": "guia/01-conceptos.html#what-problem-does-git-solve",
-    "title": "Basic Concepts",
-    "section": "What problem does Git solve?",
-    "text": "What problem does Git solve?\nBefore Git, collaborating on files looked something like this:\nfinal_project.docx\nfinal_project_v2.docx\nfinal_project_v2_corrected.docx\nfinal_project_v2_corrected_john.docx\nfinal_project_FINAL.docx\nfinal_project_FINAL_THIS_ONE.docx\nGit solves this by recording each change as a commit — a “snapshot” of the project’s state at a given moment, with author, date, and message.\n\nConcrete benefits\n\n\nTraceability\nYou can see who changed what, when, and why (if the commit message is good).\n\n\nReversibility\nIf something broke, you can go back to any previous state without losing what came after.\n\n\nParallel collaboration\nTwo people can work on the same file. Git combines the changes automatically.\n\n\nSafe experimentation\nCreate a branch to try ideas without affecting the main version.",
-    "crumbs": [
-      "Guide",
-      "Fundamentals",
-      "Basic Concepts"
-    ]
-  },
-  {
-    "objectID": "guia/01-conceptos.html#what-does-github-add",
-    "href": "guia/01-conceptos.html#what-does-github-add",
-    "title": "Basic Concepts",
-    "section": "What does GitHub add?",
-    "text": "What does GitHub add?\nGit by itself is a command-line tool. GitHub adds a complete collaboration layer:\n\n\n\n\n\n\n\nFeature\nDescription\n\n\n\n\nCentralized hosting\nA reference place where the “official” repository lives\n\n\nWeb interface\nReview code without cloning, browse files and histories\n\n\nPull Requests\nPropose changes and discuss them before merging\n\n\nIssues\nTickets for bugs, features, and tasks\n\n\nPermissions\nControl over who can read, write, administer\n\n\nActions\nAutomation for tests, deployments, and more\n\n\nGitHub Pages\nFree static hosting (like this site)",
-    "crumbs": [
-      "Guide",
-      "Fundamentals",
-      "Basic Concepts"
-    ]
-  },
-  {
-    "objectID": "guia/01-conceptos.html#why-does-wjp-use-github",
-    "href": "guia/01-conceptos.html#why-does-wjp-use-github",
-    "title": "Basic Concepts",
-    "section": "Why does WJP use GitHub?",
-    "text": "Why does WJP use GitHub?\n\n\nReproducibility\nMuch of WJP’s work is quantitative analysis. Versioning code (R, Python) alongside documentation ensures that any result can be reproduced years later.\n\n\nCollaboration\nThe team is distributed. Pull Requests allow reviewing colleagues’ work without needing to be in the same meeting.\n\n\nTransparency\nPublic repositories allow third parties — academia, press, civil society — to verify methodologies.",
-    "crumbs": [
-      "Guide",
-      "Fundamentals",
-      "Basic Concepts"
-    ]
-  },
-  {
-    "objectID": "guia/01-conceptos.html#alternatives-to-github",
-    "href": "guia/01-conceptos.html#alternatives-to-github",
-    "title": "Basic Concepts",
-    "section": "Alternatives to GitHub",
-    "text": "Alternatives to GitHub\nGitHub is not the only option. Other platforms that also host Git repositories:\n\nGitLab — popular in companies, has more integrated DevOps features\nBitbucket — by Atlassian, integrates well with Jira\nCodeberg — open source and non-profit alternative\n\nThe skills you learn with Git will serve you on any platform.",
-    "crumbs": [
-      "Guide",
-      "Fundamentals",
-      "Basic Concepts"
-    ]
-  },
-  {
-    "objectID": "guia/01-conceptos.html#further-reading",
-    "href": "guia/01-conceptos.html#further-reading",
-    "title": "Basic Concepts",
-    "section": "Further reading",
-    "text": "Further reading\n\n\n\n\n\n\nNoteRecommended resources\n\n\n\n\nPro Git book — The official Git book, free. Chapters 1 and 2 are required reading.\nGitHub Skills — Free interactive courses from GitHub.",
-    "crumbs": [
-      "Guide",
-      "Fundamentals",
-      "Basic Concepts"
-    ]
-  },
-  {
-    "objectID": "guia/01-conceptos.html#next-step",
-    "href": "guia/01-conceptos.html#next-step",
-    "title": "Basic Concepts",
-    "section": "Next step",
-    "text": "Next step\nNow that you understand the pieces, it’s time to install the tools.\nGo to Initial Setup →",
-    "crumbs": [
-      "Guide",
-      "Fundamentals",
-      "Basic Concepts"
-    ]
   }
 ]

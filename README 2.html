@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Basic Concepts – GitHub Guide — WJP</title>
+<title>readme-2 – GitHub Guide — WJP</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,29 +23,64 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-9504cc46a030617d194632f35d64da1d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-da7aba3777484e10b4c913d3a7806c08.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-9504cc46a030617d194632f35d64da1d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9504cc46a030617d194632f35d64da1d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-da7aba3777484e10b4c913d3a7806c08.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9504cc46a030617d194632f35d64da1d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -246,7 +281,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">GitHub Guide — WJP</span>
     </a>
   </div>
@@ -257,19 +292,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../guia/index.html" aria-current="page"> 
+    <a class="nav-link" href="./guia/index.html"> 
 <span class="menu-text">Guide</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html"> 
+    <a class="nav-link" href="./blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -286,297 +321,156 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../guia/01-conceptos.html">Fundamentals</a></li><li class="breadcrumb-item"><a href="../guia/01-conceptos.html">Conceptos previos</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../guia/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Guide: Index</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Fundamentals</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../guia/01-conceptos.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Conceptos previos</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../guia/02-setup.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Initial Setup</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../guia/03-clonar.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cloning a Repository</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#git-and-github-are-not-the-same-thing" id="toc-git-and-github-are-not-the-same-thing" class="nav-link active" data-scroll-target="#git-and-github-are-not-the-same-thing">Git and GitHub are not the same thing</a></li>
-  <li><a href="#what-problem-does-git-solve" id="toc-what-problem-does-git-solve" class="nav-link" data-scroll-target="#what-problem-does-git-solve">What problem does Git solve?</a>
+  <li><a href="#guía-de-github-wjp" id="toc-guía-de-github-wjp" class="nav-link active" data-scroll-target="#guía-de-github-wjp">Guía de GitHub — WJP</a>
   <ul class="collapse">
-  <li><a href="#concrete-benefits" id="toc-concrete-benefits" class="nav-link" data-scroll-target="#concrete-benefits">Concrete benefits</a></li>
+  <li><a href="#estructura" id="toc-estructura" class="nav-link" data-scroll-target="#estructura">Estructura</a></li>
+  <li><a href="#setup-local" id="toc-setup-local" class="nav-link" data-scroll-target="#setup-local">Setup local</a>
+  <ul class="collapse">
+  <li><a href="#instalar-quarto" id="toc-instalar-quarto" class="nav-link" data-scroll-target="#instalar-quarto">1. Instalar Quarto</a></li>
+  <li><a href="#clonar-y-previsualizar" id="toc-clonar-y-previsualizar" class="nav-link" data-scroll-target="#clonar-y-previsualizar">2. Clonar y previsualizar</a></li>
+  <li><a href="#render-manual-no-necesario-para-deploy" id="toc-render-manual-no-necesario-para-deploy" class="nav-link" data-scroll-target="#render-manual-no-necesario-para-deploy">3. Render manual (no necesario para deploy)</a></li>
   </ul></li>
-  <li><a href="#what-does-github-add" id="toc-what-does-github-add" class="nav-link" data-scroll-target="#what-does-github-add">What does GitHub add?</a></li>
-  <li><a href="#why-does-wjp-use-github" id="toc-why-does-wjp-use-github" class="nav-link" data-scroll-target="#why-does-wjp-use-github">Why does WJP use GitHub?</a></li>
-  <li><a href="#alternatives-to-github" id="toc-alternatives-to-github" class="nav-link" data-scroll-target="#alternatives-to-github">Alternatives to GitHub</a></li>
-  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading">Further reading</a></li>
-  <li><a href="#next-step" id="toc-next-step" class="nav-link" data-scroll-target="#next-step">Next step</a></li>
+  <li><a href="#publicación" id="toc-publicación" class="nav-link" data-scroll-target="#publicación">Publicación</a>
+  <ul class="collapse">
+  <li><a href="#activar-github-pages" id="toc-activar-github-pages" class="nav-link" data-scroll-target="#activar-github-pages">Activar GitHub Pages</a></li>
+  </ul></li>
+  <li><a href="#contribuir" id="toc-contribuir" class="nav-link" data-scroll-target="#contribuir">Contribuir</a></li>
+  <li><a href="#stack" id="toc-stack" class="nav-link" data-scroll-target="#stack">Stack</a></li>
+  <li><a href="#licencia" id="toc-licencia" class="nav-link" data-scroll-target="#licencia">Licencia</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/aspardog/wjp-github-guide/edit/main/guia/01-conceptos.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/aspardog/wjp-github-guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/aspardog/wjp-github-guide/edit/main/README 2.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/aspardog/wjp-github-guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../guia/01-conceptos.html">Fundamentals</a></li><li class="breadcrumb-item"><a href="../guia/01-conceptos.html">Conceptos previos</a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title">Basic Concepts</h1>
-<p class="subtitle lead">What is Git, what is GitHub, and why the distinction matters</p>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
-
-
-<div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Before you start
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This section is conceptual. You don’t need to install anything yet — just understand the pieces we’re going to use.</p>
-</div>
-</div>
-<section id="git-and-github-are-not-the-same-thing" class="level2">
-<h2 class="anchored" data-anchor-id="git-and-github-are-not-the-same-thing">Git and GitHub are not the same thing</h2>
-<p>Many people confuse these terms. Understanding the difference prevents conceptual errors later on.</p>
-<div class="grid">
-<section id="git" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="git">Git</h3>
-<p><strong>Distributed version control system</strong></p>
+<section id="guía-de-github-wjp" class="level1">
+<h1>Guía de GitHub — WJP</h1>
+<p>Sitio construido con <a href="https://quarto.org">Quarto</a> y publicado en GitHub Pages.</p>
+<section id="estructura" class="level2">
+<h2 class="anchored" data-anchor-id="estructura">Estructura</h2>
+<pre><code>.
+├── _quarto.yml              # Configuración del sitio (navbar, sidebar, tema)
+├── index.qmd                # Landing
+├── about.qmd                # Acerca de
+├── guia/                    # Sección de guía (jerárquica)
+│   ├── index.qmd            # Índice de la guía
+│   ├── 01-conceptos.qmd
+│   ├── 02-setup.qmd
+│   └── 03-modelo-mental.qmd
+├── blog/                    # Sección de blog (cronológica)
+│   ├── index.qmd            # Listing
+│   └── posts/
+│       └── bienvenida/
+│           └── index.qmd
+├── styles.css               # CSS personalizado
+├── styles-dark.css          # Overrides modo oscuro
+├── .github/workflows/
+│   └── publish.yml          # CI/CD para publicación
+├── .gitignore
+└── README.md</code></pre>
+</section>
+<section id="setup-local" class="level2">
+<h2 class="anchored" data-anchor-id="setup-local">Setup local</h2>
+<section id="instalar-quarto" class="level3">
+<h3 class="anchored" data-anchor-id="instalar-quarto">1. Instalar Quarto</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># macOS</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install <span class="at">--cask</span> quarto</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Linux (DEB)</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Descargar desde https://quarto.org/docs/get-started/</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Windows</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="ex">winget</span> install Quarto.Quarto</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Verificá:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> <span class="at">--version</span>    <span class="co"># debería ser 1.4+ idealmente 1.5+</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="clonar-y-previsualizar" class="level3">
+<h3 class="anchored" data-anchor-id="clonar-y-previsualizar">2. Clonar y previsualizar</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone git@github.com:TU-USUARIO/wjp-github-guide.git</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> wjp-github-guide</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Se abre en <code>http://localhost:NNNN</code> y recarga automáticamente al guardar cambios en cualquier <code>.qmd</code>.</p>
+</section>
+<section id="render-manual-no-necesario-para-deploy" class="level3">
+<h3 class="anchored" data-anchor-id="render-manual-no-necesario-para-deploy">3. Render manual (no necesario para deploy)</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Genera todo el sitio en _site/</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+</section>
+<section id="publicación" class="level2">
+<h2 class="anchored" data-anchor-id="publicación">Publicación</h2>
+<p>El deploy es <strong>automático</strong>: cada push a <code>main</code> dispara el workflow <code>.github/workflows/publish.yml</code>, que renderiza el sitio y publica el resultado a la rama <code>gh-pages</code>.</p>
+<section id="activar-github-pages" class="level3">
+<h3 class="anchored" data-anchor-id="activar-github-pages">Activar GitHub Pages</h3>
+<p>La primera vez, hay que indicarle a GitHub que sirva desde <code>gh-pages</code>:</p>
+<ol type="1">
+<li>En el repo: <strong>Settings → Pages</strong>.</li>
+<li><strong>Source</strong>: Deploy from a branch.</li>
+<li><strong>Branch</strong>: <code>gh-pages</code>, carpeta <code>/ (root)</code>.</li>
+<li>Guardar.</li>
+</ol>
+<p>La URL del sitio será <code>https://TU-USUARIO.github.io/wjp-github-guide/</code>.</p>
+<p>Acordate de actualizar <code>site-url</code> y <code>repo-url</code> en <code>_quarto.yml</code> y los links en <code>index.qmd</code> y <code>about.qmd</code> con tu usuario/organización real.</p>
+</section>
+</section>
+<section id="contribuir" class="level2">
+<h2 class="anchored" data-anchor-id="contribuir">Contribuir</h2>
 <ul>
-<li>Program that runs on your computer</li>
-<li>Records the history of changes to files</li>
-<li>Created by Linus Torvalds in 2005</li>
-<li>Works <strong>completely offline</strong></li>
-<li>Doesn’t need servers or internet</li>
+<li><strong>Erratas, typos, links rotos</strong>: PR directo, sin issue previo.</li>
+<li><strong>Nuevo contenido</strong>: abrí un issue primero para discutir alcance.</li>
+<li><strong>Cambios de política/convención del equipo</strong>: requieren consenso, no solo review de código.</li>
 </ul>
 </section>
-<section id="github" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="github">GitHub</h3>
-<p><strong>Repository hosting platform</strong></p>
-<ul>
-<li>Web service owned by Microsoft</li>
-<li>Visual interface for Git repositories</li>
-<li>Pull requests, issues, permissions</li>
-<li>Automation with GitHub Actions</li>
-<li>Team collaboration</li>
-</ul>
-</section>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Useful analogy
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>Git</strong> is like Microsoft Word — it lets you write and save versions without internet.</p>
-<p><strong>GitHub</strong> is like Google Drive — it lets you share, comment, and collaborate with others.</p>
-<p>You can use Word without Drive. You can use Git without GitHub.</p>
-</div>
-</div>
-<hr>
-</section>
-<section id="what-problem-does-git-solve" class="level2">
-<h2 class="anchored" data-anchor-id="what-problem-does-git-solve">What problem does Git solve?</h2>
-<p>Before Git, collaborating on files looked something like this:</p>
-<pre><code>final_project.docx
-final_project_v2.docx
-final_project_v2_corrected.docx
-final_project_v2_corrected_john.docx
-final_project_FINAL.docx
-final_project_FINAL_THIS_ONE.docx</code></pre>
-<p>Git solves this by recording each change as a <strong>commit</strong> — a “snapshot” of the project’s state at a given moment, with author, date, and message.</p>
-<section id="concrete-benefits" class="level3">
-<h3 class="anchored" data-anchor-id="concrete-benefits">Concrete benefits</h3>
-<div class="grid">
-<section id="traceability" class="level4 g-col-12 g-col-md-6">
-<h4 class="anchored" data-anchor-id="traceability">Traceability</h4>
-<p>You can see <strong>who</strong> changed <strong>what</strong>, <strong>when</strong>, and <strong>why</strong> (if the commit message is good).</p>
-</section>
-<section id="reversibility" class="level4 g-col-12 g-col-md-6">
-<h4 class="anchored" data-anchor-id="reversibility">Reversibility</h4>
-<p>If something broke, you can go back to any previous state without losing what came after.</p>
-</section>
-<section id="parallel-collaboration" class="level4 g-col-12 g-col-md-6">
-<h4 class="anchored" data-anchor-id="parallel-collaboration">Parallel collaboration</h4>
-<p>Two people can work on the same file. Git combines the changes automatically.</p>
-</section>
-<section id="safe-experimentation" class="level4 g-col-12 g-col-md-6">
-<h4 class="anchored" data-anchor-id="safe-experimentation">Safe experimentation</h4>
-<p>Create a <em>branch</em> to try ideas without affecting the main version.</p>
-</section>
-</div>
-<hr>
-</section>
-</section>
-<section id="what-does-github-add" class="level2">
-<h2 class="anchored" data-anchor-id="what-does-github-add">What does GitHub add?</h2>
-<p>Git by itself is a command-line tool. GitHub adds a complete collaboration layer:</p>
+<section id="stack" class="level2">
+<h2 class="anchored" data-anchor-id="stack">Stack</h2>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 40%">
-<col style="width: 59%">
-</colgroup>
 <thead>
 <tr class="header">
-<th>Feature</th>
-<th>Description</th>
+<th>Pieza</th>
+<th>Para qué</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Centralized hosting</strong></td>
-<td>A reference place where the “official” repository lives</td>
+<td>Quarto</td>
+<td>Generador de sitio estático</td>
 </tr>
 <tr class="even">
-<td><strong>Web interface</strong></td>
-<td>Review code without cloning, browse files and histories</td>
+<td>GitHub Actions</td>
+<td>CI: render + publish</td>
 </tr>
 <tr class="odd">
-<td><strong>Pull Requests</strong></td>
-<td>Propose changes and discuss them before merging</td>
+<td>GitHub Pages</td>
+<td>Hosting estático</td>
 </tr>
 <tr class="even">
-<td><strong>Issues</strong></td>
-<td>Tickets for bugs, features, and tasks</td>
-</tr>
-<tr class="odd">
-<td><strong>Permissions</strong></td>
-<td>Control over who can read, write, administer</td>
-</tr>
-<tr class="even">
-<td><strong>Actions</strong></td>
-<td>Automation for tests, deployments, and more</td>
-</tr>
-<tr class="odd">
-<td><strong>GitHub Pages</strong></td>
-<td>Free static hosting (like this site)</td>
+<td>Cosmo (Bootswatch)</td>
+<td>Tema base</td>
 </tr>
 </tbody>
 </table>
-<hr>
 </section>
-<section id="why-does-wjp-use-github" class="level2">
-<h2 class="anchored" data-anchor-id="why-does-wjp-use-github">Why does WJP use GitHub?</h2>
-<div class="grid">
-<section id="reproducibility" class="level3 g-col-12 g-col-md-4">
-<h3 class="anchored" data-anchor-id="reproducibility">Reproducibility</h3>
-<p>Much of WJP’s work is quantitative analysis. Versioning code (R, Python) alongside documentation ensures that any result can be reproduced years later.</p>
-</section>
-<section id="collaboration" class="level3 g-col-12 g-col-md-4">
-<h3 class="anchored" data-anchor-id="collaboration">Collaboration</h3>
-<p>The team is distributed. Pull Requests allow reviewing colleagues’ work without needing to be in the same meeting.</p>
-</section>
-<section id="transparency" class="level3 g-col-12 g-col-md-4">
-<h3 class="anchored" data-anchor-id="transparency">Transparency</h3>
-<p>Public repositories allow third parties — academia, press, civil society — to verify methodologies.</p>
-</section>
-</div>
-<hr>
-</section>
-<section id="alternatives-to-github" class="level2">
-<h2 class="anchored" data-anchor-id="alternatives-to-github">Alternatives to GitHub</h2>
-<p>GitHub is not the only option. Other platforms that also host Git repositories:</p>
-<ul>
-<li><strong>GitLab</strong> — popular in companies, has more integrated DevOps features</li>
-<li><strong>Bitbucket</strong> — by Atlassian, integrates well with Jira</li>
-<li><strong>Codeberg</strong> — open source and non-profit alternative</li>
-</ul>
-<p>The skills you learn with Git will serve you on any platform.</p>
-<hr>
-</section>
-<section id="further-reading" class="level2">
-<h2 class="anchored" data-anchor-id="further-reading">Further reading</h2>
-<div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Recommended resources
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li><a href="https://git-scm.com/book/en/v2">Pro Git book</a> — The official Git book, free. Chapters 1 and 2 are required reading.</li>
-<li><a href="https://skills.github.com/">GitHub Skills</a> — Free interactive courses from GitHub.</li>
-</ul>
-</div>
-</div>
-<hr>
-</section>
-<section id="next-step" class="level2">
-<h2 class="anchored" data-anchor-id="next-step">Next step</h2>
-<p>Now that you understand the pieces, it’s time to install the tools.</p>
-<p><a href="../guia/02-setup.html" class="btn btn-primary">Go to Initial Setup →</a></p>
+<section id="licencia" class="level2">
+<h2 class="anchored" data-anchor-id="licencia">Licencia</h2>
+<p>Contenido bajo <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Código bajo MIT.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -1001,7 +895,7 @@ final_project_FINAL_THIS_ONE.docx</code></pre>
 </div>   
     <div class="nav-footer-center">
 <p>Guide maintained by the WJP team</p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/aspardog/wjp-github-guide/edit/main/guia/01-conceptos.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/aspardog/wjp-github-guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/aspardog/wjp-github-guide/edit/main/README 2.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/aspardog/wjp-github-guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Built with <a href="https://quarto.org">Quarto</a></p>
 </div>
@@ -1011,5 +905,5 @@ final_project_FINAL_THIS_ONE.docx</code></pre>
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
