@@ -1,0 +1,220 @@
+---
+title: "Clonar un repositorio"
+description: "Cómo descargar repositorios de GitHub a tu computadora usando HTTPS o SSH"
+order: 3
+---
+
+Una vez que tenés Git instalado y autenticado, el siguiente paso es **clonar** un repositorio. Clonar significa crear una copia local completa de un repositorio remoto (el que está en GitHub).
+
+## Obtener la URL del repositorio
+
+Antes de clonar, necesitás la URL del repositorio. En GitHub:
+
+1. Andá al repositorio que querés clonar.
+2. Hacé clic en el botón verde **Code**.
+3. Vas a ver dos opciones de URL: **HTTPS** y **SSH**.
+
+![Botón Code en GitHub](https://docs.github.com/assets/cb-32892/images/help/repository/code-button.png){fig-alt="Botón Code en GitHub mostrando opciones HTTPS y SSH"}
+
+## Método 1: Clonar con HTTPS (recomendado)
+
+Si seguiste la guía de setup y te autenticaste con `gh auth login`, este es el método más simple.
+
+### Paso a paso
+
+1. Copiá la URL HTTPS del repositorio. Tiene este formato:
+   ```
+   https://github.com/USUARIO/NOMBRE-REPO.git
+   ```
+
+2. Abrí la terminal y navegá a la carpeta donde querés guardar el proyecto:
+   ```bash
+   cd ~/Documents/proyectos
+   ```
+
+3. Ejecutá el comando `git clone` seguido de la URL:
+   ```bash
+   git clone https://github.com/USUARIO/NOMBRE-REPO.git
+   ```
+
+4. Git va a crear una carpeta con el nombre del repositorio y descargar todo el contenido:
+   ```
+   Cloning into 'NOMBRE-REPO'...
+   remote: Enumerating objects: 156, done.
+   remote: Counting objects: 100% (156/156), done.
+   remote: Compressing objects: 100% (89/89), done.
+   remote: Total 156 (delta 67), reused 134 (delta 52), pack-reused 0
+   Receiving objects: 100% (156/156), 45.23 KiB | 1.13 MiB/s, done.
+   Resolving deltas: 100% (67/67), done.
+   ```
+
+5. Entrá a la carpeta del proyecto:
+   ```bash
+   cd NOMBRE-REPO
+   ```
+
+### Ejemplo práctico
+
+```bash
+# Navegá a tu carpeta de proyectos
+cd ~/Documents/GitHub
+
+# Cloná el repositorio
+git clone https://github.com/worldjusticeproject/mi-proyecto.git
+
+# Entrá al proyecto
+cd mi-proyecto
+
+# Verificá que todo está bien
+git status
+```
+
+::: {.callout-note}
+Si te autenticaste correctamente con `gh auth login`, Git no te va a pedir usuario ni contraseña. Todo debería funcionar automáticamente.
+:::
+
+## Método 2: Clonar con SSH
+
+SSH es una alternativa a HTTPS que usa llaves criptográficas en lugar de tokens. Es útil si preferís no depender de GitHub CLI o si trabajás en un entorno donde SSH es el estándar.
+
+### Configuración de llaves SSH
+
+Antes de poder clonar con SSH, necesitás generar un par de llaves y agregar la pública a GitHub.
+
+#### Paso 1: Generar el par de llaves
+
+```bash
+ssh-keygen -t ed25519 -C "tu.email@worldjusticeproject.org"
+```
+
+Cuando pregunte dónde guardar el archivo, aceptá el default (Enter). Cuando pida passphrase, podés dejarla vacía o poner una (más seguro).
+
+Esto crea dos archivos:
+
+- `~/.ssh/id_ed25519` — la llave **privada**. **Nunca** la compartas.
+- `~/.ssh/id_ed25519.pub` — la llave **pública**. Esta la subís a GitHub.
+
+#### Paso 2: Agregar la llave pública a GitHub
+
+Copiá el contenido de la llave pública:
+
+::: {.panel-tabset}
+
+##### macOS
+
+```bash
+pbcopy < ~/.ssh/id_ed25519.pub
+```
+
+##### Windows (Git Bash)
+
+```bash
+cat ~/.ssh/id_ed25519.pub | clip
+```
+
+##### Linux
+
+```bash
+# Con xclip
+xclip -sel clip < ~/.ssh/id_ed25519.pub
+
+# O mostrá y copiá manualmente
+cat ~/.ssh/id_ed25519.pub
+```
+
+:::
+
+Luego en GitHub:
+
+1. Andá a [Settings → SSH and GPG keys](https://github.com/settings/keys).
+2. Hacé clic en **New SSH key**.
+3. Dale un título descriptivo (ej. "Laptop WJP - MacBook 2025").
+4. Pegá la llave pública.
+5. Hacé clic en **Add SSH key**.
+
+#### Paso 3: Verificar la conexión
+
+```bash
+ssh -T git@github.com
+```
+
+Si todo está bien, vas a ver:
+
+```
+Hi TU-USUARIO! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+El mensaje "does not provide shell access" no es un error — es el comportamiento esperado.
+
+### Clonar con SSH
+
+Una vez configuradas las llaves, clonar es igual que con HTTPS pero usando la URL SSH:
+
+```bash
+git clone git@github.com:USUARIO/NOMBRE-REPO.git
+```
+
+La URL SSH tiene el formato `git@github.com:USUARIO/REPO.git` (notá los dos puntos en lugar de barra después de github.com).
+
+### Ejemplo práctico
+
+```bash
+# Cloná usando SSH
+git clone git@github.com:worldjusticeproject/mi-proyecto.git
+
+# Entrá al proyecto
+cd mi-proyecto
+
+# Verificá
+git status
+```
+
+## ¿HTTPS o SSH?
+
+| Aspecto | HTTPS | SSH |
+|---------|-------|-----|
+| **Configuración** | Más simple con `gh auth login` | Requiere generar y configurar llaves |
+| **Seguridad** | Token guardado por gh CLI | Llave privada en tu máquina |
+| **Firewalls** | Funciona en casi todos lados | Algunos firewalls bloquean puerto 22 |
+| **Recomendación** | Para la mayoría de usuarios | Si preferís no usar gh CLI |
+
+::: {.callout-tip}
+Si ya te autenticaste con `gh auth login`, usá HTTPS. Es más simple y funciona igual de bien.
+:::
+
+## Clonar en una carpeta específica
+
+Por defecto, `git clone` crea una carpeta con el nombre del repositorio. Podés especificar otro nombre:
+
+```bash
+# Clonar en una carpeta llamada "mi-copia"
+git clone https://github.com/USUARIO/NOMBRE-REPO.git mi-copia
+```
+
+## Verificación final
+
+Después de clonar, verificá que todo está bien:
+
+```bash
+# Ver el estado del repositorio
+git status
+
+# Ver el historial de commits
+git log --oneline -5
+
+# Ver los remotos configurados
+git remote -v
+```
+
+El comando `git remote -v` debería mostrar:
+
+```
+origin  https://github.com/USUARIO/NOMBRE-REPO.git (fetch)
+origin  https://github.com/USUARIO/NOMBRE-REPO.git (push)
+```
+
+Esto significa que tu copia local está conectada al repositorio en GitHub (llamado "origin").
+
+## Próximo paso
+
+Ahora que tenés el repositorio clonado, estás listo para empezar a trabajar con Git.

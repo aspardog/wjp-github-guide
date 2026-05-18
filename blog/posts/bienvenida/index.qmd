@@ -1,0 +1,36 @@
+---
+title: "Bienvenida: por qué existe esta guía"
+description: "Contexto y propósito detrás de la decisión de documentar nuestras prácticas de Git en WJP"
+author: "Equipo WJP"
+date: "2026-05-18"
+categories: [meta, anuncios]
+image: thumbnail.png
+draft: false
+---
+
+Esta es la primera entrada del blog que acompaña la guía de GitHub de WJP. En lugar de empezar con contenido técnico, vale la pena explicar por qué decidimos invertir tiempo en escribir esto.
+
+## El problema que estamos resolviendo
+
+En los últimos meses notamos un patrón: cada vez que alguien nuevo se sumaba al equipo, repetíamos las mismas explicaciones sobre cómo trabajamos con Git. Cada vez ligeramente distintas, dependiendo de quién explicaba. La consecuencia era predecible — convenciones inconsistentes, dudas recurrentes que nadie sabía a quién preguntar, y conocimiento concentrado en pocas personas.
+
+La solución no es novedosa: documentación escrita, mantenida como código, accesible desde cualquier lugar.
+
+## Qué va a vivir en el blog
+
+La **guía** es la referencia estable. Cubre las prácticas que adoptamos como estándar.
+
+El **blog** complementa con:
+
+- **Anuncios de cambios** en políticas o convenciones, con su justificación.
+- **ADRs** (Architecture Decision Records) — decisiones técnicas importantes y por qué se tomaron.
+- **Casos de estudio** — cuándo algo salió bien o mal, qué aprendimos.
+- **Notas técnicas** más cortas que no ameritan una sección completa en la guía.
+
+## Cómo contribuir
+
+Esta es una iniciativa abierta del equipo. Si encontrás errores, faltas información, o querés agregar un post: el repositorio está [acá](https://github.com/TU-USUARIO/wjp-github-guide). Las reglas de contribución están en [Acerca de](../../about.qmd).
+
+---
+
+Bienvenido. Empezá por [Conceptos previos](../../guia/01-conceptos.qmd) si estás arrancando.

@@ -1,0 +1,38 @@
+---
+title: "Guía: índice"
+subtitle: "Orden recomendado de lectura"
+---
+
+Esta guía está pensada para leerse en orden la primera vez. Cada sección asume lo cubierto en las anteriores.
+
+## Fundamentos
+
+Lo mínimo que toda persona del equipo necesita entender, sin importar su rol.
+
+- [Conceptos previos](01-conceptos.qmd) — Qué es Git, qué es GitHub y por qué no son lo mismo.
+- [Setup inicial](02-setup.qmd) — Instalación de Git, terminal y autenticación con GitHub CLI.
+- [Clonar repositorios](03-clonar.qmd) — Cómo descargar repositorios usando HTTPS o SSH.
+
+## Workflow WJP
+
+*(En construcción)* — Decisiones organizacionales: estrategia de branches, convención de commits, code review, plantillas de PR e issues.
+
+## Buenas prácticas
+
+*(En construcción)* — `.gitignore` para R y Python, manejo de archivos grandes, resolución de conflictos, qué nunca subir.
+
+## Específicos por lenguaje
+
+*(En construcción)* — Estructura recomendada para proyectos R (`renv`, `here`), Python, y datos reproducibles.
+
+## Seguridad
+
+*(En construcción)* — Gestión de secretos, auditoría de leaks, qué hacer cuando algo sensible se subió por error.
+
+## Avanzado
+
+*(En construcción)* — GitHub Actions para CI, branch protection rules, releases y versionado semántico.
+
+## Anexos
+
+*(En construcción)* — FAQ, errores comunes y cómo recuperarse de ellos.

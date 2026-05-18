@@ -1,0 +1,169 @@
+---
+title: "Conceptos previos"
+subtitle: "Qué es Git, qué es GitHub, y por qué la distinción importa"
+order: 1
+---
+
+::: {.callout-note appearance="simple"}
+## Antes de empezar
+Esta sección es conceptual. No necesitás instalar nada todavía — solo entender las piezas que vamos a usar.
+:::
+
+## Git y GitHub no son la misma cosa
+
+Mucha gente confunde estos términos. Entender la diferencia evita errores conceptuales más adelante.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### Git
+
+**Sistema de control de versiones distribuido**
+
+- Programa que corre en tu computadora
+- Registra la historia de cambios sobre archivos
+- Creado por Linus Torvalds en 2005
+- Funciona **completamente offline**
+- No necesita servidores ni internet
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### GitHub
+
+**Plataforma de alojamiento de repositorios**
+
+- Servicio web propiedad de Microsoft
+- Interfaz visual para repositorios Git
+- Pull requests, issues, permisos
+- Automatización con GitHub Actions
+- Colaboración en equipo
+
+:::
+
+:::
+
+::: {.callout-tip}
+## Analogía útil
+**Git** es como Microsoft Word — te permite escribir y guardar versiones sin internet.
+
+**GitHub** es como Google Drive — te permite compartir, comentar y colaborar con otros.
+
+Podés usar Word sin Drive. Podés usar Git sin GitHub.
+:::
+
+---
+
+## ¿Qué problema resuelve Git?
+
+Antes de Git, colaborar en archivos significaba algo así:
+
+```
+proyecto_final.docx
+proyecto_final_v2.docx
+proyecto_final_v2_corregido.docx
+proyecto_final_v2_corregido_juan.docx
+proyecto_final_DEFINITIVO.docx
+proyecto_final_DEFINITIVO_ESTE_SI.docx
+```
+
+Git resuelve esto registrando cada cambio como un **commit** — una "foto" del estado del proyecto en un momento dado, con autor, fecha y mensaje.
+
+### Beneficios concretos
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+#### Trazabilidad
+Podés ver **quién** cambió **qué**, **cuándo**, y **por qué** (si el mensaje del commit es bueno).
+:::
+
+::: {.g-col-12 .g-col-md-6}
+#### Reversibilidad
+Si algo se rompió, podés volver a cualquier estado anterior sin perder lo que vino después.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+#### Colaboración paralela
+Dos personas pueden trabajar sobre el mismo archivo. Git combina los cambios automáticamente.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+#### Experimentación segura
+Creá una *rama* para probar ideas sin afectar la versión principal.
+:::
+
+:::
+
+---
+
+## ¿Qué agrega GitHub?
+
+Git por sí solo es una herramienta de línea de comandos. GitHub agrega una capa completa de colaboración:
+
+| Característica | Descripción |
+|----------------|-------------|
+| **Hosting centralizado** | Un lugar de referencia donde el repositorio "oficial" vive |
+| **Interfaz web** | Revisá código sin clonarlo, navegá archivos e historiales |
+| **Pull Requests** | Proponé cambios y discutilos antes de integrarlos |
+| **Issues** | Tickets para bugs, features y tareas |
+| **Permisos** | Control de quién puede leer, escribir, administrar |
+| **Actions** | Automatización de tests, despliegues y más |
+| **GitHub Pages** | Hosting estático gratuito (como este sitio) |
+
+---
+
+## ¿Por qué WJP usa GitHub?
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+### Reproducibilidad
+
+Buena parte del trabajo de WJP es análisis cuantitativo. Versionar el código (R, Python) junto con la documentación garantiza que cualquier resultado se pueda reproducir años después.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Colaboración
+
+El equipo es distribuido. Los Pull Requests permiten revisar trabajo de colegas sin necesidad de estar en la misma reunión.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Transparencia
+
+Repositorios públicos permiten que terceros — academia, prensa, sociedad civil — verifiquen metodologías.
+:::
+
+:::
+
+---
+
+## Alternativas a GitHub
+
+GitHub no es la única opción. Otras plataformas que también almacenan repositorios Git:
+
+- **GitLab** — popular en empresas, tiene más funciones de DevOps integradas
+- **Bitbucket** — de Atlassian, se integra bien con Jira
+- **Codeberg** — alternativa open source y sin fines de lucro
+
+Las habilidades que aprendas con Git te sirven en cualquier plataforma.
+
+---
+
+## Para profundizar
+
+::: {.callout-note appearance="simple"}
+### Recursos recomendados
+
+- [Pro Git book](https://git-scm.com/book/es/v2) — El libro oficial de Git, gratuito, en español. Los capítulos 1 y 2 son lectura obligada.
+- [GitHub Skills](https://skills.github.com/) — Cursos interactivos gratuitos de GitHub.
+:::
+
+---
+
+## Próximo paso
+
+Ahora que entendés las piezas, es hora de instalar las herramientas.
+
+[Ir a Setup inicial →](02-setup.qmd){.btn .btn-primary}
