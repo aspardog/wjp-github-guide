@@ -1,42 +1,42 @@
 ---
-title: "Setup inicial"
-description: "Instalación de Git y autenticación con GitHub CLI"
+title: "Initial Setup"
+description: "Git installation and GitHub CLI authentication"
 order: 2
 ---
 
-Esta sección te lleva desde cero hasta tener Git instalado y autenticado contra GitHub.
+This section takes you from zero to having Git installed and authenticated with GitHub.
 
-## Introducción a la terminal y Bash
+## Introduction to the Terminal and Bash
 
-Git es una herramienta de línea de comandos que se opera desde la **terminal**. Los comandos que vas a usar están escritos en un lenguaje de shell llamado **Bash** (Bourne Again Shell).
+Git is a command-line tool that operates from the **terminal**. The commands you'll use are written in a shell language called **Bash** (Bourne Again Shell).
 
-### ¿Qué es Bash?
+### What is Bash?
 
-Bash es un intérprete de comandos que te permite interactuar con tu computadora escribiendo instrucciones de texto. Es el shell estándar en sistemas Unix (macOS, Linux) y también está disponible en Windows.
+Bash is a command interpreter that allows you to interact with your computer by typing text instructions. It's the standard shell on Unix systems (macOS, Linux) and is also available on Windows.
 
-### ¿Cómo acceder a Bash?
+### How to access Bash?
 
-- **macOS**: Abrí la aplicación **Terminal** (está en Aplicaciones → Utilidades). El shell por defecto en macOS moderno es `zsh`, que es compatible con Bash.
-- **Linux**: Abrí la terminal de tu distribución. Bash suele ser el shell por defecto.
-- **Windows**: Después de instalar Git for Windows, vas a tener acceso a **Git Bash**, un emulador que te da un entorno Bash completo.
+- **macOS**: Open the **Terminal** application (found in Applications → Utilities). The default shell in modern macOS is `zsh`, which is compatible with Bash.
+- **Linux**: Open your distribution's terminal. Bash is usually the default shell.
+- **Windows**: After installing Git for Windows, you'll have access to **Git Bash**, an emulator that gives you a complete Bash environment.
 
 ::: {.callout-tip}
-Si en algún momento necesitás cambiar explícitamente a Bash, simplemente escribí `bash` en la terminal y presioná Enter.
+If you ever need to explicitly switch to Bash, simply type `bash` in the terminal and press Enter.
 :::
 
-Todos los comandos de esta guía asumen que estás en una terminal con Bash o un shell compatible (como zsh).
+All commands in this guide assume you're in a terminal with Bash or a compatible shell (like zsh).
 
-## Instalación de Git
+## Installing Git
 
 ### Windows
 
-La forma recomendada es **Git for Windows**, que incluye Git Bash.
+The recommended way is **Git for Windows**, which includes Git Bash.
 
-1. Descargá desde [git-scm.com/download/win](https://git-scm.com/download/win).
-2. Durante la instalación, aceptá los defaults salvo dos puntos:
-   - En "Choosing the default editor": elegí el editor que vayas a usar (VS Code, Notepad++, o el que prefieras). El default (Vim) es problemático si no lo conocés.
-   - En "Adjusting your PATH environment": dejá la opción del medio, "Git from the command line and also from 3rd-party software".
-3. Verificá la instalación abriendo **Git Bash**:
+1. Download from [git-scm.com/download/win](https://git-scm.com/download/win).
+2. During installation, accept the defaults except for two points:
+   - In "Choosing the default editor": choose the editor you'll use (VS Code, Notepad++, or your preference). The default (Vim) is problematic if you don't know it.
+   - In "Adjusting your PATH environment": leave the middle option, "Git from the command line and also from 3rd-party software".
+3. Verify the installation by opening **Git Bash**:
 
 ```bash
 git --version
@@ -44,25 +44,25 @@ git --version
 
 ### macOS
 
-Tres opciones, en orden de preferencia:
+Three options, in order of preference:
 
-**Opción A — Homebrew** (recomendada si ya usás Homebrew):
+**Option A — Homebrew** (recommended if you already use Homebrew):
 
 ```bash
 brew install git
 ```
 
-**Opción B — Xcode Command Line Tools** (suficiente para la mayoría):
+**Option B — Xcode Command Line Tools** (sufficient for most):
 
 ```bash
 xcode-select --install
 ```
 
-Esto instala Git junto con compiladores y otras utilidades de desarrollo.
+This installs Git along with compilers and other development utilities.
 
-**Opción C — Instalador oficial** desde [git-scm.com/download/mac](https://git-scm.com/download/mac).
+**Option C — Official installer** from [git-scm.com/download/mac](https://git-scm.com/download/mac).
 
-Verificá la instalación:
+Verify the installation:
 
 ```bash
 git --version
@@ -70,7 +70,7 @@ git --version
 
 ### Linux
 
-Usá el gestor de paquetes de tu distribución:
+Use your distribution's package manager:
 
 ```bash
 # Debian / Ubuntu
@@ -83,11 +83,11 @@ sudo dnf install git
 sudo pacman -S git
 ```
 
-## Autenticación con GitHub CLI
+## Authentication with GitHub CLI
 
-La forma más sencilla de autenticarte con GitHub es usando **GitHub CLI** (`gh`), el cliente oficial de GitHub para la terminal.
+The easiest way to authenticate with GitHub is using **GitHub CLI** (`gh`), GitHub's official terminal client.
 
-### Instalación de GitHub CLI
+### Installing GitHub CLI
 
 ::: {.panel-tabset}
 
@@ -97,7 +97,7 @@ La forma más sencilla de autenticarte con GitHub es usando **GitHub CLI** (`gh`
 brew install gh
 ```
 
-Si no tenés Homebrew instalado, primero instalalo desde [brew.sh](https://brew.sh):
+If you don't have Homebrew installed, first install it from [brew.sh](https://brew.sh):
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -109,7 +109,7 @@ Si no tenés Homebrew instalado, primero instalalo desde [brew.sh](https://brew.
 winget install GitHub.cli
 ```
 
-O descargá el instalador desde [cli.github.com](https://cli.github.com/).
+Or download the installer from [cli.github.com](https://cli.github.com/).
 
 #### Linux
 
@@ -126,59 +126,59 @@ sudo pacman -S github-cli
 
 :::
 
-### Autenticación
+### Authentication
 
-Una vez instalado, autenticate con tu cuenta de GitHub:
+Once installed, authenticate with your GitHub account:
 
 ```bash
 gh auth login
 ```
 
-El comando te va a guiar por un proceso interactivo:
+The command will guide you through an interactive process:
 
-1. Elegí **GitHub.com** (no Enterprise).
-2. Elegí **HTTPS** como protocolo preferido.
-3. Cuando pregunte si querés autenticar Git con tus credenciales de GitHub, decí **Yes**.
-4. Elegí **Login with a web browser**.
-5. Copiá el código de un solo uso que aparece.
-6. Presioná Enter para abrir el navegador.
-7. Pegá el código en la página de GitHub y autorizá.
+1. Choose **GitHub.com** (not Enterprise).
+2. Choose **HTTPS** as the preferred protocol.
+3. When asked if you want to authenticate Git with your GitHub credentials, say **Yes**.
+4. Choose **Login with a web browser**.
+5. Copy the one-time code that appears.
+6. Press Enter to open the browser.
+7. Paste the code on the GitHub page and authorize.
 
 ::: {.callout-note}
-Este proceso configura automáticamente Git para que pueda hacer push y pull a repositorios de GitHub sin pedirte contraseña cada vez.
+This process automatically configures Git to push and pull to GitHub repositories without asking for your password each time.
 :::
 
-### Verificación
+### Verification
 
-Para confirmar que todo está bien:
+To confirm everything is working:
 
 ```bash
 gh auth status
 ```
 
-Deberías ver algo como:
+You should see something like:
 
 ```
 github.com
-  ✓ Logged in to github.com as TU-USUARIO
+  ✓ Logged in to github.com as YOUR-USERNAME
   ✓ Git operations for github.com configured to use https protocol.
   ✓ Token: gho_************************************
 ```
 
-## Herramientas auxiliares (opcional)
+## Auxiliary tools (optional)
 
-### Cliente gráfico
+### Graphical client
 
-Si preferís interfaz gráfica para tareas complejas (revisar diffs grandes, resolver conflictos):
+If you prefer a graphical interface for complex tasks (reviewing large diffs, resolving conflicts):
 
-- **GitHub Desktop** ([desktop.github.com](https://desktop.github.com/)) — simple, mantenido por GitHub, suficiente para la mayoría.
-- **GitKraken** — más completo, freemium.
-- **VS Code** — tiene integración Git excelente incorporada.
+- **GitHub Desktop** ([desktop.github.com](https://desktop.github.com/)) — simple, maintained by GitHub, sufficient for most.
+- **GitKraken** — more complete, freemium.
+- **VS Code** — has excellent built-in Git integration.
 
 ::: {.callout-tip}
-Aunque uses cliente gráfico para el día a día, aprendé los comandos de línea. Cuando algo se rompe, la GUI casi siempre te oculta lo que está pasando, y la solución vive en la terminal.
+Even if you use a graphical client for day-to-day work, learn the command line. When something breaks, the GUI almost always hides what's happening, and the solution lives in the terminal.
 :::
 
-## Próximo paso
+## Next step
 
-Ahora que tenés Git instalado y autenticado, aprendé a [clonar tu primer repositorio](03-clonar.qmd).
+Now that you have Git installed and authenticated, learn to [clone your first repository](03-clonar.qmd).

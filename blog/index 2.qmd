@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-subtitle: "News, team decisions, and technical notes"
+subtitle: "Novedades, decisiones del equipo y notas técnicas"
 listing:
   contents: posts
   sort: "date desc"

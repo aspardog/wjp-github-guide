@@ -1,38 +1,38 @@
 ---
-title: "Guía: índice"
-subtitle: "Orden recomendado de lectura"
+title: "Guide: Index"
+subtitle: "Recommended reading order"
 ---
 
-Esta guía está pensada para leerse en orden la primera vez. Cada sección asume lo cubierto en las anteriores.
+This guide is designed to be read in order the first time. Each section assumes knowledge from the previous ones.
 
-## Fundamentos
+## Fundamentals
 
-Lo mínimo que toda persona del equipo necesita entender, sin importar su rol.
+The minimum that every team member needs to understand, regardless of their role.
 
-- [Conceptos previos](01-conceptos.qmd) — Qué es Git, qué es GitHub y por qué no son lo mismo.
-- [Setup inicial](02-setup.qmd) — Instalación de Git, terminal y autenticación con GitHub CLI.
-- [Clonar repositorios](03-clonar.qmd) — Cómo descargar repositorios usando HTTPS o SSH.
+- [Basic Concepts](01-conceptos.qmd) — What is Git, what is GitHub, and why they're not the same thing.
+- [Initial Setup](02-setup.qmd) — Installing Git, terminal setup, and authentication with GitHub CLI.
+- [Cloning Repositories](03-clonar.qmd) — How to download repositories using HTTPS or SSH.
 
-## Workflow WJP
+## WJP Workflow
 
-*(En construcción)* — Decisiones organizacionales: estrategia de branches, convención de commits, code review, plantillas de PR e issues.
+*(Coming soon)* — Organizational decisions: branching strategy, commit conventions, code review, PR and issue templates.
 
-## Buenas prácticas
+## Best Practices
 
-*(En construcción)* — `.gitignore` para R y Python, manejo de archivos grandes, resolución de conflictos, qué nunca subir.
+*(Coming soon)* — `.gitignore` for R and Python, handling large files, resolving conflicts, what never to upload.
 
-## Específicos por lenguaje
+## Language-Specific
 
-*(En construcción)* — Estructura recomendada para proyectos R (`renv`, `here`), Python, y datos reproducibles.
+*(Coming soon)* — Recommended structure for R projects (`renv`, `here`), Python, and reproducible data.
 
-## Seguridad
+## Security
 
-*(En construcción)* — Gestión de secretos, auditoría de leaks, qué hacer cuando algo sensible se subió por error.
+*(Coming soon)* — Secrets management, leak auditing, what to do when something sensitive was uploaded by mistake.
 
-## Avanzado
+## Advanced
 
-*(En construcción)* — GitHub Actions para CI, branch protection rules, releases y versionado semántico.
+*(Coming soon)* — GitHub Actions for CI, branch protection rules, releases and semantic versioning.
 
-## Anexos
+## Appendix
 
-*(En construcción)* — FAQ, errores comunes y cómo recuperarse de ellos.
+*(Coming soon)* — FAQ, common errors and how to recover from them.

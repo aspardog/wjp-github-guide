@@ -1,36 +1,36 @@
 ---
-title: "Bienvenida: por qué existe esta guía"
-description: "Contexto y propósito detrás de la decisión de documentar nuestras prácticas de Git en WJP"
-author: "Equipo WJP"
+title: "Welcome: why this guide exists"
+description: "Context and purpose behind the decision to document our Git practices at WJP"
+author: "WJP Team"
 date: "2026-05-18"
-categories: [meta, anuncios]
+categories: [meta, announcements]
 image: thumbnail.png
 draft: false
 ---
 
-Esta es la primera entrada del blog que acompaña la guía de GitHub de WJP. En lugar de empezar con contenido técnico, vale la pena explicar por qué decidimos invertir tiempo en escribir esto.
+This is the first blog post accompanying the WJP GitHub guide. Instead of starting with technical content, it's worth explaining why we decided to invest time in writing this.
 
-## El problema que estamos resolviendo
+## The problem we're solving
 
-En los últimos meses notamos un patrón: cada vez que alguien nuevo se sumaba al equipo, repetíamos las mismas explicaciones sobre cómo trabajamos con Git. Cada vez ligeramente distintas, dependiendo de quién explicaba. La consecuencia era predecible — convenciones inconsistentes, dudas recurrentes que nadie sabía a quién preguntar, y conocimiento concentrado en pocas personas.
+In recent months we noticed a pattern: every time someone new joined the team, we repeated the same explanations about how we work with Git. Each time slightly different, depending on who was explaining. The consequence was predictable — inconsistent conventions, recurring doubts that no one knew who to ask, and knowledge concentrated in a few people.
 
-La solución no es novedosa: documentación escrita, mantenida como código, accesible desde cualquier lugar.
+The solution isn't novel: written documentation, maintained as code, accessible from anywhere.
 
-## Qué va a vivir en el blog
+## What will live on the blog
 
-La **guía** es la referencia estable. Cubre las prácticas que adoptamos como estándar.
+The **guide** is the stable reference. It covers the practices we adopt as standard.
 
-El **blog** complementa con:
+The **blog** complements with:
 
-- **Anuncios de cambios** en políticas o convenciones, con su justificación.
-- **ADRs** (Architecture Decision Records) — decisiones técnicas importantes y por qué se tomaron.
-- **Casos de estudio** — cuándo algo salió bien o mal, qué aprendimos.
-- **Notas técnicas** más cortas que no ameritan una sección completa en la guía.
+- **Change announcements** in policies or conventions, with their justification.
+- **ADRs** (Architecture Decision Records) — important technical decisions and why they were made.
+- **Case studies** — when something went well or badly, what we learned.
+- **Technical notes** shorter than a full section in the guide.
 
-## Cómo contribuir
+## How to contribute
 
-Esta es una iniciativa abierta del equipo. Si encontrás errores, faltas información, o querés agregar un post: el repositorio está [acá](https://github.com/TU-USUARIO/wjp-github-guide). Las reglas de contribución están en [Acerca de](../../about.qmd).
+This is an open initiative from the team. If you find errors, missing information, or want to add a post: the repository is [here](https://github.com/aspardog/wjp-github-guide). The contribution rules are in [About](../../about.qmd).
 
 ---
 
-Bienvenido. Empezá por [Conceptos previos](../../guia/01-conceptos.qmd) si estás arrancando.
+Welcome. Start with [Basic Concepts](../../guia/01-conceptos.qmd) if you're just getting started.

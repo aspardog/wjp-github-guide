@@ -1,0 +1,51 @@
+# ---------- Quarto ----------
+/.quarto/
+/_site/
+/_freeze/
+*.html
+!index.html
+# (no excluímos index.html si lo usás como fallback estático,
+#  pero normalmente Quarto regenera todo dentro de _site/)
+
+# ---------- R ----------
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/staging/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---------- Editores ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------- Sistema operativo ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Secretos (nunca subir) ----------
+.env
+.env.local
+*.pem
+*.key
+secrets/
+
+**/*.quarto_ipynb

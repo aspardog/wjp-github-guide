@@ -1,27 +1,27 @@
 ---
-title: "Acerca de esta guía"
+title: "About this guide"
 ---
 
-## Propósito
+## Purpose
 
-Esta guía documenta las prácticas de Git y GitHub que el equipo de WJP adopta como estándar. Su objetivo es triple:
+This guide documents the Git and GitHub practices that the WJP team adopts as standard. Its objective is threefold:
 
-1. **Reducir la curva de entrada** para personas nuevas en el equipo.
-2. **Unificar criterios** sobre cómo nombramos branches, escribimos commits, hacemos code review y estructuramos repositorios.
-3. **Servir de referencia rápida** cuando alguien necesita recordar un comando o una convención.
+1. **Reduce the learning curve** for new team members.
+2. **Unify criteria** on how we name branches, write commits, do code review, and structure repositories.
+3. **Serve as a quick reference** when someone needs to remember a command or convention.
 
-## Mantenimiento
+## Maintenance
 
-La guía es un documento vivo. Cualquier miembro del equipo puede proponer cambios:
+The guide is a living document. Any team member can propose changes:
 
-- Para **correcciones menores** (errata, typos, links rotos): editá directo y abrí un PR.
-- Para **cambios de contenido** (agregar una sección, modificar una práctica): abrí primero un issue para discutirlo, después el PR.
-- Para **cambios de política** (modificar una convención de equipo): el cambio requiere consenso, no solo revisión de código. Discutilo en el canal correspondiente antes de abrir el PR.
+- For **minor corrections** (errata, typos, broken links): edit directly and open a PR.
+- For **content changes** (adding a section, modifying a practice): open an issue first to discuss it, then the PR.
+- For **policy changes** (modifying a team convention): the change requires consensus, not just code review. Discuss it in the appropriate channel before opening the PR.
 
-## Stack técnico
+## Tech stack
 
-Este sitio está construido con [Quarto](https://quarto.org), un sistema de publicación abierto que soporta Markdown enriquecido y código ejecutable en R, Python, Julia y JavaScript. Se publica automáticamente en GitHub Pages mediante GitHub Actions cada vez que se hace merge a `main`.
+This site is built with [Quarto](https://quarto.org), an open publishing system that supports enriched Markdown and executable code in R, Python, Julia, and JavaScript. It's automatically published to GitHub Pages via GitHub Actions every time a merge to `main` happens.
 
-## Licencia del contenido
+## Content license
 
-El contenido de esta guía está disponible bajo [Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/) salvo indicación contraria. El código embebido está bajo MIT.
+The content of this guide is available under [Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/) unless otherwise indicated. Embedded code is under MIT.

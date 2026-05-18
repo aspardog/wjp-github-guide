@@ -1,169 +1,169 @@
 ---
-title: "Conceptos previos"
-subtitle: "Qué es Git, qué es GitHub, y por qué la distinción importa"
+title: "Basic Concepts"
+subtitle: "What is Git, what is GitHub, and why the distinction matters"
 order: 1
 ---
 
 ::: {.callout-note appearance="simple"}
-## Antes de empezar
-Esta sección es conceptual. No necesitás instalar nada todavía — solo entender las piezas que vamos a usar.
+## Before you start
+This section is conceptual. You don't need to install anything yet — just understand the pieces we're going to use.
 :::
 
-## Git y GitHub no son la misma cosa
+## Git and GitHub are not the same thing
 
-Mucha gente confunde estos términos. Entender la diferencia evita errores conceptuales más adelante.
+Many people confuse these terms. Understanding the difference prevents conceptual errors later on.
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
 ### Git
 
-**Sistema de control de versiones distribuido**
+**Distributed version control system**
 
-- Programa que corre en tu computadora
-- Registra la historia de cambios sobre archivos
-- Creado por Linus Torvalds en 2005
-- Funciona **completamente offline**
-- No necesita servidores ni internet
+- Program that runs on your computer
+- Records the history of changes to files
+- Created by Linus Torvalds in 2005
+- Works **completely offline**
+- Doesn't need servers or internet
 
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 ### GitHub
 
-**Plataforma de alojamiento de repositorios**
+**Repository hosting platform**
 
-- Servicio web propiedad de Microsoft
-- Interfaz visual para repositorios Git
-- Pull requests, issues, permisos
-- Automatización con GitHub Actions
-- Colaboración en equipo
+- Web service owned by Microsoft
+- Visual interface for Git repositories
+- Pull requests, issues, permissions
+- Automation with GitHub Actions
+- Team collaboration
 
 :::
 
 :::
 
 ::: {.callout-tip}
-## Analogía útil
-**Git** es como Microsoft Word — te permite escribir y guardar versiones sin internet.
+## Useful analogy
+**Git** is like Microsoft Word — it lets you write and save versions without internet.
 
-**GitHub** es como Google Drive — te permite compartir, comentar y colaborar con otros.
+**GitHub** is like Google Drive — it lets you share, comment, and collaborate with others.
 
-Podés usar Word sin Drive. Podés usar Git sin GitHub.
+You can use Word without Drive. You can use Git without GitHub.
 :::
 
 ---
 
-## ¿Qué problema resuelve Git?
+## What problem does Git solve?
 
-Antes de Git, colaborar en archivos significaba algo así:
+Before Git, collaborating on files looked something like this:
 
 ```
-proyecto_final.docx
-proyecto_final_v2.docx
-proyecto_final_v2_corregido.docx
-proyecto_final_v2_corregido_juan.docx
-proyecto_final_DEFINITIVO.docx
-proyecto_final_DEFINITIVO_ESTE_SI.docx
+final_project.docx
+final_project_v2.docx
+final_project_v2_corrected.docx
+final_project_v2_corrected_john.docx
+final_project_FINAL.docx
+final_project_FINAL_THIS_ONE.docx
 ```
 
-Git resuelve esto registrando cada cambio como un **commit** — una "foto" del estado del proyecto en un momento dado, con autor, fecha y mensaje.
+Git solves this by recording each change as a **commit** — a "snapshot" of the project's state at a given moment, with author, date, and message.
 
-### Beneficios concretos
+### Concrete benefits
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-#### Trazabilidad
-Podés ver **quién** cambió **qué**, **cuándo**, y **por qué** (si el mensaje del commit es bueno).
+#### Traceability
+You can see **who** changed **what**, **when**, and **why** (if the commit message is good).
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-#### Reversibilidad
-Si algo se rompió, podés volver a cualquier estado anterior sin perder lo que vino después.
+#### Reversibility
+If something broke, you can go back to any previous state without losing what came after.
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-#### Colaboración paralela
-Dos personas pueden trabajar sobre el mismo archivo. Git combina los cambios automáticamente.
+#### Parallel collaboration
+Two people can work on the same file. Git combines the changes automatically.
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-#### Experimentación segura
-Creá una *rama* para probar ideas sin afectar la versión principal.
+#### Safe experimentation
+Create a *branch* to try ideas without affecting the main version.
 :::
 
 :::
 
 ---
 
-## ¿Qué agrega GitHub?
+## What does GitHub add?
 
-Git por sí solo es una herramienta de línea de comandos. GitHub agrega una capa completa de colaboración:
+Git by itself is a command-line tool. GitHub adds a complete collaboration layer:
 
-| Característica | Descripción |
-|----------------|-------------|
-| **Hosting centralizado** | Un lugar de referencia donde el repositorio "oficial" vive |
-| **Interfaz web** | Revisá código sin clonarlo, navegá archivos e historiales |
-| **Pull Requests** | Proponé cambios y discutilos antes de integrarlos |
-| **Issues** | Tickets para bugs, features y tareas |
-| **Permisos** | Control de quién puede leer, escribir, administrar |
-| **Actions** | Automatización de tests, despliegues y más |
-| **GitHub Pages** | Hosting estático gratuito (como este sitio) |
+| Feature | Description |
+|---------|-------------|
+| **Centralized hosting** | A reference place where the "official" repository lives |
+| **Web interface** | Review code without cloning, browse files and histories |
+| **Pull Requests** | Propose changes and discuss them before merging |
+| **Issues** | Tickets for bugs, features, and tasks |
+| **Permissions** | Control over who can read, write, administer |
+| **Actions** | Automation for tests, deployments, and more |
+| **GitHub Pages** | Free static hosting (like this site) |
 
 ---
 
-## ¿Por qué WJP usa GitHub?
+## Why does WJP use GitHub?
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-### Reproducibilidad
+### Reproducibility
 
-Buena parte del trabajo de WJP es análisis cuantitativo. Versionar el código (R, Python) junto con la documentación garantiza que cualquier resultado se pueda reproducir años después.
+Much of WJP's work is quantitative analysis. Versioning code (R, Python) alongside documentation ensures that any result can be reproduced years later.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### Colaboración
+### Collaboration
 
-El equipo es distribuido. Los Pull Requests permiten revisar trabajo de colegas sin necesidad de estar en la misma reunión.
+The team is distributed. Pull Requests allow reviewing colleagues' work without needing to be in the same meeting.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### Transparencia
+### Transparency
 
-Repositorios públicos permiten que terceros — academia, prensa, sociedad civil — verifiquen metodologías.
+Public repositories allow third parties — academia, press, civil society — to verify methodologies.
 :::
 
 :::
 
 ---
 
-## Alternativas a GitHub
+## Alternatives to GitHub
 
-GitHub no es la única opción. Otras plataformas que también almacenan repositorios Git:
+GitHub is not the only option. Other platforms that also host Git repositories:
 
-- **GitLab** — popular en empresas, tiene más funciones de DevOps integradas
-- **Bitbucket** — de Atlassian, se integra bien con Jira
-- **Codeberg** — alternativa open source y sin fines de lucro
+- **GitLab** — popular in companies, has more integrated DevOps features
+- **Bitbucket** — by Atlassian, integrates well with Jira
+- **Codeberg** — open source and non-profit alternative
 
-Las habilidades que aprendas con Git te sirven en cualquier plataforma.
+The skills you learn with Git will serve you on any platform.
 
 ---
 
-## Para profundizar
+## Further reading
 
 ::: {.callout-note appearance="simple"}
-### Recursos recomendados
+### Recommended resources
 
-- [Pro Git book](https://git-scm.com/book/es/v2) — El libro oficial de Git, gratuito, en español. Los capítulos 1 y 2 son lectura obligada.
-- [GitHub Skills](https://skills.github.com/) — Cursos interactivos gratuitos de GitHub.
+- [Pro Git book](https://git-scm.com/book/en/v2) — The official Git book, free. Chapters 1 and 2 are required reading.
+- [GitHub Skills](https://skills.github.com/) — Free interactive courses from GitHub.
 :::
 
 ---
 
-## Próximo paso
+## Next step
 
-Ahora que entendés las piezas, es hora de instalar las herramientas.
+Now that you understand the pieces, it's time to install the tools.
 
-[Ir a Setup inicial →](02-setup.qmd){.btn .btn-primary}
+[Go to Initial Setup →](02-setup.qmd){.btn .btn-primary}

@@ -3,8 +3,9 @@ project:
   output-dir: _site
 
 website:
-  title: "GitHub Guide — WJP"
-  description: "Organizational guide on the proper use of Git and GitHub at the World Justice Project"
+  title: "Guía de GitHub — WJP"
+  description: "Guía organizacional sobre el buen uso de Git y GitHub en el World Justice Project"
+  # Reemplaza con tu URL real cuando publiques
   site-url: https://aspardog.github.io/wjp-github-guide/
   repo-url: https://github.com/aspardog/wjp-github-guide
   repo-actions: [edit, issue]
@@ -17,26 +18,26 @@ website:
     pinned: true
     left:
       - href: index.qmd
-        text: Home
+        text: Inicio
       - href: guia/index.qmd
-        text: Guide
+        text: Guía
       - href: blog/index.qmd
         text: Blog
       - href: about.qmd
-        text: About
+        text: Acerca
     right:
       - icon: github
         href: https://github.com/aspardog/wjp-github-guide
-        aria-label: GitHub Repository
+        aria-label: Repositorio en GitHub
 
   sidebar:
     - id: guia-sidebar
-      title: "Guide"
+      title: "Guía"
       style: "docked"
       collapse-level: 2
       contents:
         - guia/index.qmd
-        - section: "Fundamentals"
+        - section: "Fundamentos"
           contents:
             - guia/01-conceptos.qmd
             - guia/02-setup.qmd
@@ -45,8 +46,8 @@ website:
   page-footer:
     background: light
     left: "© 2026 World Justice Project"
-    center: "Guide maintained by the WJP team"
-    right: "Built with [Quarto](https://quarto.org)"
+    center: "Guía mantenida por el equipo de WJP"
+    right: "Hecho con [Quarto](https://quarto.org)"
 
 format:
   html:

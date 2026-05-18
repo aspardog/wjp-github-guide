@@ -1,0 +1,82 @@
+---
+title: "Guía de GitHub para WJP"
+page-layout: full
+sidebar: false
+toc: false
+---
+
+::: {.hero-banner}
+
+# Guía de Git y GitHub
+
+### World Justice Project
+
+Aprendé a usar Git y GitHub de forma efectiva, segura y consistente con el equipo de WJP.
+
+[Empezar la guía](guia/index.qmd){.btn .btn-primary .btn-lg}
+[Ver en GitHub](https://github.com/aspardog/wjp-github-guide){.btn .btn-outline-light .btn-lg}
+
+:::
+
+::: {.features-section}
+
+## ¿Qué vas a aprender?
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4 .feature-card}
+### Conceptos básicos
+Entendé qué es Git, qué es GitHub, y por qué son herramientas esenciales para el trabajo colaborativo.
+
+[Leer más →](guia/01-conceptos.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-4 .feature-card}
+### Configuración inicial
+Instalá Git en tu computadora, configurá la terminal y autenticate con GitHub usando gh CLI.
+
+[Leer más →](guia/02-setup.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-4 .feature-card}
+### Clonar repositorios
+Aprendé a descargar proyectos de GitHub a tu máquina usando HTTPS o llaves SSH.
+
+[Leer más →](guia/03-clonar.qmd)
+:::
+
+:::
+
+:::
+
+::: {.cta-section}
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .cta-card}
+### Soy nuevo en Git
+Empezá desde el principio. La guía está diseñada para seguirse en orden, cada sección construye sobre la anterior.
+
+[Comenzar desde cero →](guia/01-conceptos.qmd){.btn .btn-secondary}
+:::
+
+::: {.g-col-12 .g-col-md-6 .cta-card}
+### Ya conozco Git
+Saltá directo a lo que necesites. Usá la búsqueda o navegá por las secciones específicas.
+
+[Ir a la guía →](guia/index.qmd){.btn .btn-secondary}
+:::
+
+:::
+
+:::
+
+::: {.info-section}
+
+## Sobre esta guía
+
+Esta guía existe para que cualquier persona del equipo WJP — sin importar su experiencia previa — pueda trabajar de forma efectiva con control de versiones.
+
+**¿Encontraste un error o querés sugerir algo?** [Abrí un issue en GitHub](https://github.com/aspardog/wjp-github-guide/issues).
+
+:::

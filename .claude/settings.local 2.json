@@ -8,11 +8,12 @@
       "Bash(git init:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(/Applications/RStudio.app/Contents/Resources/app/quarto/bin/quarto publish gh-pages --no-browser --no-prompt)",
-      "Bash(open https://aspardog.github.io/wjp-github-guide/)",
-      "Bash(gh repo view:*)",
-      "Bash(gh api:*)",
-      "Bash(curl:*)"
+      "Bash(gh repo create:*)",
+      "Bash(/Applications/RStudio.app/Contents/Resources/app/quarto/bin/quarto publish gh-pages --no-prompt)",
+      "Bash(/Applications/RStudio.app/Contents/Resources/app/quarto/bin/quarto render:*)",
+      "Bash(git checkout:*)",
+      "Bash(git reset:*)",
+      "Bash(git push:*)"
     ]
   }
 }
