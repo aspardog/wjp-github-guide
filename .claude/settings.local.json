@@ -12,7 +12,8 @@
       "Bash(open https://aspardog.github.io/wjp-github-guide/)",
       "Bash(gh repo view:*)",
       "Bash(gh api:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(grep:*)"
     ]
   }
 }

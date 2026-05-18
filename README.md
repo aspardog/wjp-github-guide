@@ -1,102 +1,100 @@
-# Guía de GitHub — WJP
+# GitHub Guide — WJP
 
-Sitio construido con [Quarto](https://quarto.org) y publicado en GitHub Pages.
+Site built with [Quarto](https://quarto.org) and published on GitHub Pages.
 
-## Estructura
+## Structure
 
 ```
 .
-├── _quarto.yml              # Configuración del sitio (navbar, sidebar, tema)
-├── index.qmd                # Landing
-├── about.qmd                # Acerca de
-├── guia/                    # Sección de guía (jerárquica)
-│   ├── index.qmd            # Índice de la guía
-│   ├── 01-conceptos.qmd
-│   ├── 02-setup.qmd
-│   └── 03-modelo-mental.qmd
-├── blog/                    # Sección de blog (cronológica)
+├── _quarto.yml              # Site configuration (navbar, sidebar, theme)
+├── index.qmd                # Landing page
+├── about.qmd                # About page
+├── guia/                    # Guide section (hierarchical)
+│   ├── index.qmd            # Guide index
+│   ├── 01-conceptos.qmd     # Basic concepts
+│   ├── 02-setup.qmd         # Initial setup
+│   └── 03-clonar.qmd        # Cloning repositories
+├── blog/                    # Blog section (chronological)
 │   ├── index.qmd            # Listing
 │   └── posts/
 │       └── bienvenida/
 │           └── index.qmd
-├── styles.css               # CSS personalizado
-├── styles-dark.css          # Overrides modo oscuro
+├── styles.css               # Custom CSS
+├── styles-dark.css          # Dark mode overrides
 ├── .github/workflows/
-│   └── publish.yml          # CI/CD para publicación
+│   └── publish.yml          # CI/CD for publishing
 ├── .gitignore
 └── README.md
 ```
 
-## Setup local
+## Local setup
 
-### 1. Instalar Quarto
+### 1. Install Quarto
 
 ```bash
 # macOS
 brew install --cask quarto
 
 # Linux (DEB)
-# Descargar desde https://quarto.org/docs/get-started/
+# Download from https://quarto.org/docs/get-started/
 
 # Windows
 winget install Quarto.Quarto
 ```
 
-Verificá:
+Verify:
 
 ```bash
-quarto --version    # debería ser 1.4+ idealmente 1.5+
+quarto --version    # should be 1.4+ ideally 1.5+
 ```
 
-### 2. Clonar y previsualizar
+### 2. Clone and preview
 
 ```bash
-git clone git@github.com:TU-USUARIO/wjp-github-guide.git
+git clone git@github.com:aspardog/wjp-github-guide.git
 cd wjp-github-guide
 quarto preview
 ```
 
-Se abre en `http://localhost:NNNN` y recarga automáticamente al guardar cambios en cualquier `.qmd`.
+Opens at `http://localhost:NNNN` and auto-reloads when saving changes to any `.qmd`.
 
-### 3. Render manual (no necesario para deploy)
+### 3. Manual render (not needed for deploy)
 
 ```bash
 quarto render
-# Genera todo el sitio en _site/
+# Generates the entire site in _site/
 ```
 
-## Publicación
+## Publishing
 
-El deploy es **automático**: cada push a `main` dispara el workflow `.github/workflows/publish.yml`, que renderiza el sitio y publica el resultado a la rama `gh-pages`.
+Deployment is **automatic**: each push to `main` triggers the workflow `.github/workflows/publish.yml`, which renders the site and publishes the result to the `gh-pages` branch.
 
-### Activar GitHub Pages
+### Enable GitHub Pages
 
-La primera vez, hay que indicarle a GitHub que sirva desde `gh-pages`:
+The first time, you need to tell GitHub to serve from `gh-pages`:
 
-1. En el repo: **Settings → Pages**.
+1. In the repo: **Settings → Pages**.
 2. **Source**: Deploy from a branch.
-3. **Branch**: `gh-pages`, carpeta `/ (root)`.
-4. Guardar.
+3. **Branch**: `gh-pages`, folder `/ (root)`.
+4. Save.
 
-La URL del sitio será `https://TU-USUARIO.github.io/wjp-github-guide/`.
+The site URL will be `https://aspardog.github.io/wjp-github-guide/`.
 
-Acordate de actualizar `site-url` y `repo-url` en `_quarto.yml` y los links en `index.qmd` y `about.qmd` con tu usuario/organización real.
+## Contributing
 
-## Contribuir
-
-- **Erratas, typos, links rotos**: PR directo, sin issue previo.
-- **Nuevo contenido**: abrí un issue primero para discutir alcance.
-- **Cambios de política/convención del equipo**: requieren consenso, no solo review de código.
+- **Errata, typos, broken links**: Direct PR, no prior issue needed.
+- **New content**: Open an issue first to discuss scope.
+- **Team policy/convention changes**: Require consensus, not just code review.
 
 ## Stack
 
-| Pieza | Para qué |
-|---|---|
-| Quarto | Generador de sitio estático |
+| Component | Purpose |
+|-----------|---------|
+| Quarto | Static site generator |
 | GitHub Actions | CI: render + publish |
-| GitHub Pages | Hosting estático |
-| Cosmo (Bootswatch) | Tema base |
+| GitHub Pages | Static hosting |
+| Cosmo (Bootswatch) | Base theme |
 
-## Licencia
+## License
 
-Contenido bajo [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Código bajo MIT.
+Content under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Code under MIT.
